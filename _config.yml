@@ -33,6 +33,10 @@ defaults:
 # Custom variables
 version: "1.1.0"
 
+# Disqus comments
+comments: true      # used to enable disqus comments on site
+dsq_shortname: https-fjsantim-github-io-calculo-iii # disqus shortname
+
 # Options
 custom_header: false
 custom_nav_footer: false
