@@ -1,14 +1,14 @@
 # Site settings
-title: Emerald | A simple Jekyll blog
-description: "A minimal blog template, build with Jekyll."
-url: "https://fjsantim.github.io/emerald"
+title: Blog para cálculo III
+description: "Este es un blog para ir añadiendo las tareas de Cálculo III"
+url: "https://fjsantim.github.io/calculo-iii"
 author:
   name: "Francisco J. Santiago"
   email: "fjsantim@gmail.com"
   url: "http://www.github.com/fjsantim"
 
 # Build settings
-baseurl: /emerald/ # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /calculo-iii/ # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
