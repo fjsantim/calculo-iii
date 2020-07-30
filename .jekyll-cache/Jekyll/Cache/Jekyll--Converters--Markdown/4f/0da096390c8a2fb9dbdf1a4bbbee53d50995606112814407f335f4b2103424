@@ -1,4 +1,4 @@
-I"(<h2 id="tareas-de-la-clase-i">Tareas de la clase I</h2>
+I"�(<h2 id="tareas-de-la-clase-del-27-de-julio-de-2020">Tareas de la clase del 27 de julio de 2020</h2>
 
 <h3 id="probar-que-mathbbr3-es-un-espacio-vectorial">Probar que \(\mathbb{R}^{3}\) es un espacio vectorial.</h3>
 
@@ -106,7 +106,7 @@ como el vector \(\vec{\nu}=(\nu_{1}, \nu_{2}, \nu_{3}) \in \mathbb{R}^{3}\) conc
   <li>
 \[\vec{v}\cdot \vec{0} =0\]
 
-    <p>Prueba: Sea \(\vec{v}=(v_{1}, v_{2},\dots, v_{n})\) y sea \(\vec{0}=(0,0,\dots,0)\), por la definición del producto escalar tenemos que:</p>
+    <p><strong>Prueba</strong>: Sea \(\vec{v}=(v_{1}, v_{2},\dots, v_{n})\) y sea \(\vec{0}=(0,0,\dots,0)\), por la definición del producto escalar tenemos que:</p>
 
 \[\begin{split}
  \vec{v}\cdot\vec{0} &amp; = (v_{1}, v_{2},\dots, v_{n})\cdot(0,0,\dots,0) \\
@@ -118,7 +118,7 @@ como el vector \(\vec{\nu}=(\nu_{1}, \nu_{2}, \nu_{3}) \in \mathbb{R}^{3}\) conc
   <li>
 \[\vec{v}\cdot\vec{w} =\vec{w}\cdot\vec{v}\]
 
-    <p>Prueba: Sean \(\vec{v}=(v_{1}, v_{2},\dots, v_{n})\) y \(\vec{w}=(w_{1}, w_{2},\dots, w_{n})\), recordando la conmutatividad de la multiplicacion de los reales:</p>
+    <p><strong>Prueba</strong>: Sean \(\vec{v}=(v_{1}, v_{2},\dots, v_{n})\) y \(\vec{w}=(w_{1}, w_{2},\dots, w_{n})\), recordando la conmutatividad de la multiplicacion de los reales:</p>
 
 \[\begin{split}
  \vec{v}\cdot\vec{w} &amp; = (v_{1}, v_{2},\dots, v_{n})\cdot(w_{1}, w_{2},\dots, w_{n}) \\
@@ -131,7 +131,7 @@ como el vector \(\vec{\nu}=(\nu_{1}, \nu_{2}, \nu_{3}) \in \mathbb{R}^{3}\) conc
   <li>
 \[\vec{u}\cdot(\vec{v}+\vec{w})=\vec{u}\cdot\vec{v}+\vec{u}\cdot\vec{w}\]
 
-    <p>Prueba: consideremos los vectores \(\vec{u}=(u_{1}, u_{2}, \dots, u_{n})\), \(\vec{v}=(v_{1}, v_{2},\dots, v_{n})\) y \(\vec{w}=(w_{1}, w_{2},\dots, w_{n})\)
+    <p><strong>Prueba</strong>: consideremos los vectores \(\vec{u}=(u_{1}, u_{2}, \dots, u_{n})\), \(\vec{v}=(v_{1}, v_{2},\dots, v_{n})\) y \(\vec{w}=(w_{1}, w_{2},\dots, w_{n})\)
  y la asociatividad del producto en los reales.</p>
 
 \[\begin{split}
@@ -147,7 +147,7 @@ como el vector \(\vec{\nu}=(\nu_{1}, \nu_{2}, \nu_{3}) \in \mathbb{R}^{3}\) conc
   <li>
 \[(\alpha\vec{v})\vec{w}=\alpha(\vec{v}\cdot\vec{w})\]
 
-    <p>Prueba: como en la propiedad anterior</p>
+    <p><strong>Prueba</strong>: como en la propiedad anterior</p>
 
 \[\begin{split}
  (\alpha\vec{v})\cdot\vec{w} &amp; = \left(\alpha(v_{1},v_{2},\dots,v_{n})\right)\cdot(w_{1},w_{2},\dots,w_{n}) \\
@@ -165,7 +165,7 @@ como el vector \(\vec{\nu}=(\nu_{1}, \nu_{2}, \nu_{3}) \in \mathbb{R}^{3}\) conc
 
 <p>Los vectores \(\vec{v},\vec{w}\in\mathbb R^n\) son ortogonales si y sólo si \(\vec{v}\cdot\vec{w}=0\)</p>
 
-<p>Prueba:
+<p><strong>Prueba</strong>:
 Recordado que dos vectores son ortogonales si el producto escalar entre ellos es \(0\), 
 \(\vec{v}\cdot\vec{w}=0\); y que el producto escalar de dos vectores puede definirse 
 como \(\vec{v}\cdot\vec{w}=\|\vec{v}\|\|\vec{w}\|\cos{\theta}\).</p>
