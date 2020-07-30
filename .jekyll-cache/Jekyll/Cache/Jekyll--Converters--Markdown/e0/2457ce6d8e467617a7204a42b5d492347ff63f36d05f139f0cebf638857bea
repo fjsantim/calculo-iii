@@ -1,4 +1,4 @@
-I"�<h2 id="acerca-de">Acerca de…</h2>
+I"�<h2 id="acerca-de">Acerca de…</h2>
 
 <p>Este es un blog muy simple hecho para ir subiendo las tareas del curso intersemestral (2020-4)
 de Cálculo III en la <a href="http://www.fciencias.unam.mx/">facultad de ciencias</a> UNAM.</p>
@@ -7,13 +7,13 @@ de Cálculo III en la <a href="http://www.fciencias.unam.mx/">facultad de cienci
 <ul>
   <li>El blog está hecho a partir de una plantilla publicada en <a href="https://github.com/">github</a> 
 y albergada en <a href="https://pages.github.com/">github pages</a>.</li>
-  <li>Puedes visitar el <a href="https://github.com/pranjaldhole/science-blog-template">repositorio original</a>
-o seguir a su creador <a href="https://github.com/pranjaldhole">pranjaldhole</a> en github.</li>
+  <li>Puedes visitar el <a href="https://github.com/KingFelix/emerald">repositorio original</a>
+o seguir a su creador <a href="https://github.com/KingFelix">Jacopo Rabolini</a> en github.</li>
 </ul>
 
 <h3 id="código-abierto">Código abierto</h3>
 <ul>
-  <li>Este proyecto de código abierto fue liberado publicamente en github bajo una licencia MIT, así que sientete libre
+  <li>Este proyecto de código abierto fue liberado publicamente en github bajo licencia <a href="https://github.com/fjsantim/calculo-iii/blob/gh-pages/license.md">MIT</a>, así que sientete libre
 de hacer un fork y crear tu propia pagina. c:</li>
 </ul>
 
