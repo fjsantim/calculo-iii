@@ -1,0 +1,147 @@
+I"�<p>La primera clase fue principalmente conocer algunas definiciones, mismas que se listarán a continuación:</p>
+
+<h3 id="espacios-y-subespacios-vectoriales">Espacios y subespacios vectoriales</h3>
+
+<p>Empezaremos por definir las propiedades que deben cumplir los conjuntos no vacíos para que sean <em>espacios vectoriales</em>.</p>
+
+<p><strong>Definición:</strong> Sea \(V\) un conjunto distinto del vacío, en el cual están definidas dos operaciones(suma y producto por un escalar). Diremos que \(V\) es un <em>espacio vectorial</em> si satisface
+ las siguientes propiedades:</p>
+
+<p>Sean \(\vec{u}\), \(\vec{v}\), \(\vec{w} \in V\), sea \(\alpha\), \(\beta \in \mathbb{R}\)</p>
+
+<ol>
+  <li>
+\[\vec{u} + \vec{v} \in V\]
+  </li>
+  <li>
+\[\vec{u} + \vec{v} = \vec{v} + \vec{u}\]
+  </li>
+  <li>
+\[\vec{u} + (\vec{v} + \vec{w}) = (\vec{u} + \vec{v}) + \vec{w}\]
+  </li>
+  <li>
+    <p>Existe un vector nulo \(0_{V} \in V\) tal que \(\vec{v} + \vec{0} = \vec{v}\)</p>
+  </li>
+  <li>
+    <p>Para cada  \(\vec{v} \in V\) existe un opuesto \(-\vec{v}\in V\) tal que \(\vec{v} + (-\vec{v}) = \vec{0_{V}}\)</p>
+  </li>
+  <li>
+\[\alpha\vec{v} \in V\]
+  </li>
+  <li>
+\[\alpha(\vec{u} + \vec{v}) = \alpha\vec{u} + \alpha\vec{v}\]
+  </li>
+  <li>
+\[(\alpha + \beta)\vec{v} = \alpha\vec{v} + \beta\vec{v}\]
+  </li>
+  <li>
+\[\alpha(\beta\vec{v}) = (\alpha\beta)\vec{v}\]
+  </li>
+  <li>
+\[1\vec{v} = \vec{v}\]
+  </li>
+</ol>
+
+<p>Y ahora la definición de los <em>subespacios vectoriales</em>:</p>
+
+<p><strong>Definición:</strong> Sea \(V\) un espacio vectorial y \(U \subseteq V\), se dice que \(U\) es un 
+<em>subespacio vectorial</em> de \(V\) si satisface las siguientes propiedades:</p>
+
+<ol>
+  <li>
+    <p>Si \(\vec{u}\),\(\vec{v} \in U\), entonces \(\vec{u}+\vec{v}\in U\).</p>
+  </li>
+  <li>
+    <p>Si \(\lambda \in \mathbb{R}\) y \(\vec{u} \in U\) entonces \(\lambda\vec{u}\in U\).</p>
+  </li>
+</ol>
+
+<p><strong>Nota:</strong> Los subespacios vectoriales más “triviales” en cualquier espacio vectorial \(V\) son: 
+el mismo conjunto \(V\) y el conjunto que contiene únicamente a \(0_{V}\). Además, todo subconjunto
+vectorial \(U\) de \(V\) debe cumplir que \(0_{V}\in U\).</p>
+
+<h3 id="producto-punto">Producto punto</h3>
+
+<p><strong>Definición:</strong> Consideremos los vectores \(\vec{v} = (v_1, v_2, \dots, v_n) \in \mathbb{R}^n\) y \(\vec{w} = (w_1,w_2, \dots, w_n) \in \mathbb{R}^n\).
+El producto punto (o escalar) \(\vec{v}\cdot\vec{w}\) se define de la siguiente manera:</p>
+
+\[\vec{v}\cdot\vec{w} = v_{1}w_{1} + v_{2}w_{2} + \dots + v_{n}w_{n} \in \mathbb{R}\]
+
+<h3 id="norma-de-un-vector">Norma de un vector</h3>
+
+<p>La norma define la longitud de un vector desde el punto de vista de la geometría euclideana.</p>
+
+<p><strong>Definición:</strong> Sea \(\vec{v}=(v_1, v_2, \dots, v_n) \in\mathbb{R}^n\). La norma de \(\vec{v}\) se denota como \(\|\vec{v}\|\) y se define de la siguiente manera:</p>
+
+\[\displaystyle{\|\vec{v}\| = \sqrt{\vec{v}\cdot\vec{v}} = \sqrt{v_1^2 + v_2^2 + \dotsb + v_n^2}}\]
+
+<p>En el siguiente teorema se listan algunas propiedades de la norma:</p>
+
+<p><strong>Teorema:</strong> Sean \(\vec{v}\),\(\vec{w} \in \mathbb{R}^n\) y \(\alpha \in \mathbb{R}\). Entonces se cumple lo siguiente:</p>
+
+<ol>
+  <li>
+    <p>\(\|\vec{v}\| \geq{0}\) y \(\|\vec{v}\| = 0\) si y solo si \(\vec{v} = 0\).</p>
+  </li>
+  <li>
+\[\|\alpha\vec{v}\| = \mid\alpha\mid\|\vec{v}\|\]
+  </li>
+  <li>
+\[\|\vec{v}-\vec{w}\| = \|\vec{w}-\vec{v}\|\]
+  </li>
+  <li>
+    <p>\(\|\vec{v} + \vec{w}\| \leq \|\vec{v}\| + \|\vec{w}\|\)  (<em>desigualdad triangular</em>)</p>
+  </li>
+  <li>\(\mid\vec{v}\cdot\vec{w}\mid \leq \|\vec{v}\|\|\vec{w}\|\)  (<em>desigualdad Cauchy Schwarz</em>)</li>
+</ol>
+
+<h3 id="paralelismo-perpendicular-y-producto-cruz">Paralelismo, perpendicular y producto cruz</h3>
+
+<p><strong>Definicion:</strong> Consideremos los vectores \(\vec{u} = (u_1, u_2, u_3)\), \(\vec{v} = (v_1, v_2, v_3) \in \mathbb{R}^3\). El <em>producto 
+cruz</em> \(\vec{u}\times\vec{v}\) se define de la siguiente manera:</p>
+
+\[\begin{split}
+\vec{u}\times\vec{v} &amp; = \begin{vmatrix} 
+                         \notag
+                         \hat{i} &amp; \hat{j} &amp; \hat{k} \\
+                         u_1 &amp; u_2 &amp; u_3 \\
+                         v_1 &amp; v_2 &amp; v_3
+                         \end{vmatrix} \\
+                     &amp; = (u_2v_3-u_3v_2)\hat{i}-(u_1v_3-u_3v_1)\hat{j}+(u_1v_2-u_2v_1)\hat{k}
+\end{split}\]
+
+<p>A continuación unas propiedades:</p>
+
+<p><strong>Proposición</strong> sean \(\vec{u}\), \(\vec{v}\), \(\vec{w} \in \mathbb{R}^3\) se cumple que:</p>
+
+<ol>
+  <li>
+\[\vec{u}\cdot(\vec{u}\times\vec{v}) = 0\]
+  </li>
+  <li>
+\[\vec{v}\cdot(\vec{u}\times\vec{v}) = 0\]
+  </li>
+  <li>
+    <p>\(\|\vec{u}\times\vec{v}\|^2 = \|\vec{u}\|^2\|\vec{v}\|^2-(\vec{u}\cdot\vec{v})^2\) (igualdad de Lagrange)</p>
+  </li>
+  <li>
+\[\vec{u}\times\vec{v} = -(\vec{v}\times\vec{u})\]
+  </li>
+  <li>
+\[\vec{u}\times (\vec{v} + \vec{w}) = \vec{u}\times\vec{v} + \vec{u}\times\vec{w}\]
+  </li>
+  <li>
+\[(\vec{u} +\vec{v})\times\vec{w} = \vec{u}\times\vec{w} + \vec{v}\times\vec{w}\]
+  </li>
+  <li>
+\[\alpha (\vec{u}\times\vec{v}) = (\alpha\vec{u})\times\vec{v} = \vec{u}\times(\alpha\vec{v})\]
+  </li>
+  <li>
+\[\vec{u}\times\vec{0} = \vec{0}\times\vec{u} = \vec{0}\]
+  </li>
+  <li>
+\[\vec{u}\times\vec{u} = \vec{0}\]
+  </li>
+</ol>
+
+:ET

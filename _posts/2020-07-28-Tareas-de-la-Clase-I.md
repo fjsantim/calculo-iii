@@ -166,3 +166,116 @@ entonces $$\vec{v}\cdot\vec{w}=\|\vec{v}\|\|\vec{w}\|\cos{90^o}=\|\vec{v}\|\|\ve
 Ahora supongamos que $$\vec{v}\cdot \vec{w}=0$$ entonces tenemos que $$\vec{v}\cdot\vec{w}=\|\vec{v}\|\|\vec{w}\|\cos{\theta} = 0$$ 
 teniendo entonces que $$\|\vec{v}\|=0$$ o $$\|\vec{w}\|=0$$ o $$\cos{\theta}=0$$, quitando entonces el caso trivial de que uno o ambos vectores 
 sean el vector $$\vec{0}$$, solo queda la opción $$\cos{\theta}=0$$ de modo que $$\theta=90^{o}$$ y entonces $$\vec{v}$$ y $$\vec{w}$$ son ortogonales. $$\blacksquare$$
+
+### Propiedades del producto vectorial
+Sean $$\vec{u},\vec{v}\in \mathbb{R}^3$$ y $$\alpha\in\mathbb{R}$$ para el producto vectorial se cumplen las siguientes propiedades:
+
+1. $$\vec{u}\cdot(\vec{u}\times\vec{v}) = 0$$
+
+	__Demostración:__
+
+	$$\begin{align}
+	\vec{u}\cdot (\vec{u}\times\vec{v}) &= (u_1,u_2,u_3)\cdot((u_1,u_2,u_3)\times(v_1,v_2,v_3))\\
+	                                    &= (u_1,u_2,u_3)\cdot(u_2 v_3 - u_3 v_2, u_3 v_1 - u_1 v_3, u_1 v_2 - u_2 v_1)\\
+	                                    &= u_1 (u_2 v_3 - u_3 v_2) + u_2 (u_3 v_1 - u_1 v_3) + u_3(u_1 v_2 - u_2 v_1)\\
+	                                    &= u_1 u_2 v_3 - u_1 u_3 v_2 + u_2 u_3 v_1 - u_2 u_1 v_3 + u_3 u_1 v_2 - u_3 u_2 v_1 \\                                                     &= u_1 u_2 v_3 - u_1 u_3 v_2 + u_2 u_3 v_1 - u_1 u_2 v_3 + u_1 u_3 v_2 - u_2 u_3 v_1\\
+	                                    &= 0 + 0 + 0 \\
+	                                    &= 0.\\ 
+	\end{align}$$
+
+2. $$\vec{v}\cdot(\vec{u}\times\vec{v}) = 0$$ 
+
+	__Demostración:__
+
+	$$\begin{align}
+	\vec{v}\cdot (\vec{u}\times\vec{v}) &= (v_1,v_2,v_3)\cdot((u_1,u_2,u_3)\times(v_1,v_2,v_3))\\
+	                                    &= (v_1,v_2,v_3)\cdot(u_2 v_3 - u_3 v_2, u_3 v_1 - u_1 v_3, u_1 v_2 - u_2 v_1)\\
+	                                    &= v_1 (u_2 v_3 - u_3 v_2) + v_2 (u_3 v_1 - u_1 v_3) + v_3(u_1 v_2 - u_2 v_1)\\
+	                                    &= v_1 u_2 v_3 - v_1 u_3 v_2 + v_2 u_3 v_1 - v_2 u_1 v_3 + v_3 u_1 v_2 - v_3 u_2 v_1 \\                                                  &= v_1 u_2 v_3 - v_1 u_3 v_2 + v_2 u_3 v_1 - u_1 v_2 v_3 + u_1 v_3 v_2 - u_2 v_3 v_1\\
+	                                    &= 0 + 0 + 0 \\
+	                                    &= 0.\\
+	\end{align}$$
+
+3. $$\|\vec{u}\times\vec{v}\|^2 = \|\vec{u}\|^2 \|\vec{v}\|^2 - (\vec{u}\cdot\vec{v})^2$$ (igualdad de Lagrange)
+
+	__Demostración:__
+
+	$$\begin{align}
+	\parallel\vec{u}\times\vec{v}\parallel^2 &= \parallel(u_1,u_2,u_3)\times(v_1,v_2,v_3)\parallel ^2 \\
+	                                         &= \parallel(u_2 v_3 - u_3 v_2, u_3 v_1 - u_1 v_3, u_1 v_2 - u_2 v_1)\parallel^2 \\
+	                                         &= [\sqrt{(u_2 v_3 - u_3 v_2)^2 + (u_3 v_1 - u_1 v_3)^2 + (u_1 v_2 - u_2 v_1)^2})]^2 \\
+	                                         &= (u_2 v_3 - u_3 v_2)^2 + (u_3 v_1 - u_1 v_3)^2 + (u_1 v_2 - u_2 v_1)^2 \\
+	                                         &= (u_2 v_3)^2 -2(u_2 v_3 u_3 v_2)+(u_3 v_2)^2 +(u_3 v_1)^2 -2(u_3 v_1 u_1 v_3)+(u_1 v_3)^2 + (u_1 v_2)^2 \\& -2(u_1 v_2 u_2 v_1)+(u_2 v_1)^2\\
+	\end{align}$$
+
+	Por otro lado
+
+	$$\begin{align}
+	\|\vec{u}\|^2 \|\vec{v}\|^2 - (\vec{u}\cdot\vec{v})^2 &= \left(\sqrt{u_1^2 + u_2^2 + u_3^2} \right)^2 \left(\sqrt{v_1^2 + v_2^2 + v_3^2}\right)^2 - (u_1,u_2,u_3)\cdot(v_1,v_2,v_3)\\
+	                                                      &= (u_1^2 + u_2^2 + u_3^2)(v_1^2 + v_2^2 + v_3^2) - (u_1 v_1 + u_2 v_2 + u_3 v_3)^2\\
+	                                                      &= u_1^2 v_1^2 + u_1^2 v_2^2 + u_1^2 v_3^2 + u_2^2 v_1^2 + u_2^2 v_2^2 + u_2^2 v_3^2 + u_3^2 v_1^2 + u_3^2 v_2^2 + u_3^2 v_3^2 \\& - (u_1^2 v_1^2 + u_1 v_1 u_2 v_2 + u_1 v_1 u_3 v_3 + u_2 v_2 u_1 v_1 + u_2^2 v_2^2 + u_2 v_2 u_3 v_3 + u_3 v_3 u_1 v_1 \\& + u_3 v_3 u_2 v_2 + u_3^2 v_3^2) \\
+	                                                      &= u_1^2 v_1^2 + u_1^2 v_2^2 + u_1^2 v_3^2 + u_2^2 v_1^2 + u_2^2 v_2^2 + u_2^2 v_3^2 + u_3^2 v_1^2 + u_3^2 v_2^2 + u_3^2 v_3^2 - u_1^2 v_1^2 \\& - u_1 v_1 u_2 v_2 - u_1 v_1 u_3 v_3 - u_2 v_2 u_1 v_1 - u_2^2 v_2^2 - u_2 v_2 u_3 v_3 - u_3 v_3 u_1 v_1 - u_3 v_3 u_2 v_2 \\& - u_3^2 v_3^2 \\
+	                                                      &= (u_1 v_2)^2 + (u_1 v_3)^2 + (u_2 v_1)^2 + (u_2 v_3)^2 + (u_3 v_1)^2 + (u_3 v_2)^2 - u_1 v_1 u_2 v_2 \\& - u_1 v_1 u_3 v_3 - u_2 v_2 u_1 v_1 - u_2 v_2 u_3 v_3 - u_3 v_3 u_1 v_1 - u_3 v_3 u_2 v_2 \\
+	                                                      &= (u_1 v_2)^2 + (u_1 v_3)^2 + (u_2 v_1)^2 + (u_2 v_3)^2 + (u_3 v_1)^2 + (u_3 v_2)^2 - 2(u_1 v_1 u_2 v_2) \\& - 2(u_1 v_1 u_3 v_3) - 2(u_3 v_3 u_2 v_2) \\
+	                                                      &= (u_2 v_3)^2 - 2(u_2 v_3 u_3 v_2) + (u_3 v_2)^2 + (u_3 v_1)^2 - 2(u_3 v_1 u_1 v_3) + (u_1 v_3)^2 + (u_1 v_2)^2 \\& - 2(u_1 v_2 u_2 v_1)+(u_2 v_1)^2.\\
+	\end{align}$$
+                                          
+	Por lo tanto $$\|\vec{u}\times\vec{v}\|^2 = \|\vec{u}\|^2 \|\vec{v}\|^2 - (\vec{u}\cdot\vec{v})^2\blacksquare$$
+
+4. $$\vec{u}\times\vec{v} = -(\vec{v}\times\vec{u})$$
+	
+	__Demostración:__ hecha en clase.
+
+5. $$\vec{u}\times(\vec{v}+\vec{w})=\vec{u}\times\vec{v}+\vec{u}\times\vec{w}$$
+
+	__Demostración:__ hecha en clase.
+
+6. $$(\vec{u}+\vec{v})\times\vec{w}=\vec{u}\times\vec{w}+\vec{v}\times\vec{w}$$
+
+	__Demostración:__ hecha en clase.
+
+7. $$\alpha(\vec{u}\times\vec{v}) = (\alpha\vec{u})\times\vec{v} = \vec{u}\times(\alpha\vec{v})$$
+
+	__Demostración:__
+
+	$$\begin{align}
+	\alpha(\vec{u}\times\vec{v})    &= \alpha((u_1,u_2,u_3)\times(v_1,v_2,v_3))\\
+                                &= \alpha(u_2 v_3 - u_3 v_2, u_3 v_1 - u_1 v_3, u_1 v_2 - u_2 v_1)\\
+                                &= (\alpha (u_2 v_3 - u_3 v_2), \alpha (u_3 v_1 - u_1 v_3), \alpha (u_1 v_2 - u_2 v_1))\\
+                                &= (\alpha u_2 v_3 - \alpha u_3 v_2, \alpha u_3 v_1 - \alpha u_1 v_3, \alpha u_1 v_2 - \alpha u_2 v_1)\\
+                                &= ((\alpha u_2)v_3 - (\alpha u_3)v_2,(\alpha u_3)v_1 - (\alpha u_1)v_3,(\alpha u_1)v_2 - (\alpha u_2)v_1)\\
+                                &= (\alpha u_1,\alpha u_2, \alpha u_3)\times(v_1,v_2,v_3)\\
+                                &= (\alpha(u_1,u_2,u_3))\times(v_1,v_2,v_3)\\
+                                &= (\alpha\vec{u})\times\vec{v}\\
+	\end{align}$$
+
+	Por otro lado
+
+	$$\begin{align}
+	(\alpha\vec{u})\times\vec{v} &= (\alpha(u_1,u_2,u_3))\times(v_1,v_2,v_3)\\
+                             &= (\alpha u_1,\alpha u_2,\alpha u_3)\times(v_1,v_2,v_3)\\
+                             &= ((\alpha u_2)v_3 - (\alpha u_3)v_2,(\alpha u_3)v_1 - (\alpha u_1)v_3,(\alpha u_1)v_2 - (\alpha u_2)v_1)\\
+                             &= (\alpha u_2 v_3 - \alpha u_3 v_2, \alpha u_3 v_1 - \alpha u_1 v_3, \alpha u_1 v_2 - \alpha u_2 v_1)\\
+                             &= (u_2 \alpha v_3 - u_3 \alpha v_2, u_3 \alpha v_1 - u_1 \alpha v_3, u_1 \alpha v_2 - u_2 \alpha v_1)\\
+                             &= (u_2(\alpha v_3) - u_3(\alpha v_2), u_3(\alpha v_1) - u_1(\alpha v_3),u_1(\alpha v_2)-u_2(\alpha v_1))\\
+                             &= (u_1,u_2,u_3)\times(\alpha v_1,\alpha v_2,\alpha v_3)\\
+                             &= (u_1,u_2,u_3)\times(\alpha(v_1,v_2,v_3))\\
+                             &= \vec{u}\times(\alpha\vec{v}).\\
+	\end{align}$$
+
+	Por lo tanto se cumple que $$\alpha(\vec{u}\times\vec{v}) = (\alpha\vec{u})\times\vec{v} = \vec{u}\times(\alpha\vec{v})\blacksquare$$
+
+8. \vec{u}\times\vec{0}=\vec{0}\times\vec{u}=\vec{0}
+
+	__Demostración:__ hecha en clase.
+
+9. $\vec{u}\times\vec{u} = \vec{0}.\\$
+	__Demostración:__
+
+	$$\begin{align}
+	\vec{u}\times\vec{u} &= (u_1,u_2,u_3)\times(u_1,u_2,u_3)\\
+                             &= (u_2 u_3 - u_2 u_3, u_1 u_3 - u_1 u_3, u_1 u_2 - u_1 u_2)\\
+                             &= (0,0,0)\\
+                             &= \vec{0}\blacksquare\\
+\end{align}$$
+
