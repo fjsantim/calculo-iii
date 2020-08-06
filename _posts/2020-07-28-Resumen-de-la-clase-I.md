@@ -77,7 +77,7 @@ __Teorema:__ Sean $$\vec{v}$$,$$\vec{w} \in \mathbb{R}^n$$ y $$\alpha \in \mathb
 5. $$\mid\vec{v}\cdot\vec{w}\mid \leq \|\vec{v}\|\|\vec{w}\|$$  (_desigualdad Cauchy Schwarz_)
 
 
-### Paralelismo, perpendicular y producto cruz
+### Producto cruz
 
 __Definicion:__ Consideremos los vectores $$\vec{u} = (u_1, u_2, u_3)$$, $$\vec{v} = (v_1, v_2, v_3) \in \mathbb{R}^3$$. El _producto 
 cruz_ $$\vec{u}\times\vec{v}$$ se define de la siguiente manera:

@@ -1,4 +1,4 @@
-I"�<p>La primera clase fue principalmente conocer algunas definiciones, mismas que se listarán a continuación:</p>
+I"�<p>La primera clase fue principalmente conocer algunas definiciones, mismas que se listarán a continuación:</p>
 
 <h3 id="espacios-y-subespacios-vectoriales">Espacios y subespacios vectoriales</h3>
 
@@ -95,7 +95,7 @@ El producto punto (o escalar) \(\vec{v}\cdot\vec{w}\) se define de la siguiente 
   <li>\(\mid\vec{v}\cdot\vec{w}\mid \leq \|\vec{v}\|\|\vec{w}\|\)  (<em>desigualdad Cauchy Schwarz</em>)</li>
 </ol>
 
-<h3 id="paralelismo-perpendicular-y-producto-cruz">Paralelismo, perpendicular y producto cruz</h3>
+<h3 id="producto-cruz">Producto cruz</h3>
 
 <p><strong>Definicion:</strong> Consideremos los vectores \(\vec{u} = (u_1, u_2, u_3)\), \(\vec{v} = (v_1, v_2, v_3) \in \mathbb{R}^3\). El <em>producto 
 cruz</em> \(\vec{u}\times\vec{v}\) se define de la siguiente manera:</p>
