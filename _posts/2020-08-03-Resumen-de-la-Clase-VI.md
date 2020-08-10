@@ -2,6 +2,9 @@
 title: Resumen de la Clase VI
 ---
 
+## Apuntes de la clase del 3 de agosto de 2020
+
+
 La clase del 3 de agosto fue, en resuemen, una introducción a las funciones de $$\mathbb{R}^n$$ en $$\mathbb{R}^m$$, curvas
 de nivel y trazas de esas funciones. Todo esto se desglosa a continuación:
 

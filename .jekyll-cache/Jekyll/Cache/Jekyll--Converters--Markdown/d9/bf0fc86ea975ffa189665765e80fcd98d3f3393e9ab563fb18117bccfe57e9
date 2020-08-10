@@ -1,0 +1,29 @@
+I"�<h2 id="tareas-de-la-clase-del-7-de-agosto-de-2020">Tareas de la clase del 7 de agosto de 2020</h2>
+
+<h3 id="propiedad-arquimediana">Propiedad Arquimediana</h3>
+
+<p>Se verifica que \(\forall r&gt;0\) existe \(n\in \mathbb{N}\) tal que  \(0&lt;\frac{1}{2^n}&lt;r\).
+Por la desigualdad de Bernoulli tenemos que \(2^n\geq1+2n\geq2n\geq n\) para toda \(n\in\mathbb{N}\), y por la propiedad arquimediana tenemos que
+\(\forall r&gt;0\) existe \(n\in \mathbb{N}\) con \(n&gt;r\) tal que \(0&lt;\frac{1}{n}&lt;r\) entonces:
+\(0&lt;\frac{1}{2^n}\leq\frac{1}{1+2^n}\leq\frac{1}{2n}\leq\frac{1}{n}&lt;r\) 
+\(0&lt;\frac{1}{2^n}&lt;r\)</p>
+
+<h3 id="desigualdad-de-bernoulli">Desigualdad de Bernoulli</h3>
+<p>{\boldmath \((1+a)^n\geq1+na, a&gt;0, n\in\mathbb N\)} 
+Demostramos por inducción<br />
+{\boldmath $n=1$}
+\((1+a)^1=1+(1)a\)
+{\boldmath $n=2$}
+\((1+a)^2=1+2a+a^2\geq1+2a\)
+Suponemos cierto para $n=k$<br />
+{\boldmath $n=k+1$}
+<br />
+Por hipótesis tenemos que 
+\((1+a)^n\geq1+na\)<br />
+Entonces
+\((1+a)^n(1+a)\geq(1+na)(1+a)\)
+\((1+a)^{n+1}\geq[(1+na)+(a+na^2)]\)
+\((1+a)^{n+1}\geq[1+na+a+na^2]\)
+\((1+a)^{n+1}\geq[1+(n+1)a+na^2]\geq[1+(n+1)a]\)
+\((1+a)^{n+1}\geq1+(n+1)a\)</p>
+:ET

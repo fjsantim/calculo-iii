@@ -2,6 +2,8 @@
 title: Resumen de la Clase I
 ---
 
+## Apuntes de la clase del 27 de julio de 2020
+
 La primera clase fue principalmente conocer algunas definiciones, mismas que se listarán a continuación:
 
 
