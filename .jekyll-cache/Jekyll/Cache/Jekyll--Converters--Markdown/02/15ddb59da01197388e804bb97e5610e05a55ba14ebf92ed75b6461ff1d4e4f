@@ -1,0 +1,25 @@
+I"g<h2 id="tareas-de-la-clase-del-10-de-agosto-de-2020">Tareas de la clase del 10 de agosto de 2020</h2>
+
+<p>Demostrar que: $$\displaystyle{\lim_{(x,y)\to(2,3)}{y}=3}</p>
+
+<p>Para todo $\epsilon&gt;0$ existe $\delta&gt;0$ tal que  $0&lt;|(x,y)-(2,3)|&lt;\delta$ entonces $0&lt;|y-3|&lt;\epsilon$ 
+esto es:
+[
+0&lt;|(x,y)-(2,3)|=\sqrt{(x-2)^2 +(y-3)^2}&lt;\delta
+]
+donde
+[
+0&lt;|y-3|=\sqrt{(y-3)^2}\leq\sqrt{(x-2)^2 +(y-3)^2}&lt;\delta
+]
+si $\epsilon=\delta$ entonces
+[
+0&lt;|y-3|=\sqrt{(y-3)^2}\leq\sqrt{(x-2)^2 +(y-3)^2}&lt;\epsilon
+]
+[
+\implies 0&lt;|y-3|&lt;\epsilon
+]</p>
+
+<p>\end{proof}</p>
+
+<p>\end{document}</p>
+:ET

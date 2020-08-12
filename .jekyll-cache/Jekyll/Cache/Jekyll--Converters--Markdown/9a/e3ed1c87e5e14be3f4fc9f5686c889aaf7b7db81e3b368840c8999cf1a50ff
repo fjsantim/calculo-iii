@@ -1,0 +1,221 @@
+I"U<h2 id="apuntes-de-la-clase-del-28-de-julio-de-2020">Apuntes de la clase del 28 de julio de 2020</h2>
+
+<h3 id="vectores">Vectores</h3>
+<p>Un vector \(\vec{v}\), está determinado por dos puntos, un punto inicial <strong>\(P\)</strong> y un punto final <strong>\(Q\)</strong>. Donde 
+\(\vec{v} = \vec{\textbf{PQ}}\)</p>
+
+<p>Las propiedades que determinan a un vector son: <strong>magnitud, dirección y sentido</strong>.
+La magnitud de \(\vec{v}\) se denota como \(\|v\|\) y es la distancia de <strong>\(P\)</strong> a <strong>\(Q\)</strong>. 
+Donde  \(\textbf{P}= (a_{1},b_{1},c_{1})\) y \(\textbf{Q}= (a_{2},b_{2},c_{2})\). Dicha distancia se calcula como:</p>
+
+\[\|v\|= \|\vec{\textbf{PQ}}\| = \sqrt{(a_{2}-a_{1})^2+(b_{2}-b_{1})^2+(c_{2}-c_{1})^2}\]
+
+<p><strong>Componentes de un vector en \(\mathbb{R}^2\)</strong></p>
+
+<p>Los componentes del vector \(\textbf{v}= \vec{\textbf{PQ}}\), donde \(\textbf{P}=(a_{1},b_{1})\) y \(\textbf{Q}=(a_{2},b_{2})\) son las cantidades:</p>
+
+\[a=a_{2} - a_{1}\]
+
+\[b=b_{2}-b_{2}\]
+
+<p><strong>Terminología</strong></p>
+
+<ul>
+  <li>
+    <p>Dos vectores, \(\vec{v}\) y \(\vec{w}\) son paralelos si las rectas a través de \(\vec{v}\) y \(\vec{w}\) son paralelas. Los vectores paralelos tienen misma dirección y pueden tener sentidos contrarios.</p>
+  </li>
+  <li>
+    <p>Un vector \(\vec{v}\) experimemta una translación cuando es movido para comenzar en un nuevo punto sin cambiar su magnitud o dirección. El vector resultante tiene la misma longitud y dirección pero diferente punto inicial.</p>
+  </li>
+  <li>Dos vectore \(\vec{v}\) y \(\vec{w}\) son equivalentes si:
+    <ul>
+      <li>Uno es una traslación del otro.</li>
+      <li>Son equivalentes sí y sólo sí tienen los mismos componentes.</li>
+    </ul>
+
+    <p>Los vectores equivalentes tienen la misma magnitud y dirección, pero pueden iniciar en puntos diferentes.</p>
+  </li>
+  <li>
+    <p>La magnitud del vector \(\vec{v}= \langle a,b \rangle\) en términos de sus componentes es:</p>
+
+\[\|v\|=\|\vec{PQ}\|= \sqrt{a^{2}+b^{2}}\]
+  </li>
+  <li>El <strong>vector nulo</strong> es el vector \(\vec{0}=\langle 0,0 \rangle\) de dirección cero. Es el único que no tiene dirección.</li>
+</ul>
+
+<h3 id="operanciones-con-vectores">Operanciones con vectores</h3>
+
+<ul>
+  <li>
+    <p>La suma de varios vectores $\vec{v_{1}}, \vec{v_{2}},…,\vec{v_{n}}$ se representa como:</p>
+
+\[\vec{v}= \vec{v_{1}}+ \vec{v_{2}}+...+\vec{v_{n}}\]
+  </li>
+</ul>
+
+<p>En el caso de la mutiplicación por escalares, el término escalar se refiere a un número real. Si \(\lambda\) es un escalar y \(\vec{v}\) es un vector no nulo, el múltiplo escalar \(\lambda  \vec{v}\)</p>
+
+<ul>
+  <li>
+    <p>\(\lambda \vec{v}\)  tiene la magnitud \(\mid\lambda\mid \mid\vec{v}\mid\)</p>
+  </li>
+  <li>
+    <p>Tiene el mismo sentido que \(\vec{v}\) si \(\lambda&gt;0\)</p>
+  </li>
+  <li>
+    <p>Tiene el sentido contrario a \(\vec{v}\) si \(\lambda&lt;0\)</p>
+  </li>
+  <li>
+    <p>Un vector \(\vec{w}\) es paralelo a \(\vec{v}\) sí y sólo sí \(\vec{w}=\lambda \vec{v}\)</p>
+  </li>
+  <li>
+\[\vec{v}+\vec{w} = \langle a+c, b+d \rangle\]
+  </li>
+  <li>
+\[\vec{v}-\vec{w} = \langle a-c, b-d \rangle\]
+  </li>
+  <li>
+\[\lambda \vec{v} = \langle \lambda a, \lambda b\rangle\]
+  </li>
+  <li>
+\[\vec{v} +0= 0+ \vec{v} = \vec{v}\]
+  </li>
+</ul>
+
+<h3 id="propiedades">Propiedades</h3>
+
+<ul>
+  <li>
+    <p>Ley conmutativa: \(\vec{v} + \vec{w}= \vec{w}+ \vec{v}\)</p>
+  </li>
+  <li>
+    <p>Ley asociativa: \(\vec{u}+ (\vec{v}+ \vec{w})= (\vec{u}+ \vec{v}) + \vec{w}\)</p>
+  </li>
+  <li>
+    <p>Ley distributiva para escalares: \(\lambda (\vec{v}+\vec{w}) = \lambda \vec{v}+\lambda \vec{w}\)</p>
+  </li>
+</ul>
+
+<h3 id="combinaciones-lineales">Combinaciones lineales</h3>
+
+<p>Una combinación lineal de vectores \(\vec{v}\) y \(\vec{w}\) es un vector \(r \vec{v} + s \vec{w}\), donde \(r\) y \(s\) son escalares.</p>
+
+<h3 id="vector-unitario">Vector unitario</h3>
+
+<ul>
+  <li>
+    <p>Tienen magnitud 1</p>
+  </li>
+  <li>
+    <p>Sus componentes son \(\vec{u}=\langle \cos{(\theta)}, \sin{(\theta)}\rangle\) Donde \(\theta\) es el ángulo entre el eje <strong>\(x\)</strong> y el vector.</p>
+  </li>
+  <li>
+    <p>Los unitarios en dirección de los ejes <strong>\(x\)</strong> y <strong>\(y\)</strong> se denotan como: \(\hat{i}=\langle 1,0\rangle\), \(\hat{j}=\langle0,1\rangle\) (<strong>Vectores canónicos</strong>)</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p><strong>Nota:</strong> Cada vector en el plano es una combinación lineal de \(\hat{i}\) y $\hat{j}$: \(\vec{v}= \langle a,b\rangle = a \hat{i} + b \hat{j}\)</p>
+</blockquote>
+
+<h3 id="producto-punto">Producto punto</h3>
+
+<p>El producto punto \(\vec{v} \cdot \vec{w}\) de dos vetores \(\vec{v}= \langle v_{1},v_{2},v_{3}\rangle\) y \(\vec{w}= \langle w_{1},w_{2},w_{3}\rangle\) se define como:</p>
+
+\[\vec{v} \cdot \vec{w} = v_{1} w_{1} + v_{2} w_{2} +v_{3} w_{3}\]
+
+<p><strong>Propiedades del producto punto</strong></p>
+
+<ul>
+  <li>
+\[0\cdot\vec{v}= \vec{v}\cdot 0= 0\]
+  </li>
+  <li>
+\[\vec{v} \cdot \vec{w}=\vec{w} \cdot \vec{v}\]
+  </li>
+  <li>
+\[(\lambda \vec{v})\cdot \vec{w}= \vec{v}\cdot(\lambda \vec{w}) = \lambda (\vec{v} \cdot \vec{w})\]
+  </li>
+  <li>
+\[\vec{u} \cdot (\vec{v} + \vec{w})= \vec{u}\cdot\vec{v} + \vec{u} \cdot \vec{w}\]
+  </li>
+  <li>
+\[(\vec{v}+\vec{w})\cdot \vec{u}= \vec{v} \cdot \vec{u}+ \vec{w}\cdot\vec{u}\]
+  </li>
+  <li>
+\[\vec{v}\cdot\vec{v}=  v_{1} v_{1} + v_{2} v_{2} + v_{3} v_{3} = v_{1}^{2} + v_{2}^2 + v_{3}^2 = \|\vec{v}\|^2\]
+  </li>
+</ul>
+
+<h3 id="producto-cruz">Producto cruz</h3>
+
+<p>El producto cruz de los vectores \(\vec{v}=\langle v_{1},v_{2},v_{3}\rangle\) y \(\vec{w}=\langle w_{1},w_{2},w_{3}\rangle\) es el vector</p>
+
+\[\begin{split}\vec{v}\times \vec{w} =&amp; \begin{vmatrix}
+\hat{i} &amp; \hat{j} &amp; \hat{k} \\
+v_{1}&amp;v_{2}&amp;v_{3} \\
+w_{1}&amp;w_{2}&amp;w_{3} \\
+\end{vmatrix} \\
+=&amp; \begin{vmatrix}
+v_{2} &amp; v_{3} \\
+w_{2} &amp; w_{3} \\
+\end{vmatrix}
+\hat{i} - \begin{vmatrix}
+v_{1} &amp; v_{3} \\
+w_{1} &amp; w_{3} \\
+\end{vmatrix} \hat{j}
++\begin{vmatrix}
+v_{1} &amp; v_{2} \\
+w_{1} &amp; w_{2} \\
+\end{vmatrix}\hat{k}\\
+= &amp; \hat{i}(v_2 w_3 - v_3 w_2) + \hat{j}(v_3 w_1 - v_1 w_3) + \hat{k}(v_1 w_2 - v_2 w_1)
+\end{split}\]
+
+<h3 id="rectas-en-el-espacio">Rectas en el espacio</h3>
+
+<p>En \(\mathbb{R}^3\) se usa un vector de dirección \(\vec{v}=\langle a,b,c \rangle\) para determinar la dirección de una recta. Dado que hay muchas rectas con la dirección de \(\vec{v}\) es necesario un punto para especificar una única recta.</p>
+
+<p><em>Ecuaciones de una recta:</em> La recta \(\textit{L}\) que pasa por \(P_{0}= (x_{0},y_{0},z_{0})\) en dirección de \(\vec{v}=\langle a,b,c \rangle\) está dada por:</p>
+
+<ul>
+  <li>Forma vectorial \(r(t)\) de \(\textit{L}\):</li>
+</ul>
+
+<p>\(r(t)= \vec{r}_{0} + t\vec{v}= \langle x_{0},y_{0},z_{0} \rangle +t \langle a,b,c \rangle\) donde \(r_{0}=\langle &lt;x_{0},y_{0},z_{0}\rangle\)</p>
+
+<ul>
+  <li>
+    <p>Ecuaciones paremétricas de \(\textit{L}\):</p>
+
+\[\begin{equation}
+   \textit{L} \left\{
+         \begin{array}{ll}
+       x(t)=x_{0}+at \\
+       y(t)=y_{0}+bt \\
+       z(t))= z_{0} +ct
+         \end{array}
+       \right.
+ \end{equation}\]
+  </li>
+</ul>
+
+<h3 id="planos">Planos</h3>
+<p>El vector normal \(\hat{n}\) es un vector perpendicular al plano \(\textbf{P}\).
+Para determinar a \(\textbf{P}\), basta con identificar un punto en él y
+conocer su vector normal.</p>
+
+<p><strong>Ecuaciones del plano:</strong> El plano que pasa por \(P_{0}=( x_{0},y_{0},z_{0})\)$ con vector normal \(\hat{n}= \langle a,b,c\rangle\) satisface:</p>
+
+<ul>
+  <li>
+    <p>Forma vectorial: \(\hat{n}\cdot \langle x,y,z\rangle=d$ donde\)d=ax_{0}+by_{0}+cz_{0}$$</p>
+  </li>
+  <li>
+    <p>Forma escalar: \(a(x-x_{0})+b(y-y_{0})+c(z-z_{0})=0\) y \(ax+by+cz=d\)</p>
+
+    <p>Los planos coordenados en $R^3$ se definen como el conjunto de puntos donde alguna de las coordenadas es cero.</p>
+
+    <p>La intersección del plano P con un plano coordenado es llamada traza.</p>
+  </li>
+</ul>
+:ET

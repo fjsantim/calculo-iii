@@ -128,47 +128,43 @@ w_{1} & w_{3} \\
 v_{1} & v_{2} \\
 w_{1} & w_{2} \\
 \end{vmatrix}\hat{k}\\
-= & \hat{i}(v_2 w_3 - v_3 w_2) + \hat{j}(v_3 w_1 - v_1 w_3)
+= & \hat{i}(v_2 w_3 - v_3 w_2) + \hat{j}(v_3 w_1 - v_1 w_3) + \hat{k}(v_1 w_2 - v_2 w_1)
 \end{split}
 $$
 
-\textbf{Rectas en el espacio}
+### Rectas en el espacio
 
-\end{center} En $R^3$ se usa un vector de dirección $\vec{v}=<a,b,c>$ para determinar la dirección de una recta. \\ Dado que hay muchas rectas con la dirección de $\vec{v}$ es necesario un punto para especificar una única recta. \\
+En $$\mathbb{R}^3$$ se usa un vector de dirección $$\vec{v}=\langle a,b,c \rangle$$ para determinar la dirección de una recta. Dado que hay muchas rectas con la dirección de $$\vec{v}$$ es necesario un punto para especificar una única recta.
 
-\emph{Ecuaciones de una recta:}
-La recta \textit{L} que pasa por $P_{0}= (x_{0},y_{0},z_{0})$ en dirección de $\vec{v}=<a,b,c>$ está dada por: 
-\begin{itemize}
-\item{Forma vectorial $r(t)$ de \textit{L}: }
-\end{itemize}
-$r(t)=r_{0}+tv=<x_{0},y_{0},z_{0}>+t<a,b,c>(5)$ donde $r_{0}=<x_{0},y_{0},z_{0}>$\\
-\begin{itemize}
-\item{Ecuaciones paremétricas de L:}
-\end{itemize}
-$x(t)=x_{0}+at, y(t)=y_{0}+bt, z(t))= z_{0} +ct$
+_Ecuaciones de una recta:_ La recta $$\textit{L}$$ que pasa por $$P_{0}= (x_{0},y_{0},z_{0})$$ en dirección de $$\vec{v}=\langle a,b,c \rangle$$ está dada por: 
 
-\begin{center}
-\textbf{Planos}
-\end{center}
-El vector normal n es un vector perpendicular al plano P.
-Para determinar a P, basta con identificar un punto en él y
-conocer su vector normal.\\
+* Forma vectorial $$r(t)$$ de $$\textit{L}$$:
 
-\textbf{Ecuaciones del plano:}
-El plano que pasa por $P_{0}=( x_{0},y_{0},z_{0})$ con vector normal $n= <a,b,c>$ satisface:
-\begin{itemize}
-\item{Forma vectorial: $ n*<x,y,z>=d$ donde $d=ax_{0}+by_{0}+cz_{0}$}
-\end{itemize}
-\begin{itemize}
-\item{Forma escalar: $a(x-x_{0})+b(y-y_{0})+c(z-z_{0})=0$ \\ $ax+by+cz=d$}
-\end{itemize}
-Los planos coordenados en $R^3$ se definen como el conjunto de puntos donde alguna de las
-coordenadas es cero.\\
+$$r(t)= \vec{r}_{0} + t\vec{v}= \langle x_{0},y_{0},z_{0} \rangle +t \langle a,b,c \rangle$$ donde $$r_{0}=\langle <x_{0},y_{0},z_{0}\rangle$$
 
-La intersección del plano P con un plano coordenado es llamada traza.
+* Ecuaciones paremétricas de $$\textit{L}$$:
 
+	$$\begin{equation}
+     \textit{L} \left\{
+	       \begin{array}{ll}
+		 x(t)=x_{0}+at \\
+		 y(t)=y_{0}+bt \\
+		 z(t))= z_{0} +ct
+	       \end{array}
+	     \right.
+   \end{equation}$$
 
+### Planos
+El vector normal $$\hat{n}$$ es un vector perpendicular al plano $$\textbf{P}$$.
+Para determinar a $$\textbf{P}$$, basta con identificar un punto en él y
+conocer su vector normal.
 
+__Ecuaciones del plano:__ El plano que pasa por $$P_{0}=( x_{0},y_{0},z_{0})$$$ con vector normal $$\hat{n}= \langle a,b,c\rangle$$ satisface:
 
+* Forma vectorial: $$\hat{n}\cdot \langle x,y,z\rangle=d$$ donde $$d=ax_{0}+by_{0}+cz_{0}$$
 
-\end{document}
+* Forma escalar: $$a(x-x_{0})+b(y-y_{0})+c(z-z_{0})=0$$ y $$ax+by+cz=d$$
+
+	Los planos coordenados en $$\mathbb{R}^3$$ se definen como el conjunto de puntos donde alguna de las coordenadas es cero.
+	
+	La intersección del plano P con un plano coordenado es llamada traza.

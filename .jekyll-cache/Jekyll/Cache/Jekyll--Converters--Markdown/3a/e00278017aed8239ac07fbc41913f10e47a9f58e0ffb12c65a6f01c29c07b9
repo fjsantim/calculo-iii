@@ -1,0 +1,51 @@
+I"�<h2 id="apuntes-de-la-clase-del-4-de-agosto-de-2020">Apuntes de la clase del 4 de agosto de 2020</h2>
+
+<p>La clase del día 4 de agosto comenzamos viendo ejemplos de las superficies de nivel de las funciones:</p>
+
+<ul>
+  <li>
+    <p>Sea \(f: \mathbb{R}^3 \to \mathbb{R}\) dada por \(f(x,y,z)=x^2 + (y-2)^2 -1\), graficar las curvas de nivel \(0\), \(1\) y \(-1\).</p>
+  </li>
+  <li>
+    <p>Sea \(f: \mathbb{R}^3 \to \mathbb{R}\) dada por \(f(x,y,z) = x^2 +y^2 - z^2\), graficar las curvas de nivel \(0\), \(1\) y \(-1\).</p>
+
+    <ul>
+      <li>
+        <p>Para \(c=-1\), \(S_1 =\lbrace (x,y,z)\mid x^2 + y^2 -z^2 =-1\rbrace\)</p>
+      </li>
+      <li>
+        <p>Para \(c=0\), \(S_1 =\lbrace (x,y,z)\mid x^2 + y^2 -z^2 =0\rbrace\)</p>
+      </li>
+      <li>
+        <p>Para \(c=1\), \(S_1 =\lbrace (x,y,z)\mid x^2 + y^2 -z^2 =1\rbrace\)</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="/calculo-iii/img/c-7/1.png" alt="" height="90%" width="90%" /></p>
+
+<h3 id="funciones-de-mathbbr-en-mathbbrn">Funciones de \(\mathbb{R}\) en \(\mathbb{R}^n\)</h3>
+
+<blockquote>
+  <p>La función:</p>
+
+\[\gamma(t)=(\gamma_1(t),\gamma_2(t),\dots,\gamma_n(t))\]
+
+  <p>para la cual cada \(\gamma_i(t)\) es una función \(\gamma_i : I\subset\mathbb{R}\to\mathbb{R}\) es una <em>función vectorial</em> que “vive” en \(\mathbb{R}^n\).</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>La gráfica de \(\gamma(t)\) es una curva \(\Gamma\) en \(\mathbb{R}\).</p>
+  </li>
+  <li>
+    <p>\(\gamma\) es llamada la parametrización o trayectoria de la curva \(\Gamma\).</p>
+  </li>
+</ul>
+
+<p>Se anexa el ejemplo 3: gráfica de la curva con parametrización \(\gamma(t)=(\cos{(t)},\sin{(t)},t)\) con \(t\in\mathbb{R}\).</p>
+
+<p><img src="/calculo-iii/img/c-7/2.png" alt="" height="100%" width="100%" /></p>
+
+:ET
