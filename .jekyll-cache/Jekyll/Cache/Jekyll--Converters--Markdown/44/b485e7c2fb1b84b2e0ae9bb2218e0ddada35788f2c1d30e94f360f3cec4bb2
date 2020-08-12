@@ -1,35 +1,44 @@
-I"|<h2 id="apuntes-de-la-clase-del-28-de-julio-de-2020">Apuntes de la clase del 28 de julio de 2020</h2>
+I"�<h2 id="apuntes-de-la-clase-del-28-de-julio-de-2020">Apuntes de la clase del 28 de julio de 2020</h2>
 
 <h3 id="vectores">Vectores</h3>
-<p>Un vector \(\vec{v}\), está determinado por dos puntos, un punto inicial \(P\) y un punto final \(Q\). Donde 
-\(\vec{v} = \vec{PQ}\)</p>
+<p>Un vector \(\vec{v}\), está determinado por dos puntos, un punto inicial <strong>\(P\)</strong> y un punto final <strong>\(Q\)</strong>. Donde 
+\(\vec{v} = \vec{\textbf{PQ}}\)</p>
 
 <p>Las propiedades que determinan a un vector son: <strong>magnitud, dirección y sentido</strong>.
-La magnitud de \(\vec{v}\) se denota como \(\|v\|\) y es la distancia de \textbf{P} a \textbf{Q}.\ Donde  $ \textbf{P}= (a_{1},b_{1},c_{1}) $ y $ \textbf{Q}= (a_{2},b_{2},c_{2})$. <br />
-La distancia se calcula como $ ||v||= ||\vec{PQ}|| = \sqrt{(a_{2}-a_{1})^2+(b_{2}-b_{1})^2+(c_{2}-c_{1})^2} $
-\</p>
+La magnitud de \(\vec{v}\) se denota como \(\|v\|\) y es la distancia de <strong>\(P\)</strong> a <strong>\(Q\)</strong>. 
+Donde  \(\textbf{P}= (a_{1},b_{1},c_{1})\) y \(\textbf{Q}= (a_{2},b_{2},c_{2})\). Dicha distancia se calcula como:</p>
 
-<p>\textbf{Componentes de un vector en $R^2$}\ 
-Los componentes del vector $\textbf{v}= \vec{PQ}$, donde $P=(a_{1},b_{1})$ y $Q=(a_{2},b_{2})$ son las cantidades:\ \begin{center}
-$a=a_{2} - a_{1}$\$b=b_{2}-b_{2}$
-\end{center}
-\begin{itemize}
-    \item{Dos vectores, \textbf{v} y \textbf{w} son paralelos si las rectas a través de \textbf{v} y \textbf{w} son paralelas. Los vectores paralelos tienen misma dirección y pueden tener sentidos contrarios.  }</p>
+\[\|v\|= \|\vec{\textbf{PQ}}\| = \sqrt{(a_{2}-a_{1})^2+(b_{2}-b_{1})^2+(c_{2}-c_{1})^2}\]
 
-<p>\end{itemize}
-\begin{itemize}
-   \item{Un vector \textbf{v} experimemta una translación cuando es movido para comenzar en un nuevo punto sin cambiar su magnitud o dirección. El vector resultante tiene la misma longitud y dirección pero diferente punto inicial.}
-\end{itemize}
-\begin{itemize}
-    \item{Dos vectore \textbf{v} y \textbf{w} son equivalentes si uno es una traslación del otro. 
-Son euivalentes sí y sólo sí tienen los mismos componentes. \ Lo vectores equivalentes tienen la misma magnitud y dirección, pero pueden iniciar en puntos diferentes. }
-\end{itemize}
-\begin{itemize}
-   \item La magnitud del vector $ \vec{v}=&lt;a,b&gt; $ en términos de sus componentes es: \ 
-   \begin{center}
-   $||v||=||\vec{PQ}||= \sqrt{a^{2}+b^{2}} $
-   \end{center}
-\end{itemize}</p>
+<p><strong>Componentes de un vector en \(\mathbb{R}^2\)</strong></p>
+
+<p>Los componentes del vector \(\textbf{v}= \vec{\textbf{PQ}}\), donde \(\textbf{P}=(a_{1},b_{1})\) y \(\textbf{Q}=(a_{2},b_{2})\) son las cantidades:</p>
+
+\[a=a_{2} - a_{1}\]
+
+\[b=b_{2}-b_{2}\]
+
+<ul>
+  <li>
+    <p>Dos vectores, \(\vec{v}\) y \(\vec{w}\) son paralelos si las rectas a través de \(\vec{v}\) y \(\vec{w}\) son paralelas. Los vectores paralelos tienen misma dirección y pueden tener sentidos contrarios.</p>
+  </li>
+  <li>
+    <p>Un vector \(\vec{v}\) experimemta una translación cuando es movido para comenzar en un nuevo punto sin cambiar su magnitud o dirección. El vector resultante tiene la misma longitud y dirección pero diferente punto inicial.</p>
+  </li>
+  <li>Dos vectore \(\vec{v}\) y \(\vec{w}\) son equivalentes si:
+    <ul>
+      <li>Uno es una traslación del otro.</li>
+      <li>Son equivalentes sí y sólo sí tienen los mismos componentes.</li>
+    </ul>
+
+    <p>Los vectores equivalentes tienen la misma magnitud y dirección, pero pueden iniciar en puntos diferentes.</p>
+  </li>
+  <li>
+    <p>La magnitud del vector \(\vec{v}= \bracket{a,b}\) en términos de sus componentes es:</p>
+
+\[||v||=||\vec{PQ}||= \sqrt{a^{2}+b^{2}}\]
+  </li>
+</ul>
 
 <p>\begin{itemize}
    \item El \textbf{vector nulo} es el vector $\vec{0}=&lt;0,0&gt;$ de dirección cero. Es el único que no tiene dirección. 

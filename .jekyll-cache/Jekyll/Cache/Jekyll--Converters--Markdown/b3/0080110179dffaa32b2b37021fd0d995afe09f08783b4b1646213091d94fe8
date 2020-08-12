@@ -1,4 +1,4 @@
-I"œ<h2 id="apuntes-de-la-clase-del-28-de-julio-de-2020">Apuntes de la clase del 28 de julio de 2020</h2>
+I"ˆ<h2 id="apuntes-de-la-clase-del-28-de-julio-de-2020">Apuntes de la clase del 28 de julio de 2020</h2>
 
 <h3 id="vectores">Vectores</h3>
 <p>Un vector \(\vec{v}\), est√° determinado por dos puntos, un punto inicial <strong>\(P\)</strong> y un punto final <strong>\(Q\)</strong>. Donde 
@@ -10,13 +10,14 @@ Donde  \(\textbf{P}= (a_{1},b_{1},c_{1})\) y \(\textbf{Q}= (a_{2},b_{2},c_{2})\)
 
 \[\|v\|= \|\vec{\textbf{PQ}}\| = \sqrt{(a_{2}-a_{1})^2+(b_{2}-b_{1})^2+(c_{2}-c_{1})^2}\]
 
-<p>\</p>
+<p><strong>Componentes de un vector en \(\mathbb{R}^2\)</strong></p>
 
-<p>\textbf{Componentes de un vector en $R^2$}\ 
-Los componentes del vector $\textbf{v}= \vec{PQ}$, donde $P=(a_{1},b_{1})$ y $Q=(a_{2},b_{2})$ son las cantidades:\ \begin{center}
-$a=a_{2} - a_{1}$\$b=b_{2}-b_{2}$
-\end{center}
-\begin{itemize}
+<p>Los componentes del vector \(\textbf{v}= \vec{\textbf{PQ}}\), donde \(\textbf{P}=(a_{1},b_{1})\) y \(\textbf{Q}=(a_{2},b_{2})\) son las cantidades:</p>
+
+<p>\(a=a_{2} - a_{1}\)
+\(b=b_{2}-b_{2}\)</p>
+
+<p>\begin{itemize}
     \item{Dos vectores, \textbf{v} y \textbf{w} son paralelos si las rectas a trav√©s de \textbf{v} y \textbf{w} son paralelas. Los vectores paralelos tienen misma direcci√≥n y pueden tener sentidos contrarios.  }</p>
 
 <p>\end{itemize}

@@ -1,77 +1,86 @@
-I"�<h2 id="apuntes-de-la-clase-del-28-de-julio-de-2020">Apuntes de la clase del 28 de julio de 2020</h2>
+I"L<h2 id="apuntes-de-la-clase-del-28-de-julio-de-2020">Apuntes de la clase del 28 de julio de 2020</h2>
 
 <h3 id="vectores">Vectores</h3>
 <p>Un vector \(\vec{v}\), está determinado por dos puntos, un punto inicial <strong>\(P\)</strong> y un punto final <strong>\(Q\)</strong>. Donde 
 \(\vec{v} = \vec{\textbf{PQ}}\)</p>
 
 <p>Las propiedades que determinan a un vector son: <strong>magnitud, dirección y sentido</strong>.
-La magnitud de \(\vec{v}\) se denota como \(\|v\|\) y es la distancia de <strong>\(P\)</strong> a <strong>\(Q}\)</strong>. 
-Donde  \(\textbf{P}= (a_{1},b_{1},c_{1})\) y \(\textbf{Q}= (a_{2},b_{2},c_{2})\). <br />
-La distancia se calcula como $ ||v||= ||\vec{PQ}|| = \sqrt{(a_{2}-a_{1})^2+(b_{2}-b_{1})^2+(c_{2}-c_{1})^2} $
-\</p>
+La magnitud de \(\vec{v}\) se denota como \(\|v\|\) y es la distancia de <strong>\(P\)</strong> a <strong>\(Q\)</strong>. 
+Donde  \(\textbf{P}= (a_{1},b_{1},c_{1})\) y \(\textbf{Q}= (a_{2},b_{2},c_{2})\). Dicha distancia se calcula como:</p>
 
-<p>\textbf{Componentes de un vector en $R^2$}\ 
-Los componentes del vector $\textbf{v}= \vec{PQ}$, donde $P=(a_{1},b_{1})$ y $Q=(a_{2},b_{2})$ son las cantidades:\ \begin{center}
-$a=a_{2} - a_{1}$\$b=b_{2}-b_{2}$
-\end{center}
-\begin{itemize}
-    \item{Dos vectores, \textbf{v} y \textbf{w} son paralelos si las rectas a través de \textbf{v} y \textbf{w} son paralelas. Los vectores paralelos tienen misma dirección y pueden tener sentidos contrarios.  }</p>
+\[\|v\|= \|\vec{\textbf{PQ}}\| = \sqrt{(a_{2}-a_{1})^2+(b_{2}-b_{1})^2+(c_{2}-c_{1})^2}\]
 
-<p>\end{itemize}
-\begin{itemize}
-   \item{Un vector \textbf{v} experimemta una translación cuando es movido para comenzar en un nuevo punto sin cambiar su magnitud o dirección. El vector resultante tiene la misma longitud y dirección pero diferente punto inicial.}
-\end{itemize}
-\begin{itemize}
-    \item{Dos vectore \textbf{v} y \textbf{w} son equivalentes si uno es una traslación del otro. 
-Son euivalentes sí y sólo sí tienen los mismos componentes. \ Lo vectores equivalentes tienen la misma magnitud y dirección, pero pueden iniciar en puntos diferentes. }
-\end{itemize}
-\begin{itemize}
-   \item La magnitud del vector $ \vec{v}=&lt;a,b&gt; $ en términos de sus componentes es: \ 
-   \begin{center}
-   $||v||=||\vec{PQ}||= \sqrt{a^{2}+b^{2}} $
-   \end{center}
-\end{itemize}</p>
+<p><strong>Componentes de un vector en \(\mathbb{R}^2\)</strong></p>
 
-<p>\begin{itemize}
-   \item El \textbf{vector nulo} es el vector $\vec{0}=&lt;0,0&gt;$ de dirección cero. Es el único que no tiene dirección. 
-\end{itemize}</p>
+<p>Los componentes del vector \(\textbf{v}= \vec{\textbf{PQ}}\), donde \(\textbf{P}=(a_{1},b_{1})\) y \(\textbf{Q}=(a_{2},b_{2})\) son las cantidades:</p>
 
-<p>\pagebreak</p>
+\[a=a_{2} - a_{1}\]
 
-<p>\begin{center}
-\textbf{Operanciones con vectores}
-\end{center}
- La suma de varios vectores $\vec{v_{1}}, \vec{v_{2}},…,\vec{v_{n}}$ se representa como:
-\begin{center}
-$\vec{v}= \vec{v_{1}}+ \vec{v_{2}}+…+\vec{v_{n}}$ 
-\end{center}
-El término escalar se refiere a un número real.\ Si $\lambda$ es un escalar y $\vec{v}$ es un vector no nulo, el múltiplo escalar $\lambda  \vec{v}$</p>
+\[b=b_{2}-b_{2}\]
 
-<p>\begin{itemize}
-   \item { $\lambda* \vec{v}$  tiene la magnitud $|\lambda| ||\vec{v}||$}</p>
+<p><strong>Terminología</strong></p>
 
-<p>\end{itemize}</p>
+<ul>
+  <li>
+    <p>Dos vectores, \(\vec{v}\) y \(\vec{w}\) son paralelos si las rectas a través de \(\vec{v}\) y \(\vec{w}\) son paralelas. Los vectores paralelos tienen misma dirección y pueden tener sentidos contrarios.</p>
+  </li>
+  <li>
+    <p>Un vector \(\vec{v}\) experimemta una translación cuando es movido para comenzar en un nuevo punto sin cambiar su magnitud o dirección. El vector resultante tiene la misma longitud y dirección pero diferente punto inicial.</p>
+  </li>
+  <li>Dos vectore \(\vec{v}\) y \(\vec{w}\) son equivalentes si:
+    <ul>
+      <li>Uno es una traslación del otro.</li>
+      <li>Son equivalentes sí y sólo sí tienen los mismos componentes.</li>
+    </ul>
 
-<p>\begin{itemize}
-  \item {Tiene el mismo sentido que $\vec{v}$ si $\lambda&gt;0$}
-\end{itemize}
-\begin{itemize}
-  \item { Tiene el sentido contrario a $\vec{v}$ si $\lambda&lt;0$}
-\end{itemize}
-\begin{itemize}
-   \item{Un vector $\vec{w}$ es paralelo a $\vec{v}$ sí y sólo sí $\vec{w}=\lambda \vec{v}$}
-\end{itemize} Las operaciones se definen como:\ Si $\vec{v}=&lt;a,b&gt;$ y $\vec{w}=&lt;c,d&gt;$ entonces \begin{itemize}
-\item{$\vec{v}+\vec{w} = &lt;a+c, b+d&gt;$}
-\end{itemize}
-\begin{itemize}
-\item{$\vec{v}-\vec{w} = &lt;a-c, b-d&gt;$}
-\end{itemize}
-\begin{itemize}
-\item{$\lambda \vec{v} = &lt;\lambda a, \lambda b&gt;$}
-\end{itemize}
-\begin{itemize}
-\item{$\vec{v} +0= 0+ \vec{v} = \vec{v}$}
-\end{itemize}</p>
+    <p>Los vectores equivalentes tienen la misma magnitud y dirección, pero pueden iniciar en puntos diferentes.</p>
+  </li>
+  <li>
+    <p>La magnitud del vector \(\vec{v}= \langle a,b \rangle\) en términos de sus componentes es:</p>
+
+\[\|v\|=\|\vec{PQ}\|= \sqrt{a^{2}+b^{2}}\]
+  </li>
+  <li>El <strong>vector nulo</strong> es el vector $$\vec{0}=\langle 0,0 \rangle$ de dirección cero. Es el único que no tiene dirección.</li>
+</ul>
+
+<h3 id="operanciones-con-vectores">Operanciones con vectores</h3>
+
+<ul>
+  <li>
+    <p>La suma de varios vectores $\vec{v_{1}}, \vec{v_{2}},…,\vec{v_{n}}$ se representa como:</p>
+
+\[\vec{v}= \vec{v_{1}}+ \vec{v_{2}}+...+\vec{v_{n}}\]
+  </li>
+</ul>
+
+<p>En el caso de la mutiplicación por escalares, el término escalar se refiere a un número real. Si \(\lambda\) es un escalar y \(\vec{v}\) es un vector no nulo, el múltiplo escalar \(\lambda  \vec{v}\)</p>
+
+<ul>
+  <li>
+    <p>\(\lambda \vec{v}\)  tiene la magnitud \(\mid\lambda\mid \mid\vec{v}\mid\)</p>
+  </li>
+  <li>
+    <p>Tiene el mismo sentido que \(\vec{v}\) si \(\lambda&gt;0\)</p>
+  </li>
+  <li>
+    <p>Tiene el sentido contrario a \(\vec{v}\) si \(\lambda&lt;0\)</p>
+  </li>
+  <li>
+    <p>Un vector \(\vec{w}\) es paralelo a \(\vec{v}\) sí y sólo sí \(\vec{w}=\lambda \vec{v}\)</p>
+  </li>
+  <li>
+\[\vec{v}+\vec{w} = \langle a+c, b+d \rangle\]
+  </li>
+  <li>
+\[\vec{v}-\vec{w} = \langle a-c, b-d \rangle\]
+  </li>
+  <li>
+\[\lambda \vec{v} = \langle \lambda a, \lambda b\ragle\]
+  </li>
+  <li>
+\[\vec{v} +0= 0+ \vec{v} = \vec{v}\]
+  </li>
+</ul>
 
 <p>\textbf{Propiedades}
 \begin{itemize}

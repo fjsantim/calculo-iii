@@ -14,147 +14,126 @@ Donde  $$\textbf{P}= (a_{1},b_{1},c_{1})$$ y $$ \textbf{Q}= (a_{2},b_{2},c_{2})$
 
 $$\|v\|= \|\vec{\textbf{PQ}}\| = \sqrt{(a_{2}-a_{1})^2+(b_{2}-b_{1})^2+(c_{2}-c_{1})^2}$$
 
-\\
 
-\textbf{Componentes de un vector en $R^2$}\\ 
-Los componentes del vector $\textbf{v}= \vec{PQ}$, donde $P=(a_{1},b_{1})$ y $Q=(a_{2},b_{2})$ son las cantidades:\\ \begin{center}
-$a=a_{2} - a_{1}$\\$b=b_{2}-b_{2}$
-\end{center}
-\begin{itemize}
-    \item{Dos vectores, \textbf{v} y \textbf{w} son paralelos si las rectas a través de \textbf{v} y \textbf{w} son paralelas. Los vectores paralelos tienen misma dirección y pueden tener sentidos contrarios.  }
+__Componentes de un vector en $$\mathbb{R}^2$$__
 
-\end{itemize}
-\begin{itemize}
-   \item{Un vector \textbf{v} experimemta una translación cuando es movido para comenzar en un nuevo punto sin cambiar su magnitud o dirección. El vector resultante tiene la misma longitud y dirección pero diferente punto inicial.}
-\end{itemize}
-\begin{itemize}
-    \item{Dos vectore \textbf{v} y \textbf{w} son equivalentes si uno es una traslación del otro. 
-Son euivalentes sí y sólo sí tienen los mismos componentes. \\ Lo vectores equivalentes tienen la misma magnitud y dirección, pero pueden iniciar en puntos diferentes. }
-\end{itemize}
-\begin{itemize}
-   \item La magnitud del vector $ \vec{v}=<a,b> $ en términos de sus componentes es: \\ 
-   \begin{center}
-   $||v||=||\vec{PQ}||= \sqrt{a^{2}+b^{2}} $
-   \end{center}
-\end{itemize}
+Los componentes del vector $$\textbf{v}= \vec{\textbf{PQ}}$$, donde $$\textbf{P}=(a_{1},b_{1})$$ y $$\textbf{Q}=(a_{2},b_{2})$$ son las cantidades:
 
-\begin{itemize}
-   \item El \textbf{vector nulo} es el vector $\vec{0}=<0,0>$ de dirección cero. Es el único que no tiene dirección. 
-\end{itemize}
+$$a=a_{2} - a_{1}$$
 
-\pagebreak
+$$b=b_{2}-b_{2}$$
 
-\begin{center}
-\textbf{Operanciones con vectores}
-\end{center}
- La suma de varios vectores $\vec{v_{1}}, \vec{v_{2}},...,\vec{v_{n}}$ se representa como:
-\begin{center}
-$\vec{v}= \vec{v_{1}}+ \vec{v_{2}}+...+\vec{v_{n}}$ 
-\end{center}
-El término escalar se refiere a un número real.\\ Si $\lambda$ es un escalar y $\vec{v}$ es un vector no nulo, el múltiplo escalar $\lambda  \vec{v}$
+__Terminología__
 
-\begin{itemize}
-   \item { $\lambda* \vec{v}$  tiene la magnitud $|\lambda| ||\vec{v}||$}
+* Dos vectores, $$\vec{v}$$ y $$\vec{w}$$ son paralelos si las rectas a través de $$\vec{v}$$ y $$\vec{w}$$ son paralelas. Los vectores paralelos tienen misma dirección y pueden tener sentidos contrarios.
+
+* Un vector $$\vec{v}$$ experimemta una translación cuando es movido para comenzar en un nuevo punto sin cambiar su magnitud o dirección. El vector resultante tiene la misma longitud y dirección pero diferente punto inicial.
+
+* Dos vectore $$\vec{v}$$ y $$\vec{w}$$ son equivalentes si:
+	+ Uno es una traslación del otro.
+	+ Son equivalentes sí y sólo sí tienen los mismos componentes. 
+
+	Los vectores equivalentes tienen la misma magnitud y dirección, pero pueden iniciar en puntos diferentes.
+
+* La magnitud del vector $$ \vec{v}= \langle a,b \rangle$$ en términos de sus componentes es:
+
+	$$\|v\|=\|\vec{PQ}\|= \sqrt{a^{2}+b^{2}}$$
+
+* El __vector nulo__ es el vector $$\vec{0}=\langle 0,0 \rangle$$ de dirección cero. Es el único que no tiene dirección. 
+
+### Operanciones con vectores
+
+* La suma de varios vectores $\vec{v_{1}}, \vec{v_{2}},...,\vec{v_{n}}$ se representa como:
+
+	$$\vec{v}= \vec{v_{1}}+ \vec{v_{2}}+...+\vec{v_{n}}$$
+
+En el caso de la mutiplicación por escalares, el término escalar se refiere a un número real. Si $$\lambda$$ es un escalar y $$\vec{v}$$ es un vector no nulo, el múltiplo escalar $$\lambda  \vec{v}$$
+
+* $$\lambda \vec{v}$$  tiene la magnitud $$\mid\lambda\mid \mid\vec{v}\mid$$
    
-\end{itemize}
+* Tiene el mismo sentido que $$\vec{v}$$ si $$\lambda>0$$
 
-\begin{itemize}
-  \item {Tiene el mismo sentido que $\vec{v}$ si $\lambda>0$}
-\end{itemize}
-\begin{itemize}
-  \item { Tiene el sentido contrario a $\vec{v}$ si $\lambda<0$}
-\end{itemize}
-\begin{itemize}
-   \item{Un vector $\vec{w}$ es paralelo a $\vec{v}$ sí y sólo sí $\vec{w}=\lambda \vec{v}$}
-\end{itemize} Las operaciones se definen como:\\ Si $\vec{v}=<a,b>$ y $\vec{w}=<c,d>$ entonces \begin{itemize}
-\item{$\vec{v}+\vec{w} = <a+c, b+d>$}
-\end{itemize}
-\begin{itemize}
-\item{$\vec{v}-\vec{w} = <a-c, b-d>$}
-\end{itemize}
-\begin{itemize}
-\item{$\lambda \vec{v} = <\lambda a, \lambda b>$}
-\end{itemize}
-\begin{itemize}
-\item{$\vec{v} +0= 0+ \vec{v} = \vec{v}$}
-\end{itemize}
+* Tiene el sentido contrario a $$\vec{v}$$ si $$\lambda<0$$
 
-\textbf{Propiedades}
-\begin{itemize}
-\item{ Ley conmutativa: $\vec{v} + \vec{w}= \vec{w}+ \vec{v}$ }
-\end{itemize}
-\begin{itemize}
-\item{ Ley asociativa: $\vec{u}+ (\vec{v}+ \vec{w})= (\vec{u}+ \vec{v}) + \vec{w}$}
-\end{itemize}
-\begin{itemize}
-\item{Ley distributiva para escalares: $\lambda (\vec{v}+\vec{w}) = \lambda \vec{v}+\lambda \vec{w}$ }
-\end{itemize}
-\begin{center}
-\textbf{Combinaciones lineales}
-\end{center}
-Uma combinación lineal de vectores $\vec{v}$ y $\vec{w}$ es un vector $r \vec{v} + s \vec{w}$, donde r y s son escalares.\\
+* Un vector $$\vec{w}$$ es paralelo a $$\vec{v}$$ sí y sólo sí $$\vec{w}=\lambda \vec{v}$$
 
-\textbf{Vector unitario}\\ \begin{itemize}
-\item{Tienen magnitud 1}
-\end{itemize}
-\begin{itemize}
-\item{Sus componentes son $\vec{u}=<\cos \theta, \sin \theta>$ Donde $\theta$ es el ángulo entre el eje \textit{x} y el vector}
-\end{itemize}
-\begin{itemize}
-\item{Los unitarios en dirección de los ejes \textit{x} y \textit{y} se denotan como: \\$ \vec{i}=<1,0> , \vec{j}=<0,1>$ (\textbf{Vectores canónicos})}
-\end{itemize}
-\textbf{Nota}\\
-Cada vector en el plano es una combinación lineal de $\vec{i}$ y $\vec{j}$: \\ $\vec{v}= <a,b>= a \textit{\textbf{i}} + b \textbf{\textit{j}}$
- \begin{center}
- \textbf{Producto punto}
- \end{center}
-El producto punto $\vec{v} * \vec{w}$ de dos vetores $\vec{v}= <v_{1},v_{2},v_{3}>$ y $\vec{w}= <w_{1},w_{2},w_{3}>$ se define como:\\ \begin{center}
-$\vec{v} * \vec{w} = v_{1} w_{1} + v_{2} w_{2} +v_{3} w_{3}$
-\end{center}
-Propiedades \\
-\begin{itemize}
-\item{ $0*\vec{v}= \vec{v}* 0= 0$}
-\end{itemize}
-\begin{itemize}
-\item{$\vec{v} * \vec{w}=\vec{w} * \vec{v}$}
-\end{itemize}
-\begin{itemize}
-\item{$(\lambda \vec{v})* \vec{w}= \vec{v}*(\lambda \vec{w}) = \lambda (\vec{v} * \vec{w})$}
-\end{itemize}
-\begin{itemize}
-\item{$\vec{u} * (\vec{v} + \vec{w})= \vec{u}*\vec{v} + \vec{u} * \vec{w}$}
-\end{itemize}
-\begin{itemize}
-\item{$(\vec{v}+\vec{w}* \vec{u}= \vec{v} * \vec{u}+ \vec{w}*\vec{u}$}
-\end{itemize}
-\begin{itemize}
-\item{$\vec{v}*\vec{v}=  v_{1} v_{1} + v_{2} v_{2} + v_{3} v_{3} = v_{1}^{2} + v_{2}^2 + v_{3}^2 = ||\vec{v}||^2$}
-\end{itemize}
-\begin{center}
-\textbf{Producto cruz}
-\end{center}
-El producto cruz de los vectores $\vec{v}=<v_{1},v_{2},v_{3}>$ y $\vec{w}=<w_{1},w_{2},w_{3}>$ es el vector\\ $$
-\Vec{V}\times \Vec{W}=
-\begin{vmatrix}
-i&j&k \\
+* $$\vec{v}+\vec{w} = \langle a+c, b+d \rangle$$
+
+* $$\vec{v}-\vec{w} = \langle a-c, b-d \rangle$$
+
+* $$\lambda \vec{v} = \langle \lambda a, \lambda b\rangle$$
+
+* $$\vec{v} +0= 0+ \vec{v} = \vec{v}$$
+
+### Propiedades
+
+* Ley conmutativa: $$\vec{v} + \vec{w}= \vec{w}+ \vec{v}$$
+
+* Ley asociativa: $$\vec{u}+ (\vec{v}+ \vec{w})= (\vec{u}+ \vec{v}) + \vec{w}$$
+
+* Ley distributiva para escalares: $$\lambda (\vec{v}+\vec{w}) = \lambda \vec{v}+\lambda \vec{w}$$
+
+### Combinaciones lineales
+
+Una combinación lineal de vectores $$\vec{v}$$ y $$\vec{w}$$ es un vector $$r \vec{v} + s \vec{w}$$, donde $$r$$ y $$s$$ son escalares.
+
+### Vector unitario
+
+* Tienen magnitud 1
+
+* Sus componentes son $$\vec{u}=\langle \cos{(\theta)}, \sin{(\theta)}\rangle$$ Donde $$\theta$$ es el ángulo entre el eje __$$x$$__ y el vector.
+
+* Los unitarios en dirección de los ejes __$$x$$__ y __$$y$$__ se denotan como: $$\hat{i}=\langle 1,0\rangle$$, $$\hat{j}=\langle0,1\rangle$$ (__Vectores canónicos__)
+
+> __Nota:__ Cada vector en el plano es una combinación lineal de $$\hat{i}$$ y $\hat{j}$: $$\vec{v}= \langle a,b\rangle = a \hat{i} + b \hat{j}$$
+
+### Producto punto
+
+El producto punto $$\vec{v} \cdot \vec{w}$$ de dos vetores $$\vec{v}= \langle v_{1},v_{2},v_{3}\rangle$$ y $$\vec{w}= \langle w_{1},w_{2},w_{3}\rangle$$ se define como:
+
+$$\vec{v} \cdot \vec{w} = v_{1} w_{1} + v_{2} w_{2} +v_{3} w_{3}$$
+
+__Propiedades del producto punto__
+
+* $$0\cdot\vec{v}= \vec{v}\cdot 0= 0$$
+
+* $$\vec{v} \cdot \vec{w}=\vec{w} \cdot \vec{v}$$
+
+* $$(\lambda \vec{v})\cdot \vec{w}= \vec{v}\cdot(\lambda \vec{w}) = \lambda (\vec{v} \cdot \vec{w})$$
+
+* $$\vec{u} \cdot (\vec{v} + \vec{w})= \vec{u}\cdot\vec{v} + \vec{u} \cdot \vec{w}$$
+
+* $$(\vec{v}+\vec{w})\cdot \vec{u}= \vec{v} \cdot \vec{u}+ \vec{w}\cdot\vec{u}$$
+
+* $$\vec{v}\cdot\vec{v}=  v_{1} v_{1} + v_{2} v_{2} + v_{3} v_{3} = v_{1}^{2} + v_{2}^2 + v_{3}^2 = \|\vec{v}\|^2$$
+
+### Producto cruz
+
+El producto cruz de los vectores $$\vec{v}=\langle v_{1},v_{2},v_{3}\rangle$$ y $$\vec{w}=\langle w_{1},w_{2},w_{3}\rangle$$ es el vector 
+
+$$\begin{split}\vec{v}\times \vec{w} =& \begin{vmatrix}
+\hat{i} & \hat{j} & \hat{k} \\
 v_{1}&v_{2}&v_{3} \\
 w_{1}&w_{2}&w_{3} \\
-\end{vmatrix}
-= \begin{vmatrix}
+\end{vmatrix} \\
+=& \begin{vmatrix}
 v_{2} & v_{3} \\
 w_{2} & w_{3} \\
 \end{vmatrix}
-\textbf{i} - \begin{vmatrix}
+\hat{i} - \begin{vmatrix}
 v_{1} & v_{3} \\
 w_{1} & w_{3} \\
-\end{vmatrix} \textbf{j} +\begin{vmatrix}
+\end{vmatrix} \hat{j}
++\begin{vmatrix}
 v_{1} & v_{2} \\
 w_{1} & w_{2} \\
-\end{vmatrix}\textbf{k}
+\end{vmatrix}\hat{k}\\
+= & \hat{i}(v_2 w_3 - v_3 w_2) + \hat{j}(v_3 w_1 - v_1 w_3)
+\end{split}
 $$
-\pagebreak
-\begin{center}
+
 \textbf{Rectas en el espacio}
+
 \end{center} En $R^3$ se usa un vector de dirección $\vec{v}=<a,b,c>$ para determinar la dirección de una recta. \\ Dado que hay muchas rectas con la dirección de $\vec{v}$ es necesario un punto para especificar una única recta. \\
 
 \emph{Ecuaciones de una recta:}
