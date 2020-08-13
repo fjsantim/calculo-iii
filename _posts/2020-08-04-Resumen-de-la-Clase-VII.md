@@ -67,7 +67,7 @@ a_{nj}
 
 ### Operaciones con matrices:
 
-* Suma; sean dos matrices $$A$$ y $$B$$ de $$m\times n$$:
+* __Suma__; sean dos matrices $$A$$ y $$B$$ de $$m\times n$$:
 
 $$\begin{split}
 A + B =& \left(\begin{array}{ccccc}
@@ -92,7 +92,7 @@ a_{m1} + b_{m1} & a_{m2} + b_{m2} & \cdots & a_{mn} + b_{mn}
 
 Es importante recordar que las matrices $$A$$ y $$B$$ deben ser del mismo tamaño $$m\times n$$ para poder ser suamdas.
 
-* Multiplicación por escalares; sean una matriz de $$m\times n$$ y un escalar $$\lambda\in\mathbb{R}$$:
+* __Multiplicación por escalares__; sean una matriz de $$m\times n$$ y un escalar $$\lambda\in\mathbb{R}$$:
 
 $$\begin{split}
 A\lambda = \lambda A =& \lambda \left(\begin{array}{ccccc}
@@ -115,8 +115,69 @@ a_{m1} & a_{m2} & \cdots & a_{mn}
 \end{array}\right)
 \end{split}$$
 
-* Multiplicación de matrices; sean dos matrices $$A\in M_{m\times n}(\mathbb{R})$$ y $$B\in M_{n\times p}(\mathbb{R})$$, definimos la multiplicación de matrices de la siguiente forma:
+* __Multiplicación de matrices__; sean dos matrices $$A\in M_{m\times n}(\mathbb{R})$$ y $$B\in M_{n\times p}(\mathbb{R})$$, definimos la multiplicación de matrices de la siguiente forma:
 
-$$AB=(c_{ij})_{1\leq i\leq m, 1\leq j\leq n}$$
+	$$AB=(c_{ij})_{1\leq i\leq m, 1\leq j\leq n}$$
 
-donde: $$c_{ij}=\sum a_{ik}b_{kj}$$
+	donde: $$c_{ij}=\sum a_{ik}b_{kj}$$
+	
+	Nota: es importante recalcar el orden en que se multiplican las matrices, pues en general $$AB\ne BA$$.
+
+__Propiedades de las operaciones con matrices__
+
+Dados $$A,B,C \in M_{m\times n}$$ y $$c,d \in \mathbb{R}$$ escalares:
+
+* $$A+B=B+A$$
+
+* $$c(A+B)=cA+cB$$
+
+* $$(c+d)A=cA+dA$$
+
+* $$(A+B)+C=A+(C+D)$$
+
+* $$(cd)A=c(dA)$$
+
+* $$A(BC)=(AB)C$$
+
+* $$A(B+C)=AB+AC$$
+
+* $$c(AB)=(cA)B=A(cB)
+
+* $$AI=A$$
+
+* $$IA=A$$
+
+Donde $$I$$ es la matriz identidad $$I=\delta_{ij}$$
+
+### Matriz transpuesta
+
+> Sea $$A\in M_{m\times n}$$, $$A^T$$ es la __transpuesta__ de A y es el resultado de intercambiar los renglones y columnas de $$A$$.
+>
+> Si $$A=\begin{pmatrix}a_{11} & a_{12} & \cdots & a_{1n}\\a_{21} & a_{22} & \cdots & a_{2n}\\\vdots & \vdots & \ddots & \vdots\\a_{m1} & a_{m2} & \cdots & a_{mn}\end{pmatrix}$$, entonces $$A^T = \begin{pmatrix}a_{11} & a_{21} & \cdots & a_{m1}\\a_{12} & a_{22} & \cdots & a_{m2}\\\vdots & \vdots & \ddots & \vdots\\a_{1n} & a_{2n} & \cdots & a_{mm}\end{pmatrix}$$
+
+__Propiedades de la matriz transpuesta__
+
+* $$(A^{T})^{T}=A$$
+
+* $$A^T + B^T = (A+B)^T$$
+
+* (ABC)^T = C^T B^T A^T $$
+
+### Matriz inversa
+
+> Sea $$A\in M_{m\times n}$$, decimos que es invertible si existe $$A^{-1} \in M_{m\times n}$$, llamada la __inversa de $$A$$__	si:
+>
+> $$AA^{-1}=A^{-1}A=I$$
+
+__Propiedades de la matriz inversa__
+
+Sean $$A$$, $$B$$ y $$C$$ matrices invertibles:
+
+* $$(A^{-1})^{-1}=A$$
+
+* $$(AB)^{-1}=B^{-1}A^{-1}$$ 
+
+* $$AC=AD\implies C=D$$
+
+* $$AC=0$$ solo con $$A$$ invertible, $$C=0$$
+	

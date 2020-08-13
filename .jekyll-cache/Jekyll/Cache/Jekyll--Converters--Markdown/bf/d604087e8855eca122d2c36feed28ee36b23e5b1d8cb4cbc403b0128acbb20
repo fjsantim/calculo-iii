@@ -1,0 +1,46 @@
+I"3<h2 id="apuntes-de-la-clase-del-30-de-julio-de-2020">Apuntes de la clase del 30 de julio de 2020</h2>
+
+<p>Esta fue una clase de continuación de los temas de topología.</p>
+<h3 id="lema-1-sean-a-v-f-subconjuntos-de-mathbbrn">Lema 1. Sean \(A, V, F\) subconjuntos de \(\mathbb{R}^n\).</h3>
+
+<p>a) Si \(V \subset A\) y \(V\) es abierto, entonces \(V \subset A°\)</p>
+
+<p>b) Si \(A \subset F\) y \(F\) es cerrado, entonces \(\bar{A} \subset F\)</p>
+
+<h4 id="proposición-para-todo-subconjunto-a-de-mathbbrn">Proposición. Para todo subconjunto \(A\) de \(\mathbb{R}^n\):</h4>
+
+<p>a) \(A°\) es abierto.</p>
+
+<p>b) \(\bar{A}\) es cerrado</p>
+
+<h3 id="proposición-sea-a-un-subconjunto-de-mathbbrn-entonces">Proposición. Sea \(A\) un subconjunto de \(\mathbb{R}^n\), entonces:</h3>
+
+<p>a) A es abierto sí y sólo sí \(A=A°\)</p>
+
+<p>b) A es cerrado sí y sólo sí \(A= \bar{A}\)</p>
+
+<h4 id="proposición-sean-a-y-b-subconjuntos-de-mathbbrn-entonces">Proposición. Sean \(A\) y \(B\) subconjuntos de \(\mathbb{R}^n\), entonces:</h4>
+<p>\begin{enumerate}
+\item[a)]{$A° \cup B° \subset (A \cup B)°$}
+\end{enumerate}
+\begin{enumerate}
+\item[b)]{$A° \cap B° = (A \cap B)°$}
+\end{enumerate}
+\textbf{Proposición.} Sean A y B subconjuntos de $R^n$, entonces:
+\begin{enumerate}
+\item[a)]{$A° \cup B° \subset (A \cup B)°$}
+\end{enumerate}
+\begin{enumerate}
+\item[b)]{$A° \cap B° = (A \cap B)°$}
+\end{enumerate}
+\begin{enumerate}
+\item[c)]{$\bar{A} \cup \bar{B} = \bar{A \cup B}$}
+\end{enumerate}
+\begin{enumerate}
+\item[d)]{$\bar{A \cap B} \subset \bar{A} \cap \bar{B}$}
+\end{enumerate}
+\begin{center}
+\textbf{Frontera de un conjunto}
+\end{center}
+Sea A un subconjunto de $R^n$, la frontera de A se define por el conjunto $\bar{A} \cap \bar{A°}$ y se denota por Fr(A).\ \textbf{Observación:} la frontera de un conjunto es cerrada.</p>
+:ET
