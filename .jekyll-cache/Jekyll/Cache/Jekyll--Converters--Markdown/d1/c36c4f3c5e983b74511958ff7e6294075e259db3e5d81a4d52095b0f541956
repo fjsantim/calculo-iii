@@ -1,0 +1,33 @@
+I"<h3 id="asignaciones-de-cada-clase">Asignaciones de cada clase.</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Mercury</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Venus</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Earth (Orbit/Moon)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Mars</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Jupiter</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Saturn</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Uranus</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Neptune</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Comet Haley</li>
+</ul>
+
+<h2 id="resumenes-de-clase">Resumenes de clase.</h2>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />27 de julio-<a href="https://fjsantim.github.io/calculo-iii//2020/07/27/Resumen-de-la-Clase-I.html">Clase I</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />28 de julio-<a href="https://fjsantim.github.io/calculo-iii//2020/07/28/Resumen-de-la-Clase-II.html">Clase II</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />29 de julio-<a href="">Clase III</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />30 de julio-<a href="https://fjsantim.github.io/calculo-iii//2020/07/30/Resumen-de-la-Clase-IV.html">Clase IV</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />31 de julio-<a href="">Clase V</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />3 de agosto-<a href="https://fjsantim.github.io/calculo-iii//2020/08/03/Resumen-de-la-Clase-VI.html">Clase VI</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />4 de agosto-<a href="https://fjsantim.github.io/calculo-iii//2020/08/04/Resumen-de-la-Clase-VII.html">Clase VII</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />5 de agosto-<a href="">Clase VII</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />6 de agosto-<a href="">Clase IX</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />7 de agosto-<a href="">Clase X</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />10 de agosto-<a href="">Clase XI</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />11 de agosto-<a href="">Clase XII</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />12 de agosto-<a href="">Clase XIII</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />13 de agosto-<a href="">Clase XIV</a></li>
+</ul>
+:ET

@@ -265,11 +265,11 @@ Sean $$\vec{u},\vec{v}\in \mathbb{R}^3$$ y $$\alpha\in\mathbb{R}$$ para el produ
 
 	Por lo tanto se cumple que $$\alpha(\vec{u}\times\vec{v}) = (\alpha\vec{u})\times\vec{v} = \vec{u}\times(\alpha\vec{v})\blacksquare$$
 
-8. \vec{u}\times\vec{0}=\vec{0}\times\vec{u}=\vec{0}
+8. $$\vec{u}\times\vec{0}=\vec{0}\times\vec{u}=\vec{0}$$
 
 	__Demostración:__ hecha en clase.
 
-9. $\vec{u}\times\vec{u} = \vec{0}.\\$
+9. $$\vec{u}\times\vec{u} = \vec{0}.\\$$
 	__Demostración:__
 
 	$$\begin{align}
