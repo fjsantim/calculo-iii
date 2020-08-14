@@ -85,7 +85,7 @@ Una combinación lineal de vectores $$\vec{v}$$ y $$\vec{w}$$ es un vector $$r \
 
 * Los unitarios en dirección de los ejes __$$x$$__ y __$$y$$__ se denotan como: $$\hat{i}=\langle 1,0\rangle$$, $$\hat{j}=\langle0,1\rangle$$ (__Vectores canónicos__)
 
-> __Nota:__ Cada vector en el plano es una combinación lineal de $$\hat{i}$$ y $\hat{j}$: $$\vec{v}= \langle a,b\rangle = a \hat{i} + b \hat{j}$$
+> __Nota:__ Cada vector en el plano es una combinación lineal de $$\hat{i}$$ y $$\hat{j}$$: $$\vec{v}= \langle a,b\rangle = a \hat{i} + b \hat{j}$$
 
 ### Producto punto
 

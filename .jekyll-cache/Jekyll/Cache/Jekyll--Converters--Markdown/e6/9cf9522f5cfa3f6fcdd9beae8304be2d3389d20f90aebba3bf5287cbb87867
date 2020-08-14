@@ -1,4 +1,4 @@
-I"5<h2 id="apuntes-de-la-clase-del-3-de-agosto-de-2020">Apuntes de la clase del 3 de agosto de 2020</h2>
+I"]<h2 id="apuntes-de-la-clase-del-3-de-agosto-de-2020">Apuntes de la clase del 3 de agosto de 2020</h2>
 
 <p>La clase del 3 de agosto fue, en resuemen, una introducción a las funciones de \(\mathbb{R}^n\) en \(\mathbb{R}^m\), curvas
 de nivel y trazas de esas funciones. Todo esto se desglosa a continuación:</p>
@@ -8,13 +8,9 @@ de nivel y trazas de esas funciones. Todo esto se desglosa a continuación:</p>
 <blockquote>
   <p>La función \(f:D\subset\mathbb{R}^{n}\to\mathbb{R}^m\) es una función compuesta por \(m\) funciones
 reales \(f_i\) tal que cada \(f_{i}\) sea una función \(f_{i}:D\subset\mathbb{R}^n\to\mathbb{R}\) de modo que \(f\) tenga \(m\) coordenadas \(f_{i}\) y:</p>
-</blockquote>
 
-<blockquote>
 \[\displaystyle{f(\vec{x})=(f_{1}(\vec{x}), f_{2}(\vec{x})), \dots, f_{m}(\vec{x})))}\]
-</blockquote>
 
-<blockquote>
   <p>O dicho de otra forma \(f_{i}\) es una función que toma \(\vec{x}\in D\) y lo “envía” a algún valor en \(\mathbb{R}\), después estos valores son cada
 coordenada de un vector en \(\mathbb{R}^m\).</p>
 </blockquote>
@@ -31,9 +27,7 @@ coordenada de un vector en \(\mathbb{R}^m\).</p>
 
 <blockquote>
   <p>La gráfica de \(f:D\subset\mathbb{R}^{n}\to\mathbb{R}\) es el subconjunto:</p>
-</blockquote>
 
-<blockquote>
 \[\displaystyle{\lbrace(x_{1}, x_{2}, \dots, x_{n}, f(x_{1}, x_{2}, \dots, x_{n}))\in\mathbb{R}^{n+1} \mid (x_{1}, x_{2}, \dots, x_{n})\in U \rbrace}\]
 </blockquote>
 
@@ -41,9 +35,7 @@ coordenada de un vector en \(\mathbb{R}^m\).</p>
 
 <blockquote>
   <p>Dada \(f:D\subset\mathbb{R}^{2}\to\mathbb{R}\). La curva de nivel \(c\in\mathbb{R}\) es el conjunto:</p>
-</blockquote>
 
-<blockquote>
 \[\displaystyle{N_{c}=\lbrace(x,y)\in U \mid f(x,y)= c \rbrace \subset\mathbb{R}^{2}}\]
 </blockquote>
 
@@ -55,25 +47,19 @@ coordenada de un vector en \(\mathbb{R}^m\).</p>
 
 <blockquote>
   <p>Las trazas de una función son curvas en el espacio obtenidas por la intersección de su gráfica con planos paralelos a los coordenados.</p>
-</blockquote>
 
-<blockquote>
   <ul>
     <li>La traza que resulta de la intersección de la función \(f(x,y)\) con el plano \(x=c\) es el conjunto de puntos:</li>
   </ul>
-</blockquote>
 
 \[\displaystyle{\lbrace(c,y,f(c,y)) \rbrace\subset\mathbb{R}^3}\]
 
-<blockquote>
   <ul>
     <li>La traza que resulta de la intersección de la función \(f(x,y)\) con el plano \(y=c\) es el conjunto de puntos:</li>
   </ul>
-</blockquote>
 
 \[\displaystyle{\lbrace(x,c,f(x,c)) \rbrace\subset\mathbb{R}^3}\]
 
-<blockquote>
   <ul>
     <li>La traza que resulta de la intersección de la función \(f(x,y)\) con el plano \(z=c\) es el conjunto de puntos:</li>
   </ul>
@@ -85,9 +71,7 @@ coordenada de un vector en \(\mathbb{R}^m\).</p>
 
 <blockquote>
   <p>Dada \(f:U\subset\mathbb{R}^{3}\to\mathbb{R}\). La superficie de nivel \(c\in\mathbb{R}\) es el conjunto:</p>
-</blockquote>
 
-<blockquote>
 \[\displaystyle{S_{c}=\lbrace(x,y,z)\in U \mid f(x,y,z)=c \rbrace \subset \mathbb{R}^{3}}\]
 </blockquote>
 

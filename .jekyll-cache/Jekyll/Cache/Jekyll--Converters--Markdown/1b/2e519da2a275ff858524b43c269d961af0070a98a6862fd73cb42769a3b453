@@ -1,4 +1,4 @@
-I"b<h2 id="apuntes-de-la-clase-del-28-de-julio-de-2020">Apuntes de la clase del 28 de julio de 2020</h2>
+I"d<h2 id="apuntes-de-la-clase-del-28-de-julio-de-2020">Apuntes de la clase del 28 de julio de 2020</h2>
 
 <h3 id="vectores">Vectores</h3>
 <p>Un vector \(\vec{v}\), está determinado por dos puntos, un punto inicial <strong>\(P\)</strong> y un punto final <strong>\(Q\)</strong>. Donde 
@@ -115,7 +115,7 @@ Donde  \(\textbf{P}= (a_{1},b_{1},c_{1})\) y \(\textbf{Q}= (a_{2},b_{2},c_{2})\)
 </ul>
 
 <blockquote>
-  <p><strong>Nota:</strong> Cada vector en el plano es una combinación lineal de \(\hat{i}\) y $\hat{j}$: \(\vec{v}= \langle a,b\rangle = a \hat{i} + b \hat{j}\)</p>
+  <p><strong>Nota:</strong> Cada vector en el plano es una combinación lineal de \(\hat{i}\) y \(\hat{j}\): \(\vec{v}= \langle a,b\rangle = a \hat{i} + b \hat{j}\)</p>
 </blockquote>
 
 <h3 id="producto-punto">Producto punto</h3>

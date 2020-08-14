@@ -141,13 +141,13 @@ Dados $$A,B,C \in M_{m\times n}$$ y $$c,d \in \mathbb{R}$$ escalares:
 
 * $$A(B+C)=AB+AC$$
 
-* $$c(AB)=(cA)B=A(cB)
+* $$c(AB)=(cA)B=A(cB)$$
 
 * $$AI=A$$
 
 * $$IA=A$$
 
-Donde $$I$$ es la matriz identidad $$I=\delta_{ij}$$
+Donde $$I$$ es la matriz identidad $$I=(\delta_{ij})$$ donde $$\delta_{ij}$$ denota que las entradas $$i=j$$ tienen valor $$1$$ y las entradas $$i\ne j$$ valor $$0$$.
 
 ### Matriz transpuesta
 
@@ -161,7 +161,7 @@ __Propiedades de la matriz transpuesta__
 
 * $$A^T + B^T = (A+B)^T$$
 
-* (ABC)^T = C^T B^T A^T $$
+* $$(ABC)^T = C^T B^T A^T $$
 
 ### Matriz inversa
 

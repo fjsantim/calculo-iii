@@ -1,4 +1,4 @@
-I"¨<h2 id="apuntes-de-la-clase-del-4-de-agosto-de-2020">Apuntes de la clase del 4 de agosto de 2020</h2>
+I"<h2 id="apuntes-de-la-clase-del-4-de-agosto-de-2020">Apuntes de la clase del 4 de agosto de 2020</h2>
 
 <p>La clase del d√≠a 4 de agosto comenzamos viendo ejemplos de las superficies de nivel de las funciones:</p>
 
@@ -178,7 +178,7 @@ a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{mn}
 \[A(B+C)=AB+AC\]
   </li>
   <li>
-    <p>$$c(AB)=(cA)B=A(cB)</p>
+\[c(AB)=(cA)B=A(cB)\]
   </li>
   <li>
 \[AI=A\]
@@ -188,7 +188,7 @@ a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{mn}
   </li>
 </ul>
 
-<p>Donde \(I\) es la matriz identidad \(I=\delta_{ij}\)</p>
+<p>Donde \(I\) es la matriz identidad \(I=(\delta_{ij})\) donde \(\delta_{ij}\) denota que las entradas \(i=j\) tienen valor \(1\) y las entradas \(i\ne j\) valor \(0\).</p>
 
 <h3 id="matriz-transpuesta">Matriz transpuesta</h3>
 
@@ -207,7 +207,9 @@ a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{mn}
   <li>
 \[A^T + B^T = (A+B)^T\]
   </li>
-  <li>(ABC)^T = C^T B^T A^T $$</li>
+  <li>
+\[(ABC)^T = C^T B^T A^T\]
+  </li>
 </ul>
 
 <h3 id="matriz-inversa">Matriz inversa</h3>
