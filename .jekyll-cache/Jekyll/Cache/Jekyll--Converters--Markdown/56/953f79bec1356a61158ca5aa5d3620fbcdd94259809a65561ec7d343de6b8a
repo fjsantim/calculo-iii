@@ -1,0 +1,19 @@
+I"S<h2 id="apuntes-de-la-clase-del-10-de-agosto-de-2020">Apuntes de la clase del 10 de agosto de 2020</h2>
+
+<p>La clase fue acerca de límites y continuidad.</p>
+
+<h3 id="límites">Límites</h3>
+
+<blockquote>
+  <p><strong>Definición 1:</strong> sea \(f: \mathbb{R}^2 \to\mathbb{R}\) una función definida en un conjunto abierto \(U\subset\mathbb{R}^2\) excepto quizá en el punto \((x_0, y_0) \in U\). Entonces</p>
+
+\[\displaystyle{\lim_{(x,y)\to (x_{0},y_{0})} f(x,y)=l}\]
+
+  <p>si y solo si para todo \(\varepsilon &gt; 0\), existe \(\delta &gt;0\) tal que, si \(0&lt; \|(x,y)-(x_0 , y_0)\|&lt; \delta\), entonces \(\|f(x,y)-l\|&lt;\varepsilon\).</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Definición 2:</strong> Sea \(f: D\subset\mathbb{R}^2 \to \mathbb{R}\) y \((x_0 , y_0)\) un punto de acumulación de \(D\). Decimos que \(\displaystyle{\lim_{(x,y)\to (x_{0},y_{0})} f(x,y)=l}\)
+si y sólo si para todo \(\varepsilon &gt; 0\), existe \(\delta &gt; 0\) tal que, si \((x, y) \in D\) y \(0 &lt; \|(x, y) − (x_0 , y_0)\| &lt; \delta\), entonces \(\|f(x,y) − l\| &lt; \varepsilon\).</p>
+</blockquote>
+:ET

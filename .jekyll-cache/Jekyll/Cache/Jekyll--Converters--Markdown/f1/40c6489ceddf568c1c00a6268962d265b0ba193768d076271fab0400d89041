@@ -1,0 +1,58 @@
+I"7<h2 id="apuntes-de-la-clase-del-10-de-agosto-de-2020">Apuntes de la clase del 10 de agosto de 2020</h2>
+
+<p>La clase fue acerca de límites y continuidad.</p>
+
+<h3 id="límites">Límites</h3>
+
+<blockquote>
+  <p><strong>Definición 1:</strong> sea \(f: \mathbb{R}^2 \to\mathbb{R}\) una función definida en un conjunto abierto \(U\subset\mathbb{R}^2\) excepto quizá en el punto \((x_0, y_0) \in U\). Entonces</p>
+
+\[\displaystyle{\lim_{(x,y)\to (x_{0},y_{0})} f(x,y)=l}\]
+
+  <p>si y solo si para todo \(\varepsilon &gt; 0\), existe \(\delta &gt;0\) tal que, si \(0&lt; \|(x,y)-(x_0 , y_0)\|&lt; \delta\), entonces \(\|f(x,y)-l\|&lt;\varepsilon\).</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Definición 2:</strong> Sea \(f: D\subset\mathbb{R}^2 \to \mathbb{R}\) y \((x_0 , y_0)\) un punto de acumulación de \(D\). Decimos que</p>
+
+\[\displaystyle{\lim_{(x,y)\to (x_{0},y_{0})} f(x,y)=l}\]
+
+  <p>si y sólo si para todo \(\varepsilon &gt; 0\), existe \(\delta &gt; 0\) tal que, si \((x, y) \in D\) y \(0 &lt; \|(x, y) − (x_0 , y_0)\| &lt; \delta\), entonces \(\|f(x,y) − l\| &lt; \varepsilon\).</p>
+</blockquote>
+
+<p><strong>Observación 1</strong> \(0 &lt; \|(x, y) − (x_0 , y_0)\| &lt; \delta\) es equivalente a \(\displaystyle{0 &lt; \sqrt{(x - x_0)^2 + (y - y_0)^2}&lt;\delta}\), siendo esta última parte una bola abierta sin el punto \((x_0 , y_0\), dicho punto es un punto de acumulación como lo solicita la <strong>definición 2</strong>.</p>
+
+<p>En la clase se vieron los siguientes ejemplos:</p>
+
+<p><strong>Ejemplo 1:</strong> probar por la definición que \(\displaystyle{\lim_{(x,y)\to (2,3)} x=2}\)</p>
+
+<p><strong>Ejemplo 2:</strong> probar por la definición que \(\displaystyle{\lim_{(x,y)\to (2,3)} y=3}\)</p>
+
+<p><strong>Ejemplo 3:</strong> probar por la definición que \(\displaystyle{\lim_{(x,y)\to (0,0)} \frac{x^2 y}{x^2 + y^2}=0}\)</p>
+
+<p><strong>Ejemplo 3:</strong> probar por la definición que \(\displaystyle{\lim_{(x,y)\to (0,0)} \frac{x^3}{x^2 + y^2}=0}\)</p>
+
+<p>En este ejmplo analizando las trayectorias \(x=0, y=0\) y \(y=x\) se llegó a que el límite debe valer \(0\), se procede con la demostración:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Queremos probar que para toda \(\varepsilon &gt; 0\), existe \(\delta &gt; 0\) tal que, si \(0 &lt; |(x, y) − (0,0)| &lt; \delta\), entonces $$\displaystyle{\left</td>
+      <td>\frac{x^3}{x^2 + y^2} - 0 \right</td>
+      <td>&lt; \varepsilon}$$</td>
+    </tr>
+    <tr>
+      <td>Es decir, si \(\displaystyle{0 &lt; \sqrt{(x-0)^2 +(y-0)^2} &lt; \delta}\), entonces $$\displaystyle{\left</td>
+      <td>\frac{x^3}{x^2 + y^2} - 0 \right</td>
+      <td>&lt; \varepsilon}$$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Notemos que, &lt;�! + �! = &lt;(� − 0)! + (� − 0)!
+y que como 0 &lt; �! ≤ �! + �! ⟹
++
+$”*&amp;” ≤ +
+$”. De manera que, bastaría hacer</p>
+
+:ET
