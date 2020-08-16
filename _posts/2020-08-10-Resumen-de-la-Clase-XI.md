@@ -12,13 +12,13 @@ La clase fue acerca de límites y continuidad.
 >
 > $$\displaystyle{\lim_{(x,y)\to (x_{0},y_{0})} f(x,y)=l}$$
 >
-> si y solo si para todo $$\varepsilon > 0$$, existe $$\delta >0$$ tal que, si $$0< \|(x,y)-(x_0 , y_0)\|< \delta$$, entonces $$\|f(x,y)-l\|<\varepsilon$$.
+> si y solo si para todo $$\varepsilon > 0$$, existe $$\delta >0$$ tal que, si $$0< \|(x,y)-(x_0 , y_0)\|< \delta$$, entonces $$\midf(x,y)-l\mid <\varepsilon$$.
 
 > __Definición 2:__ Sea $$f: D\subset\mathbb{R}^2 \to \mathbb{R}$$ y $$(x_0 , y_0)$$ un punto de acumulación de $$D$$. Decimos que 
 >
 > $$\displaystyle{\lim_{(x,y)\to (x_{0},y_{0})} f(x,y)=l}$$
 >
-> si y sólo si para todo $$\varepsilon > 0$$, existe $$\delta > 0$$ tal que, si $$(x, y) \in D$$ y $$0 < \|(x, y) − (x_0 , y_0)\| < \delta$$, entonces $$\|f(x,y) − l\| < \varepsilon$$.
+> si y sólo si para todo $$\varepsilon > 0$$, existe $$\delta > 0$$ tal que, si $$(x, y) \in D$$ y $$0 < \|(x, y) − (x_0 , y_0)\| < \delta$$, entonces $$\mid f(x,y) − l\mid < \varepsilon$$.
 
 __Observación 1__ $$0 < \|(x, y) − (x_0 , y_0)\| < \delta$$ es equivalente a $$\displaystyle{0 < \sqrt{(x - x_0)^2 + (y - y_0)^2}<\delta}$$, siendo esta última parte una bola abierta sin el punto $$(x_0 , y_0$$, dicho punto es un punto de acumulación como lo solicita la __definición 2__. 
 
