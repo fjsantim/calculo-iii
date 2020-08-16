@@ -71,7 +71,7 @@ __Clase XI__
 - [ ] 31 de julio-[Clase V]()
 - [x] 3 de agosto-[Clase VI](https://fjsantim.github.io/calculo-iii//2020/08/03/Resumen-de-la-Clase-VI.html)
 - [x] 4 de agosto-[Clase VII](https://fjsantim.github.io/calculo-iii//2020/08/04/Resumen-de-la-Clase-VII.html)
-- [ ] 5 de agosto-[Clase VII]()
+- [x] 5 de agosto-[Clase VII]()
 - [ ] 6 de agosto-[Clase IX]()
 - [ ] 7 de agosto-[Clase X]()
 - [x] 10 de agosto-[Clase XI](https://fjsantim.github.io/calculo-iii//2020/08/10/Resumen-de-la-Clase-XI.html)
