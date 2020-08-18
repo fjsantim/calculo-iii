@@ -6,71 +6,53 @@ title: Ejercicios complementarios de límites
 
 Calcule el límite indicado.
 
-> __5.__ $$\displaystyle{\lim_{(x,y)\to (0,0)} \frac{x^{2}y}{4x^2 -y}}$$
+> __5.__ $$\displaystyle{\lim_{(x,y)\to (1,3)} \frac{x^{2}y}{4x^2 -y}}$$
 
-Verifiquemos las trayectorias $$x=0$$, $$y=0$$ y $$y=x$$:
+Verifiquemos las trayectorias $$x=1$$ y $$y=3$$
 
-+ Para $$x=0$$:
++ Para $$x=1$$:
 
 	$$\begin{split}
-\lim_{(0,y)\to (0,0)} \frac{(0)^{2}y}{4(0)^2 -y} &= \lim_{(0,y)\to (0,0)} \frac{0}{-y} \\
-&= \lim_{y \to 0} 0 \\
-&= 0 \\
+\lim_{(1,y)\to (0,0)} \frac{(1)^{2} y}{4(1)^2 -y} &= \lim_{(1,y) \to (1,3)} \frac{y}{4-y} \\
+&= \lim_{y \to 3} \frac{y}{4-y} \\
+&= \frac{3}{4-(3)} \\
+&= 3
 \end{split}
 $$
 
-+ Para $$y=0$$
++ Para $$y=3$$
 
 	$$\begin{split}
-\lim_{(x,0)\to (0,0)} \frac{x^{2} (0)}{4x^2 - 0} &= \lim_{(x,0)\to (0,0)} \frac{0}{4x^2} \\
-&= \lim_{x \to 0} 0 \\
-&= 0
+\lim_{(x,3)\to (1,3)} \frac{x^{2} (3)}{4x^2 - 1} &= \lim_{(x,3)\to (1,3)} \frac{3x^2}{4x^2 -3} \\
+&= \lim_{x \to 1} \frac{3x^2}{4x^2 -3} \\
+&= \frac{3(1)^2}{4(1)^2 -3} \\
+&= 3
 \end{split}$$
 
-+ Y para $$y=x$$
-
-	$$\begin{split}
-\lim_{(x,x)\to (0,0)} \frac{(x^2 )(x)}{4x^2 - x} &= \lim_{(x,x) \to (0,0)} \frac{x^3}{x(4x -1)} \\
-&= \lim_{x \to  0} \frac{x^2}{4x -1}  \\
-&= \frac{(0)^2}{4(0)-1} \\
-&= 0
-\end{split}$$
-
-Concluyendo que $$\displaystyle{\lim_{(x,y)\to (0,0)} \frac{x^{2}y}{4x^2 -y} = 0}$$.
-
+Concluyendo que $$\displaystyle{\lim_{(x,y)\to (1,3)} \frac{x^{2}y}{4x^2 -y} = 3}$$.
 
 > __7.__ $$\displaystyle{\lim_{(x,y) \to (0,0)} \frac{\cos{xy}}{y^2 +1} }$$
 
-Tomemos nuevamente las trayectorias $$x=0$$, $$y=0$$ y $$y=x$$
+Tomemos ahora las trayectorias $$x=\pi$$ y $$y=1$$:
 
-+ Para $$x=0$$:
++ Para $$x=\pi$$:
 
 	$$\begin{split}
-\lim_{(0,y)\to (0,0)} \frac{\cos{[(0)(y)]}}{y^2 +1} &= \lim_{(0,y)\to (0,0)} \frac{1}{y^2 + 1} \\
-&= \lim_{y \to 0} \frac{1}{y^2 +1} \\
-&= \frac{1}{(0)^2 +1} \\
-&= 1 \\
+\lim_{(\pi ,y)\to (\pi ,1)} \frac{\cos{[(\pi)(y)]}}{y^2 +1} &= \lim_{(\pi,y)\to (\pi,1)} \frac{cos(\pi y)}{y^2 + 1} \\
+&= \lim_{y \to 1} \frac{\cos{(\pi y)}}{y^2 +1} \\
+&= \frac{\cos{(\pi)(1)}}{(1)^2 +1} \\
+&= -\frac{1}{2} \\
 \end{split}$$
 
-+ Para $$y=0$$:
++ Para $$y=1$$:
 	
 	$$\begin{split}
-\lim_{(x,0)\to (0,0)} \frac{\cos{[(x)(0)]}}{(0)^2 +1} &= \lim_{(x,0)\to (0,0)} \frac{1}{1} \\
-&= \lim_{x \to (0)} 1 \\
-&= 1
+\lim_{(x,1)\to (\pi ,1)} \frac{\cos{[(x)(1)]}}{(1)^2 +1} &= \lim_{(x,1)\to (\pi ,1)} \frac{\cos{(x)}}{2} \\
+&= \lim_{x \to \pi} \frac{\cos{x}}{2} \\
+&= -\frac{1}{2}
 \end{split}$$
 
-+ Para $$y=x$$:
-
-	$$\begin{split}
-\lim_{(x,x) \to (0,0)} \frac{\cos{[(x)(x)]}}{(x)^2 +1} &= \lim_{(x,x) \to (0,0)} \frac{\cos{x^2}}{x^2 +1} \\
-&= \lim_{x \to 0} \frac{\cos{x^2}}{x^2 +1} \\
-&= \frac{\cos{(0)}}{(0)^2 +1} \\
-&= \frac{1}{1} \\
-&= 1
-\end{split}$$
-
-Concluyendo que si el límite $$\displaystyle{\lim_{(x,y) \to (0,0)} \frac{\cos{xy}}{y^2 +1}}$$ existe debe ser $$1$$.
+Concluyendo que si el límite $$\displaystyle{\lim_{(x,y) \to (\pi,1)} \frac{\cos{xy}}{y^2 +1}}$$ existe debe ser $$\displaystyle{-\frac{1}{2}}$$.
 
 ### Ejercicios 9-23. 
 
