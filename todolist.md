@@ -10,7 +10,7 @@ __Clase I__
 - [x] Demostar que $$\mathbb{R}^3$$ es espacio vectorial
 - [x] Probar las propiedades del producto punto.
 - [x] Teorema 4: Dos vectores son ortogonales si y solo sí su producto punto es cero.
-- [ ] Encontrar el error en la diapositiva 10
+- [x] Encontrar el error en la diapositiva 10
 - [x] Probar proíedades del producto vectorial incisos 1, 2, 3, 7 y 9.
 - [ ] Diapositiva 15 punto número 3 "norma del producto cruz de dos vectores"
 
@@ -38,6 +38,10 @@ __Clase X__
 
 __Clase XI__
 - [x] Demostrar que: $$\displaystyle{\lim_{(x,y)\to(2,3)}{y}=3}$$
+
+__Clase XII__
+- [x] Ejercicios complementarios de limites
+
 - [ ] 
 - [ ] 
 - [ ] 
@@ -47,31 +51,37 @@ __Clase XI__
 - [ ] 
 - [ ] 
 - [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+
+__Tarea 1__
+- [x] P1
+- [x] P2
+- [x] P3
+- [ ] P4
+- [ ] P5
+- [ ] P6
+- [x] P7
+- [ ] P8
+- [ ] P9
+- [ ] P10
+- [ ] P11
+- [ ] P12
+- [ ] P13
+- [ ] P14
+- [ ] P15
+- [ ] P16
+- [ ] P17
+- [ ] P18
 
 ## Resumenes de clase.
 
 - [x] 27 de julio-[Clase I](https://fjsantim.github.io/calculo-iii//2020/07/27/Resumen-de-la-Clase-I.html)
 - [x] 28 de julio-[Clase II](https://fjsantim.github.io/calculo-iii//2020/07/28/Resumen-de-la-Clase-II.html)
-- [ ] 29 de julio-[Clase III]()
+- [x] 29 de julio-[Clase III]()
 - [x] 30 de julio-[Clase IV](https://fjsantim.github.io/calculo-iii//2020/07/30/Resumen-de-la-Clase-IV.html)
 - [ ] 31 de julio-[Clase V]()
 - [x] 3 de agosto-[Clase VI](https://fjsantim.github.io/calculo-iii//2020/08/03/Resumen-de-la-Clase-VI.html)
 - [x] 4 de agosto-[Clase VII](https://fjsantim.github.io/calculo-iii//2020/08/04/Resumen-de-la-Clase-VII.html)
-- [x] 5 de agosto-[Clase VII]()
+- [x] 5 de agosto-[Clase VII](https://fjsantim.github.io/calculo-iii//2020/08/05/Resumen-de-la-Clase-VIII.html)
 - [ ] 6 de agosto-[Clase IX]()
 - [ ] 7 de agosto-[Clase X]()
 - [x] 10 de agosto-[Clase XI](https://fjsantim.github.io/calculo-iii//2020/08/10/Resumen-de-la-Clase-XI.html)

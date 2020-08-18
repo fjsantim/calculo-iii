@@ -1,4 +1,4 @@
-I"WG<h2 id="tareas-de-la-clase-del-27-de-julio-de-2020">Tareas de la clase del 27 de julio de 2020</h2>
+I"ùK<h2 id="tareas-de-la-clase-del-27-de-julio-de-2020">Tareas de la clase del 27 de julio de 2020</h2>
 
 <h3 id="probar-que-mathbbr3-es-un-espacio-vectorial">Probar que \(\mathbb{R}^{3}\) es un espacio vectorial.</h3>
 
@@ -179,6 +179,48 @@ entonces \(\vec{v}\cdot\vec{w}=\|\vec{v}\|\|\vec{w}\|\cos{90^o}=\|\vec{v}\|\|\ve
 Ahora supongamos que \(\vec{v}\cdot \vec{w}=0\) entonces tenemos que \(\vec{v}\cdot\vec{w}=\|\vec{v}\|\|\vec{w}\|\cos{\theta} = 0\) 
 teniendo entonces que \(\|\vec{v}\|=0\) o \(\|\vec{w}\|=0\) o \(\cos{\theta}=0\), quitando entonces el caso trivial de que uno o ambos vectores 
 sean el vector \(\vec{0}\), solo queda la opci√≥n \(\cos{\theta}=0\) de modo que \(\theta=90^{o}\) y entonces \(\vec{v}\) y \(\vec{w}\) son ortogonales. \(\blacksquare\)</p>
+
+<h3 id="error-de-la-diapositiva-10">Error de la diapositiva 10</h3>
+<p>Sean \(\vec{v}=(1,-1,0)\) y \(\vec{w}=(1,1,0)\), consideremos el problema de encontrar un vector \(\vec{u}=(x,y,z)\) que cumpla las tres condiciones siguientes:</p>
+
+\[\begin{align*}
+\vec{u}\perp\vec{v},
+&amp;&amp;
+\|\vec{u}\|=4,
+&amp;&amp;
+\angle\vec{u}\vec{w}=\frac{\pi}{3}
+\end{align*}\]
+
+<p>Para resolver este problema, supongamos que \(\vec{u}=(x,y,z)\) tenemos que:</p>
+
+\[\begin{align*}
+\left\{
+\begin{array}{ccc}
+\vec{u}\cdot\vec{v}&amp;=&amp;0\\
+\|\vec{u}\|&amp;=&amp;4\\
+\vec{u}\cdot\vec{w}&amp;=&amp;\|\vec{u}\|\vec{w}\|\cos{\frac{\pi}{3}}
+\end{array}\right.
+\implies
+\left\{
+\begin{array}{ccc}
+ x-y&amp;=&amp;0\\
+ x^2+y^2+z^2&amp;=&amp;16\\
+ x+y&amp;=&amp;4\sqrt{2}\cos{\frac{\pi}{3}}\\
+\end{array}
+\right. \\
+\implies
+\left\{
+\begin{array}{ccc}
+     x&amp;=&amp;y\\
+     2x^2+z^2&amp;=&amp;16\\
+     x&amp;=&amp;2\sqrt{2}\cos{\frac{\pi}{3}}
+\end{array}
+\right.
+\end{align*}\]
+
+<p>y como \(\cos{\frac{\pi}{3}}=\frac{1}{2}\) tenemos que:</p>
+
+\[\vec{u}=\left( \sqrt{2},\sqrt{2},\pm4\sin{\frac{\pi}{3}}\right)\]
 
 <h3 id="propiedades-del-producto-vectorial">Propiedades del producto vectorial</h3>
 <p>Sean \(\vec{u},\vec{v}\in \mathbb{R}^3\) y \(\alpha\in\mathbb{R}\) para el producto vectorial se cumplen las siguientes propiedades:</p>

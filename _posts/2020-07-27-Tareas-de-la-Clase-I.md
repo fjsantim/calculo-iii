@@ -167,6 +167,48 @@ Ahora supongamos que $$\vec{v}\cdot \vec{w}=0$$ entonces tenemos que $$\vec{v}\c
 teniendo entonces que $$\|\vec{v}\|=0$$ o $$\|\vec{w}\|=0$$ o $$\cos{\theta}=0$$, quitando entonces el caso trivial de que uno o ambos vectores 
 sean el vector $$\vec{0}$$, solo queda la opción $$\cos{\theta}=0$$ de modo que $$\theta=90^{o}$$ y entonces $$\vec{v}$$ y $$\vec{w}$$ son ortogonales. $$\blacksquare$$
 
+### Error de la diapositiva 10
+Sean $$\vec{v}=(1,-1,0)$$ y $$\vec{w}=(1,1,0)$$, consideremos el problema de encontrar un vector $$\vec{u}=(x,y,z)$$ que cumpla las tres condiciones siguientes:
+
+$$\begin{align*}
+\vec{u}\perp\vec{v},
+&&
+\|\vec{u}\|=4,
+&&
+\angle\vec{u}\vec{w}=\frac{\pi}{3}
+\end{align*}$$
+
+Para resolver este problema, supongamos que $$\vec{u}=(x,y,z)$$ tenemos que:
+
+$$\begin{align*}
+\left\{
+\begin{array}{ccc}
+\vec{u}\cdot\vec{v}&=&0\\
+\|\vec{u}\|&=&4\\
+\vec{u}\cdot\vec{w}&=&\|\vec{u}\|\vec{w}\|\cos{\frac{\pi}{3}}
+\end{array}\right.
+\implies
+\left\{
+\begin{array}{ccc}
+ x-y&=&0\\
+ x^2+y^2+z^2&=&16\\
+ x+y&=&4\sqrt{2}\cos{\frac{\pi}{3}}\\
+\end{array}
+\right. \\
+\implies
+\left\{
+\begin{array}{ccc}
+     x&=&y\\
+     2x^2+z^2&=&16\\
+     x&=&2\sqrt{2}\cos{\frac{\pi}{3}}
+\end{array}
+\right.
+\end{align*}$$
+
+y como $$\cos{\frac{\pi}{3}}=\frac{1}{2}$$ tenemos que:
+
+$$\vec{u}=\left( \sqrt{2},\sqrt{2},\pm4\sin{\frac{\pi}{3}}\right)$$
+
 ### Propiedades del producto vectorial
 Sean $$\vec{u},\vec{v}\in \mathbb{R}^3$$ y $$\alpha\in\mathbb{R}$$ para el producto vectorial se cumplen las siguientes propiedades:
 
