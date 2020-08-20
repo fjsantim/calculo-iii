@@ -54,6 +54,8 @@ Tomemos ahora las trayectorias $$x=\pi$$ y $$y=1$$:
 
 Concluyendo que si el límite $$\displaystyle{\lim_{(x,y) \to (\pi,1)} \frac{\cos{xy}}{y^2 +1}}$$ existe debe ser $$\displaystyle{-\frac{1}{2}}$$.
 
+__________________
+
 ### Ejercicios 9-23. 
 
 Demuestre que el límite indicado no existe.
@@ -130,7 +132,41 @@ Llegamos a que el límite _no es único_ y por tanto no existe.
 
 > __17.__ $$\displaystyle{\lim_{(x,y) \to (0,0)} \frac{y\sin{x}}{x^2 +y^2}}$$
 
+Trayectoria $$x=0$$
 
+$$\begin{split}
+\lim_{(0,y) \to (0,0) }\left(\frac{y\sin 0}{0^2+y^2}\right) &= \lim_{(0,y) \to (0,0) }\left(\frac{y (0)}{y^2}\right) \\
+&= \lim_{y \to 0 }\left(\frac{0}{y^2}\right) \\
+&= \lim_{y \to 0} \left(0\right)\\
+&=0
+\end{split}$$
+
+Trayectoria $$y=0$$
+
+$$\begin{split}
+\lim_{(x,0) \to (0,0) }\left(\frac{(0)\sin x}{x^2+0^2}\right) &=  \lim_{(x,0) \to (0,0) }\left(\frac{0}{x^2}\right) \\
+&= \lim_{x \to 0 }\left(\frac{0}{x^2}\right) \\
+&= \lim_{x \to 0} \left(0\right) \\
+&=0
+\end{split}$$
+
+Trayectoria $$y=x$$
+
+$$\begin{split}
+\lim_{(x,x) \to (0,0) }\left(\frac{x\sin x}{x^2+x^2}\right) &= \lim_{(x,x) \to (0,0) }\left(\frac{x \sin x}{2x^2}\right) \\
+&= \lim_{x \to 0 }\left(\frac{\sin x}{2x}\right) \\
+&= \frac{1}{2} \lim_{x \to 0} \left(\frac{\sin x}{x}\right)
+\end{split}$$
+
+Como tenemos una indeterminación al aplicar directamente el límite podemos ocupar L´Hôpital 
+
+$$\begin{split}
+\frac{1}{2} \lim_{x \to 0} \left(\frac{\cos x}{1}\right) &= \frac{1}{2} \lim_{x \to 0} \left(\cos x\right) \\
+&= \frac{1}{2} \left(\cos 0\right) \\
+&= \frac{1}{2}
+\end{split}$$
+
+Por lo tanto, el límite no existe ya que los límites son distintos.
 
 > __19.__ $$\displaystyle{\lim_{(x,y) \to (1,2)} \frac{xy - 2x -y +2}{x^2 -2x +y^2 -4y+5}}$$
 
@@ -158,7 +194,26 @@ Así que no se tiene la unicidad del límite y por tanto no existe.
 
 > __23.__ $$\displaystyle{\lim_{(x,y,z) \to (0,0,0)} \frac{xyz}{x^3 +y^3 +z^3}}$$
 
+Consideremos la trayectoria $$x=z=0$$ entonces:
 
+$$\begin{split}
+\lim_{(x,y,z)\rightarrow (0,0,0)}\frac{xyz}{x^3+y^3+z^3} \\
+&= \lim_{y\rightarrow0}\frac{0}{y^3} \\
+&=0
+\end{split}$$
+
+Por otro lado, para $$(x,y,z)=(y,y,y)$$ entonces:
+
+$$\begin{split}
+\lim_{(x,y,z)\rightarrow (0,0,0)}\frac{xyz}{x^3+y^3+z^3} \\
+&= \lim_{y\rightarrow0}\frac{y^3}{3y^3} \\
+&= \lim_{y\rightarrow0}\frac{1}{3} \\
+&= \frac{1}{3}
+\end{split}$$
+
+Por lo tanto el límite no existe.
+
+_____________
 
 ### Ejercicios 25-29.
 
@@ -201,3 +256,5 @@ $$\displaystyle{0<\sqrt{x^2 +y^2}<\delta}$$ entonces $$\displaystyle{\left| \fra
 > __29.__ $$\displaystyle{\lim_{(x,y) \to (0,0)} \frac{x^3 +4x^2 +2y^2}{2x^2 +y^2}}$$
 
 Este límite no existe, dado que si usamos las trayectorias $$x=0$$ o $$y=0$$
+
+________________

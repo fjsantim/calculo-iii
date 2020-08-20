@@ -16,15 +16,15 @@ __Clase I__
 
 __Clase III__
 - [x] 3 formas de escribir ¿Qué significa que un conjunto no sea abierto? 
-- [ ] Demostrar que las bolas cerradas son cerradas.
+- [x] Demostrar que las bolas cerradas son cerradas.
 - [x] Probar ejemplos de la diapositiva 9.
 - [x] Probar que la intersección y unión de cerrados es cerrada. 
-- [ ] Probar que A está contenido en B sí y solo sí B complemento está contenido en A complemento.
+- [x] Probar que A está contenido en B sí y solo sí B complemento está contenido en A complemento.
 - [ ] Rehacer la prueba de la proposición 3
 - [ ] Hacer proposición 7 inciso b, c, d
 
 __Clase (?)__
-- [ ] Propiedades del producto de matrices son para el blog.
+- [x] Propiedades del producto de matrices son para el blog.
 
 __Clase VIII__
 - [ ] Probar proposición 9, 10.
@@ -46,10 +46,10 @@ __Ejercicios complementarios de limites__
 - [x] 11
 - [x] 13
 - [x] 15
-- [ ] 17
+- [x] 17
 - [ ] 19
 - [x] 21
-- [ ] 23
+- [x] 23
 - [x] 25
 - [ ] 27
 - [ ] 29
@@ -88,6 +88,7 @@ __[Tarea 1](https://fjsantim.github.io/calculo-iii//2020/08/17/Tarea-I.html)__
 - [ ] 7 de agosto-[Clase X]()
 - [x] 10 de agosto-[Clase XI](https://fjsantim.github.io/calculo-iii//2020/08/10/Resumen-de-la-Clase-XI.html)
 - [ ] 11 de agosto-[Clase XII]()
-- [ ] 12 de agosto-[Clase XIII]()
+- [x] 12 de agosto-[Clase XIII]()
 - [ ] 13 de agosto-[Clase XIV]()
-- [ ] 14 de agosto-[Clase XIV]()
+- [ ] 14 de agosto-[Clase XV]()
+- [x] 17 de agosto-[Clase XVI](https://fjsantim.github.io/calculo-iii//2020/08/17/Resumen-de-la-Clase-XVI.html)

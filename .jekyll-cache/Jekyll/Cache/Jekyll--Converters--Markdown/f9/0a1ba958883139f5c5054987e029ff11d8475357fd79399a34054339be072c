@@ -1,0 +1,155 @@
+I"!<h2 id="tareas-de-la-clase-del-29-de-julio-de-2020">Tareas de la clase del 29 de julio de 2020</h2>
+
+<h3 id="qué-significa-que-un-conjunto-no-sea-abierto">¿Qué significa que un conjunto no sea abierto?</h3>
+
+<p>Comenzamos recordando la definición de <strong>conjunto abierto</strong>:</p>
+
+<blockquote>
+  <p>Definición: decimos que un conjunto \(V\subset\mathbb{R}^n\) es abierto si y solo si para cada punto
+\(p\in V\), existe \(r&gt;0\) tal que \(B_{r}(p)\subset V\)</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p>Un enfoque intuitivo seria ver si hay una bola con centro en \(p\in V\) que no esté dentro del conjunto \(V\)
+sin importar el tamaño del radio \(r\).</p>
+  </li>
+  <li>
+    <p>Otra forma viene del cuantificador <em>para cada</em>, de este modo si hay al menos un punto \(x \in V\)
+en el que no se cumpla la definición esto hace que el conjunto \(V\) no sea abierto.</p>
+  </li>
+  <li>
+    <p>Por otro lado pensemos en la negación de la definición:</p>
+    <blockquote>
+      <p>Decimos que un conjunto \(V\subset\mathbb{R}^{n}\) no es abierto si y solo si para algún punto 
+  \(p\in V\), no existe \(r&gt;0\) tal que \(B_{r}(p)\subset V\).</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="toda-bola-cerrada-en-mathbbrn-es-un-conjunto-cerrado">Toda bola cerrada en \(\mathbb{R}^n\) es un conjunto cerrado.</h3>
+
+<p><em>Demostración:</em> Sea \(\vec{x_0}\hspace{1cm}\)</p>
+
+<p>Pd. \(\{\mathbb{R}^n\backslash\overline{\mathbb{B}_r(\vec{x}_0)}\}\) es un conjunto abierto</p>
+
+<p>Sea \(\vec{x}\in\{\mathbb{R}^n\backslash\overline{\mathbb{B}_r(\vec{x}_0)}\}\hspace{1cm}\) Pd. \(\exists\delta&gt;0\) tal que \(\mathbb{B}_\delta (\vec{x})\subset\{\mathbb{R}^n\backslash\overline{\mathbb{B}_r(\vec{x}_0)}\}\)
+Sea \(\vec{y}\in\mathbb{B}_\delta (\vec{x})\hspace{1cm}\) Pd. \(\vec{y}\in\{\mathbb{R}^n\backslash\overline{\mathbb{B}_r(\vec{x}_0)}\}\)
+como \(\vec{x}\in\{\mathbb{R}^n\backslash\overline{\mathbb{B}_r(\vec{x}_0)}\}\Longrightarrow\) \(\vec{x}\in\mathbb{R}^n\) y \(\vec{x}\notin\overline{\mathbb{B}_r(\vec{x}_0)}\Longrightarrow\) \(d(\vec{x},\vec{x}_0)&gt;r\)</p>
+
+<p>Si definimos \(\delta = d(\vec{x},\vec{x}_0)-r&gt;0\Longrightarrow\) \(r=d(\vec{x},\vec{x}_0)-\delta\)
+como \(\vec{y}\in\mathbb{B}_\delta (\vec{x})\Longrightarrow\) \(d(\vec{y},\vec{x})&lt;\delta\)
+veamos \(d(\vec{x},\vec{x}_0)\leqslant d(\vec{x},\vec{y})+d(\vec{y},\vec{x}_0) &lt; \delta + d(\vec{y},\vec{x}_0)\Longrightarrow\) 
+\(d(\vec{x},\vec{x}_0)&lt;\delta + d(\vec{y},\vec{x}_0)\)</p>
+
+<p>\(\Longrightarrow\) \(d(\vec{x},\vec{x}_0)-\delta &lt; d(\vec{y},\vec{x}_0)\) \(\Longrightarrow\) \(r&lt;d(\vec{y},\vec{x}_0)\)</p>
+
+<p>\(\therefore\) \(\vec{y}\notin\overline{\mathbb{B}_r(\vec{x}_0)}\)</p>
+
+<p>\(\therefore\) \(\vec{y}\in\mathbb{R}^n\) y \(\vec{y}\notin\overline{\mathbb{B}_r(\vec{x}_0)}\)</p>
+
+<p>\(\therefore\) \(\vec{y}\in\{\mathbb{R}^n\backslash\overline{\mathbb{B}_r(\vec{x}_0)}\}\)</p>
+
+<p>\(\therefore\) \(\mathbb{B}_\delta (\vec{x})\subset\{\mathbb{R}^n\backslash\overline{\mathbb{B}_r(\vec{x}_0)}\}\)</p>
+
+<p>$\therefore$ ${\mathbb{R}^n\backslash\overline{\mathbb{B}_r(\vec{x}_0)}}$ es un conjunto abierto</p>
+
+<p>$\therefore$ $\overline{\mathbb{B}_r(\vec{x}_0)}$ es un conjunto cerrado.</p>
+
+<p>$\blacksquare$</p>
+
+<h3 id="verificación-de-los-ejemplos-de-la-diapositiva-9">Verificación de los ejemplos de la diapositiva 9</h3>
+
+<ol>
+  <li>
+    <p>El conjunto formado por un único punto es cerrado.</p>
+
+    <p>Pensemos en el conjunto \(P={x}\) y en su complemento \(P^{c}= \mathbb{R} \setminus P\). Dado cualquier punto \(y\in P^{c}\) si elegimos \(\displaystyle{r=\frac{d(x,y)}{2}}\) siempre
+ podemos tener una bola abierta \(B_{r}(y)\) contenida en \(P^{c}\) sin importar que tan pequeña sea la distancia
+ entre \(x\) y \(y\). 
+ Esto hace que \(P\) sea un conjunto cerrado por la definición  de <em>conjunto cerrado</em>. 
+ Esto mismo puede extenderse a \(\mathbb{R}^{n}\) con el mismo razonamiento.</p>
+
+    <p><img src="/calculo-iii/img/1.png" alt="" height="100%" width="100%" /></p>
+  </li>
+  <li>
+    <p>El semiplano formado por el conjunto \(\pi = \{ (x,y)\in\mathbb{R}^{2}:y&gt;0 \}\) es un conjunto abierto.</p>
+
+    <p>Pensemos en un punto \(q=(x,0)\) y en algún punto perpendicular a él sobre una distancia \(y&gt;0\) en el eje \(y\)
+ \(p=(x,y)\). Basta pedir un radio \(\displaystyle{\frac{d(p,q)}{2}}\) para tener una bola abierta con centro en \(p\)
+ \(B_{r}(p)\) que este completamente contenida en \(\pi\) (\(B_{r}(p)\subset\pi\)); esto se ilustra en el gráfico de abajo. Esto, al igual que en el ejemplo anterior, sin importar que tan cerca esté la coordenada \(y\) de \(p\) del \(0\) en \(y\).
+ De este modo, por la definición de conjunto abierto, el semiplano \(\pi\) es un conjunto abierto. Esta situación se ilustra a continuación:</p>
+
+    <p><img src="/calculo-iii/img/2.png" alt="" height="100%" width="100%" /></p>
+  </li>
+  <li>
+    <p>Un intervalo [a,b] en \(\mathbb{R}\) es un conjunto cerrado.</p>
+
+    <p>Comencemos recordando la definición de conjunto cerrado:</p>
+
+    <blockquote>
+      <p>Decimos que un conjunto \(F\subset\mathbb{R}^{n}\) es cerrado si y solo si su complemento es abierto.
+ Es decir \(\mathbb{R}^{n}\setminus F\) es abierto.</p>
+    </blockquote>
+
+    <p>Tomemos el complemento de \([a,b]\) como \(P^{c}=\mathbb{R}\setminus [a,b]\). Primero tomemos un un punto \(x\in\mathbb{R}&lt;a\) y un punto \(y\in\mathbb{R}&gt;b\). Elegimos ahora
+ \(\displaystyle{r_{1}=\frac{d(x,a)}{2}}\) y \(\displaystyle{r_{2}=\frac{d(b,y)}{2}}\) de modo que cualesquiera dos bolas abiertas \(B_{r_{1}}(x)\) y \(B_{r_{2}}(y)\) están ambas contenidas en \(\mathbb{R}\).
+ Esto es que el complemento de \([a,b]\) es abierto y por tanto \([a,b]\) es cerrado por definición de <em>conjunto cerrado</em>. Un diagrama se muestra a continuación:</p>
+
+    <p><img src="/calculo-iii/img/3.png" alt="" height="100%" width="100%" /></p>
+  </li>
+  <li>
+    <p>El conjunto \(C=(-1,1)\times (-1,1)\) es un conjunto abierto de \(\mathbb{R}^{2}\).</p>
+
+    <p>En este caso basta pedir una bola de radio \(r\) con centro en cualquier punto \(p\in C\) y asegurandonos que dicho radio sea la mitad de la distancia entre
+ \(p\) y cualquier borde del cuadrado que forma el conjuto \(C\) como se muestra en la imagen de abajo.
+ Esta es condición suficiente para ver que se cumple la definición y hace que \(C\) sea un <em>conjunto abierto</em>.</p>
+
+    <p><img src="/calculo-iii/img/4.png" alt="" height="100%" width="100%" /></p>
+  </li>
+  <li>
+    <p>El conjunto vacío \(\emptyset\) y \(\mathbb{R}^{n}\) son abiertos y cerrados a la vez.</p>
+
+    <p>Tenemos al conjunto vacío \(\emptyset\), este conjunto por definición no contiene elementos y por tanto no tiene manera de verificar que es un <em>conjunto abierto</em>, por su parte cualquier
+ bola abierta está contenidad en el conjunto \(\mathbb{R}^{n}\), por tanto es un <em>conjunto abierto</em>. Más aún, dado que \(\emptyset\) y \(\mathbb{R}^{n}\) son complementos el uno del otro y como ambos son abiertos, concluimos que \(\emptyset\) y \(\mathbb{R}^{n}\) son
+ ambos <em>conjuntos cerrados</em>. De este modo estos dos conjuntos \(\emptyset\) y \(\mathbb{R}^{n}\) son <em>abiertos</em> y <em>cerrados</em> a la vez.</p>
+  </li>
+</ol>
+
+<h3 id="proposición-2">Proposición 2</h3>
+
+<ol>
+  <li>
+    <p>Si \(A\) y \(B\) son conjuntos abiertos en \(\mathbb{R}^{n}\), entonces \(A\cup B\) y \(A\cap B\) también lo son.</p>
+
+    <p><strong>Prueba</strong> Hecha en clase.</p>
+  </li>
+  <li>
+    <p>Si \(A\) y \(B\) son conjuntos cerrados en \(\mathbb{R}^{n}\), entonces \(A\cup B\) y \(A\cap B\) también lo son.</p>
+
+    <p><strong>Prueba</strong> <em>Unión</em>:</p>
+
+    <p>Consideremos primero las leyes de morgan:</p>
+
+\[\begin{equation}
+ (A\cup B)^{c}=A^{c}\cap B^{c}
+ \quad\mathrm{y}\quad 
+ (A\cap B)^{c}= A^{c}\cup B^{c}
+ \end{equation}\]
+
+    <p>Como \(A\) y \(B\) son cerrados en claro que, por definición, \(A^{c}\) y \(B^{c}\) son abiertos, de este modo tenemos lo siguiente:</p>
+
+    <ul>
+      <li>Unión: como \(A\) y \(B\) son cerrados, entonces \(A^{c}\) y \(B^{c}\) son abiertos, del punto anterior:
+ \(A^{c}\cap B^{c}=(A\cup B)^{c}\) es abierto, en consecuencia \(A\cup B\) es cerrado.</li>
+    </ul>
+
+    <p><strong>Intersección</strong></p>
+
+    <ul>
+      <li>Intersección: análogo al inciso anterior, \(A^{c}\) y \(B^{c}\) son abiertos, entonces \(A^{c}\cup B^{c}=(A\cap B)^{c}\) es abierto,
+ en consecuencia \(A\cap B\) es cerrado.</li>
+    </ul>
+  </li>
+</ol>
+:ET
