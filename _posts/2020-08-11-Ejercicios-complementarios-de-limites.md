@@ -166,6 +166,38 @@ Demuestre que el límite indicado existe.
 
 > __25.__ $$\displaystyle{\lim_{(x,y) \to (0,0)} \frac{xy^2}{x^2 + y^2}}$$
 
+De los límites anteriormente calculados es fácil notar que las trayectorias $$x=0$$ y $$y=0$$ indican que el límite debe valer $$0$$, verificamos tambien la trayectoria
+$$y=x$$:
+
+$$\begin{split}
+\lim_{(x,x) \to (0,0)} \frac{xy^2}{x^2 + y^2} &= \lim_{(x,x) \to (0,0)} \frac{x(x)^2}{x^2 + (x)^2} \\
+&= \lim_{(x,x) \to (0,0)} \frac{x^3}{2x^2} \\
+&= \lim_{x \to 0} \frac{x}{2} \\
+&= 0
+\end{split}$$
+
+Indicando que si el límite existe debe valer $$0$$. Esto es, debe cumplirse que para todo $$\varepsilon > 0$$ existe $$\delta > 0$$ tal que
+si $$0< \| (x,y) - (0,0) \| < \delta$$ entonces $$\displaystyle{\left| \frac{xy^2}{x^2 + y^2} - 0\right	| <\varepsilon}$$.
+
+Se observa de inmediato que $$0< \| (x,y) - (0,0) \| < \delta$$ equivale a $$\displaystyle{0<\sqrt{x^2 +y^2}<\delta}$$ y $$\displaystyle{\left| \frac{xy^2}{x^2 + y^2} - 0\right | <\varepsilon}$$ 
+equivale a 
+
+$$\frac{\left|xy^{2}\right|}{\left|x^{2}+y^{2}\right|} < \varepsilon$$
+
+Ahora, dado que $$x^2 > 0$$ y $$y^2 > 0$$ se sigue que: $$y^2 \geq x^2 + y^2$$ y por tanto:
+
+$$\displaystyle{\frac{1}{x^2 + y^2} \leq \frac{1}{y^2}}$$
+
+De este modo:
+
+$$\displaystyle{\frac{\left|xy^{2}\right|}{\left|x^{2}+y^{2}\right|} \leq \frac{\left| xy^2 \right|}{\left| y^2 \right|} < \left| x \right| < \varepsilon}$$
+
+Además, como $$\displaystyle{\left| x\right| = \sqrt{x^2} \leq \sqrt{x^2 +y^2}}$$, 
+basta elegir $$\delta = \varepsilon$$ de modo que si
+$$\displaystyle{0<\sqrt{x^2 +y^2}<\delta}$$ entonces $$\displaystyle{\left| \frac{xy^2}{x^2 + y^2} - 0\right | <\varepsilon}$$ lo que concluye nuestra prueba.
+
 > __27.__ $$\displaystyle{\lim_{(x,y) \to (0,0)} \frac{2x^2 \sin{y}}{2x^2 +y^2}}$$
 
 > __29.__ $$\displaystyle{\lim_{(x,y) \to (0,0)} \frac{x^3 +4x^2 +2y^2}{2x^2 +y^2}}$$
+
+Este límite no existe, dado que si usamos las trayectorias $$x=0$$ o $$y=0$$

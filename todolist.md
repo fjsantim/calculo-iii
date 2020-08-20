@@ -39,37 +39,39 @@ __Clase X__
 __Clase XI__
 - [x] Demostrar que: $$\displaystyle{\lim_{(x,y)\to(2,3)}{y}=3}$$
 
-__Clase XII__
-- [x] Ejercicios complementarios de limites
+__Ejercicios complementarios de limites__
+- [x] 5
+- [x] 7
+- [x] 9
+- [x] 11
+- [x] 13
+- [x] 15
+- [ ] 17
+- [ ] 19
+- [x] 21
+- [ ] 23
+- [x] 25
+- [ ] 27
+- [ ] 29
 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-__Tarea 1__
+__[Tarea 1](https://fjsantim.github.io/calculo-iii//2020/08/17/Tarea-I.html)__
 - [x] P1
 - [x] P2
 - [x] P3
 - [ ] P4
-- [ ] P5
+- [x] P5
 - [ ] P6
 - [x] P7
-- [ ] P8
+- [x] P8
 - [ ] P9
 - [ ] P10
 - [ ] P11
 - [ ] P12
-- [ ] P13
+- [x] P13
 - [ ] P14
 - [ ] P15
 - [ ] P16
-- [ ] P17
+- [x] P17
 - [ ] P18
 
 ## Resumenes de clase.

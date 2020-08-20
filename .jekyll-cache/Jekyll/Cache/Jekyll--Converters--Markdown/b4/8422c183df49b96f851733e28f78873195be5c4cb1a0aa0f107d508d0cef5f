@@ -1,4 +1,4 @@
-I"�<h3 id="ejercicios-5-7">Ejercicios 5-7.</h3>
+I"�<h3 id="ejercicios-5-7">Ejercicios 5-7.</h3>
 
 <p>Calcule el límite indicado.</p>
 
@@ -61,7 +61,7 @@
   </li>
 </ul>
 
-<p>Concluyendo que si el límite \(\displaystyle{\lim_{(x,y) \to (\pi,1)} \frac{\cos{xy}}{y^2 +1}}\) existe debe ser \(\fbox{-\frac{1}{2}}\).</p>
+<p>Concluyendo que si el límite \(\displaystyle{\lim_{(x,y) \to (\pi,1)} \frac{\cos{xy}}{y^2 +1}}\) existe debe ser \(\displaystyle{-\frac{1}{2}}\).</p>
 
 <h3 id="ejercicios-9-23">Ejercicios 9-23.</h3>
 
@@ -193,6 +193,32 @@ Por lo que simplemente prosegimos con otra trayectoria, por ejemplo \(y=x^2\) y 
 <blockquote>
   <p><strong>25.</strong> \(\displaystyle{\lim_{(x,y) \to (0,0)} \frac{xy^2}{x^2 + y^2}}\)</p>
 </blockquote>
+
+<p>De los límites anteriormente calculados es fácil notar que las trayectorias \(x=0\) y \(y=0\) indican que el límite debe valer \(0\), verificamos tambien la trayectoria
+\(y=x\):</p>
+
+\[\begin{split}
+\lim_{(x,x) \to (0,0)} \frac{xy^2}{x^2 + y^2} &amp;= \lim_{(x,x) \to (0,0)} \frac{x(x)^2}{x^2 + (x)^2} \\
+&amp;= \lim_{(x,x) \to (0,0)} \frac{x^3}{2x^2} \\
+&amp;= \lim_{x \to 0} \frac{x}{2} \\
+&amp;= 0
+\end{split}\]
+
+<p>Indicando que si el límite existe debe valer \(0\). Esto es, debe cumplirse que para todo \(\varepsilon &gt; 0\) existe \(\delta &gt; 0\) tal que
+si \(0&lt; \| (x,y) - (0,0) \| &lt; \delta\) entonces \(\displaystyle{\left| \frac{xy^2}{x^2 + y^2} - 0\right	| &lt;\varepsilon}\).</p>
+
+<p>Se observa de inmediato que \(0&lt; \| (x,y) - (0,0) \| &lt; \delta\) equivale a \(\displaystyle{0&lt;\sqrt{x^2 +y^2}&lt;\delta}\) y \(\displaystyle{\left| \frac{xy^2}{x^2 + y^2} - 0\right | &lt;\varepsilon}\) 
+equivale a</p>
+
+\[\frac{\left|xy^{2}\right|}{\left|x^{2}+y^{2}\right|} &lt; \varepsilon\]
+
+<p>Ahora, dado que \(x^2 &gt; 0\) y \(y^2 &gt; 0\) se sigue que: \(y^2 \geq x^2 + y^2\) y por tanto:</p>
+
+\[\displaystyle{\frac{1}{x^2 + y^2} \leq \frac{1}{y^2}}\]
+
+<p>De este modo:</p>
+
+\[\displaystyle{\left|xy^{2}\right|}{\left|x^{2}+y^{2}\right|} \leq \frac{\left|xy^2\right|}{\left|y^2\right|} }\]
 
 <blockquote>
   <p><strong>27.</strong> \(\displaystyle{\lim_{(x,y) \to (0,0)} \frac{2x^2 \sin{y}}{2x^2 +y^2}}\)</p>
