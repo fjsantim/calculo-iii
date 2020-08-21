@@ -1,0 +1,24 @@
+I"�<h2 id="función-de-dos-variables">Función de dos variables</h2>
+
+<p>A continuación se deja una imagen con el resultado:</p>
+
+<p><img src="/calculo-iii/img/P3/1.png" alt="" height="100%" width="100%" /></p>
+
+<p>Del mismo modo puede consultarse la construcción en <a href="https://www.geogebra.org/classic/s6grehmz">https://www.geogebra.org/classic/s6grehmz</a>.</p>
+
+<p><strong>6.</strong> El número \(\displaystyle{\frac{1}{12}y(A)^3 - y(A) -\frac{1}{4}x(A)^2 +\frac{7}{2}}\) es de acuerdo a si tiene al principio a \(x\) o a \(y\) la coordenada \(x\) o \(y\) respectivamente de \(A\) con alguna operación, como \(y(A)^3\) es la coordenada \(y\) de \(A\) elevada al cubo.</p>
+
+<h4 id="sección-de-preguntas">Sección de preguntas:</h4>
+
+<p><strong>1.</strong> ¿De qué variables depende la coordenada \(z\) (altura) del punto \(P\)?</p>
+
+<p>Esto es directamente provisto por el número \(a\) (\(b\) en el pdf del ejercicio), que a su vez es un número que varia según las coordenadas de \(x\) y \(y\) de \(A\) varían. De este modo \(z\) depende directamente de las coordenadas de \(A\).</p>
+
+<p><strong>2.</strong> ¿Que representa el punto \(P\)?</p>
+
+<p>Como el punto \(P\) es \(P=(x(A),y(A),a)\) sus coordenadas \(x\) y \(y\) son las mismas que de \(A\) en donde quiera que \(A\) se encuentre, pero la altura \(z=a\) indica que el punto es perpendicular a \(A\) en todo momento pero a una altura \(a\).</p>
+
+<p><strong>3.</strong> ¿Qué representa la nube de puntos que dejó el rastro del punto \(P\)?</p>
+
+<p>Es una trayectoria que se puede llamar parámetrica siendo \(x=x(A)\), \(y=y(A)\) y \(z=a\), la trayectoria que el punto describe según \(A\) varia y por tanto su altura también varia.</p>
+:ET
