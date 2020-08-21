@@ -63,16 +63,16 @@ __[Tarea 1](https://fjsantim.github.io/calculo-iii//2020/08/17/Tarea-I.html)__
 - [ ] P6
 - [x] P7
 - [x] P8
-- [ ] P9
-- [ ] P10
-- [ ] P11
+- [x] P9
+- [x] P10
+- [x] P11
 - [ ] P12
 - [x] P13
 - [ ] P14
-- [ ] P15
+- [x] P15
 - [ ] P16
 - [x] P17
-- [ ] P18
+- [x] P18
 
 ## Resumenes de clase.
 

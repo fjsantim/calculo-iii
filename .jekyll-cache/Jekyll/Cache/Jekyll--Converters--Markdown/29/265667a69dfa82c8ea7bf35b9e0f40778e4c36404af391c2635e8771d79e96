@@ -1,0 +1,623 @@
+I"i<ol>
+  <li>
+    <p>Calcula la ecuación vectorial, las ecuaciones paramétricas y la forma cartesiana del plano \(\pi\) que pasa por los puntos \(P=(2, −1,4)\), \(Q=(1,2,3)\) y \(R=(−2,0,5)\).</p>
+
+    <p>Sean los vectores</p>
+
+\[\overline{PQ}=Q-P=( 1,2,3)-(2,-1,4 )=\langle-1,3,-1\rangle\]
+
+\[\overline{PR}=R-P=( -2,0,5)-(2,-1,4)=\langle-4,1,1\rangle\]
+
+    <p>y el vector normal al plano \(\pi\)</p>
+
+\[\begin{split}
+\hat{n} &amp;= \overline{PQ}\times\overline{PR} \\
+&amp;= \begin{vmatrix}
+\hat{i}&amp;\hat{j}&amp;\hat{k}\\
+-1 &amp; 3 &amp; -1 \\
+-4 &amp; 1 &amp; 1 
+\end{vmatrix} \\
+&amp;= \hat{i}\begin{vmatrix}
+3 &amp; -1 \\
+1 &amp; 1 
+\end{vmatrix}
+-\hat{j}\begin{vmatrix}
+-1 &amp; -1 \\
+-4 &amp; 1 
+\end{vmatrix}
++\hat{k}\begin{vmatrix}
+-1 &amp; 3 \\
+-4 &amp; 1
+\end{vmatrix}
+\end{split}\]
+
+\[\hat{n}=\hat{i}(4)-\hat{j}(-5)+\hat{k}(11)=\langle4,5,11\rangle\]
+
+    <p>Ahora sea \(P_0=(x,y,z)\) un punto en el plano \(\pi\) \(\implies \overline{PP_0}=\langle x-2,y+1,z-4\rangle\) es un vector en el plano, entonces:</p>
+
+\[\overline{PP_0}\cdot\hat{n}=0\]
+
+\[\implies \langle x-2,y+1,z-4\rangle\cdot\langle4,5,11\rangle=0\]
+
+\[\implies 4x-8+5y+5+11z-44=0\]
+
+\[\implies 4x+5y+11z=44+8-5=47\]
+
+    <p>luego tenemos que si \(d=47\)</p>
+
+    <ul>
+      <li><strong>Ecuación Vectorial</strong></li>
+    </ul>
+
+\[\hat{n}\cdot\langle x,y,z\rangle=d\]
+
+\[\langle4,5,11\rangle\cdot\langle x,y,z\rangle= 47\]
+
+    <ul>
+      <li><strong>Ecuación vectorial usando vectores directores</strong></li>
+    </ul>
+
+\[P_0=P+\lambda(\overline{PQ})+\mu\overline{PR}\]
+
+\[\langle x,y,z\rangle=\langle2,-1,4\rangle + \lambda\langle-1,3,-1\rangle + \mu\langle -4,1,1\rangle\]
+
+    <ul>
+      <li><strong>Ecuación Cartesiana</strong></li>
+    </ul>
+
+\[4x+5y+11z-47=0\]
+
+    <ul>
+      <li><strong>Ecuaciones perimétricas</strong></li>
+    </ul>
+
+\[\left\{\begin{matrix}
+x&amp;=&amp;2-\lambda-4\mu\\
+y&amp;=&amp;-1+3\lambda+\mu\\
+z&amp;=&amp;4-\lambda+\mu
+\end{matrix}
+\right.\]
+  </li>
+  <li>
+    <p>Calcula la ecuación paramétrica de la recta que pasa por \(P=(0,0,0)\) y es ortogonal a las rectas \(l_1\) y \(l_2\) cuyas ecuaciones paramétricas están dadas por:</p>
+
+\[\displaystyle{l_1 \left\{\begin{array}{ll}x = 1 + \lambda \\y = -2 + 4\lambda \\z = 1 + 7\lambda\end{array}\right.} \hspace{0.5cm} \quad\text{y} \hspace{1cm} \displaystyle{l_2 \left\{\begin{array}{ll}x = 4 + \mu \\y = 1 + 2\mu \\z = -1 +5\mu \end{array}\right.}\]
+
+    <p>Cambiemos las ecuaciones de \(l_1\) y \(l_2\) a sus formas vectoriales \(l_1 = \vec{a} + \lambda\vec{v}_1\) y \(l_2=\vec{b}+\mu\vec{v}_2\), siendo \(a=(1,-2,1)\), \(b=(4,1,-1)\), \(\vec{v}_1=(1,4,7)\) y \(\vec{v}_2=(1,2,5)\):</p>
+
+\[\displaystyle{l_1 = (1,-2,1) + \lambda (1,4,7) \hspace{0.5cm} \quad\text{y} \hspace{1cm} l_2 = (4,1,-1) + \mu (1,2,5)}\]
+
+    <p>Buscamos una recta \(l_3\) tal que \(l_3 \perp l_1\) y \(l_3 \perp l_2\); esto es, sin perdida de generalidad, \(\vec{v}_3 \perp \vec{v}_1\) y \(\vec{v}_3 \perp \vec{v}_2\). De las propiedades del producto vectorial vistas en clase sabemos que el vector \(\vec{v}_3\) que buscamos debe ser \(\vec{v}_3=\vec{v}_1 \times \vec{v}_2\) siendo que \(\vec{v}_3\) es ortogonal a \(\vec{v}_1\) y \(\vec{v}_2\) simultaneamente. Se sigue de inmediato la obtención de \(\vec{v}_3\):</p>
+
+\[\begin{split}
+\vec{v}_3 &amp;= \vec{v}_1 \times\vec{v}_2 \\
+     &amp;= \begin{array}{|ccc|}\hat{i} &amp; \hat{j} &amp; \hat{k} \\ 1 &amp; 4 &amp; 7 \\ 1 &amp; 2 &amp; 5 \end{array} \\ 
+     &amp;= 6\hat{i} + 2\hat{j} -2\hat{k} \\ 
+     &amp;= (6,2,-2) 
+\end{split}\]
+
+    <p>En este momento tenemos claro que \(l_3 = P + \gamma\vec{v}_3= \gamma(6,2,-2)\); damos entonces lo solicitado:</p>
+
+\[l_3 \left\{\begin{array}{ll}x = 6\gamma \\y = 2\gamma \\z = -2\gamma\end{array}\right.\quad\textbf{Ecuación paramétrica}\]
+
+    <p>Además, como \(\vec{v}_3\) es normal al plano que se genera por los vectores \(\vec{v}_1\) y \(\vec{v}_2\) damos una gráfica hecha en Geogebra de \(l_1\), \(l_2\), \(\pi_1\), \(\pi_2\) y \(l_3\) donde \(\pi_1=(1,2,-1)+\beta(1,4,7)+\alpha(1,2,5)\) y \(\pi_2 = (4,1,-1)+\beta(1,4,7)+\alpha(1,2,5)\) son los planos en que se encuentran contenidas las rectas \(l_1\) y \(l_2\) respectivamente. Éste puede ser consultado en <a href="https://www.geogebra.org/3d/zwkhytgv">https://www.geogebra.org/3d/zwkhytgv</a>. En rojo \(l_1\) y \(\pi_1\), en azul \(l_2\) y \(\pi_2\) y en negro \(l_3\)</p>
+
+    <p><img src="/calculo-iii/img/T1/P2.png" alt="" height="100%" width="100%" /></p>
+  </li>
+  <li>
+    <p>Calcula la ecuación cartesiana del plano que pasa por \(P=(1, −1,4)\) y es paralelo a las rectas \(l_1\) y \(l_2\) cuyas ecuaciones están dadas por:</p>
+
+\[\displaystyle{l_1 \left\{\begin{array}{ll}x = 2 + 3\lambda \\y = -1 + \lambda \\z = 7 + 4\lambda\end{array}\right.} \hspace{0.5cm} \quad\text{y} \hspace{1cm} \displaystyle{l_2 \left\{\frac{x-6}{5} = \frac{y+4}{2} = \frac{z-7}{6} \right.}\]
+
+    <p>Primero encontremos los vectores directores de las rectas \(l_1\) y \(l_2\), analizando las ecuaciones paramétricas de \(l_1\) tenemos que la ecuación vectorial de la recta \(l_1\):</p>
+
+\[r(\lambda)=(x,y,z)=(2+3\lambda,-1+\lambda,7+4\lambda)\]
+
+\[r(\lambda)=(2,-1,7)+(\lambda3,\lambda1,\lambda4)\]
+
+\[r(\lambda)=(2,-1,7)+\lambda(3,1,4)\]
+
+    <p>Con vector director \(\vec{u}=\langle 3,1,4\rangle\).
+ Ahora para la recta \(l_2\) tenemos que:</p>
+
+\[\frac{x-6}{5}=\frac{y+4}{2}=\frac{z-7}{6}=\mu\]
+
+\[\begin{array}{cccc}
+\implies&amp; x=6+5\mu,&amp; y=-4+2\mu,&amp; z=7+6\mu
+\end{array}\]
+
+\[\implies s(\mu)=(x,y,z)=(6+5\mu,-4+2\mu,7+6\mu)\]
+
+\[s(\mu)=(6,-4,7)+(5\mu,2\mu,6\mu)\]
+
+\[s(\mu)=(6,-4,7)+\mu(5,2,6)\]
+
+    <p>Con vector director \(\vec{v}=\langle 5,2,6\rangle\). 
+ Sea un vector \(\hat{n}\) ortogonal a los vectores \(\vec{u}\), \(\vec{v}\)</p>
+
+\[\hat{n}=\vec{u}\times\vec{v}\]
+
+\[\hat{n}=\langle 3,1,4\rangle\times\langle 5,2,6\rangle\]
+
+\[\begin{split}
+\hat{n} &amp;= \begin{vmatrix}
+\hat{i} &amp;\hat{j} &amp;\hat{k}\\
+ 3 &amp; 1 &amp; 4\\
+ 5 &amp; 2 &amp;6\\
+\end{vmatrix} \\
+&amp;= \hat{i}(6-8)-\hat{j}(18-20)+\hat{k}(6-5) \\
+&amp;= -2\hat{i}+2\hat{j}+\hat{k}
+\end{split}\]
+
+\[\hat{n}=-2\hat{i}+2\hat{j}+\hat{k}=\langle -2,2,1\rangle\]
+
+    <p>La ecuación de la recta dada por su forma vectorial</p>
+
+\[\hat{n}\cdot\langle x,y,z\rangle=d\]
+
+\[\langle-2,2,1\rangle\cdot\langle x,y,z\rangle=d\]
+
+\[-2x+2y+z=d\]
+
+    <p>Que es la ecuación de la familia de planos paralelos a las rectas \(l_1, l_2\). 
+ Ahora sustituyendo \(P=(x,y,z)=(1,-1,4)\), tenemos que:</p>
+
+\[-2x+2y+z=d\]
+
+\[-2(1)+2(-1)+4=-2-2+4=0\]
+
+    <p>Luego la ecuación del plano paralelo a las rectas \(l_1,l_2\) que contiene al punto \(P=(1,-1,4)\) es:</p>
+
+\[-2x+2y+z=0\]
+
+    <p>Se adjunta una figura hecha en Geogebra, que se puede visitar en <a href="https://www.geogebra.org/3d/ynuutzdj">https://www.geogebra.org/3d/ynuutzdj</a>, de este ejercicio:</p>
+
+    <p><img src="/calculo-iii/img/T1/P3.png" alt="" height="100%" width="100%" /></p>
+  </li>
+  <li>
+    <p>Encontrar la ecuación del plano que pasa por el punto \(P=(2,6, −1)\) y es ortogonal a la recta de intersección de los planos:</p>
+
+\[\displaystyle{\pi_1 \left\{\begin{array}{ll}x = -1 + 2\lambda +3\mu \\y = 4\lambda - \mu \\z = 2 - 3\lambda + 2\mu\end{array}\right.} \hspace{0.5cm} \quad\text{y} \hspace{1cm} \displaystyle{\pi_2 \left\{2x-5y+z=0 \right.}\]
+  </li>
+  <li>
+    <p>Demuestra que \(\displaystyle{\cap_{k=1}^\infty B_{1/k}(0)=\lbrace 0 \rbrace}\)</p>
+
+    <p>Solución:</p>
+
+    <p>Ida \(\subset\):</p>
+
+    <p>Sea \(\bar{x}\in\bigcap_{k=1}^\infty B_{\frac{1}{k}}(0)\) con \(\bar{x}\in \mathbb{R}^n\) y \(\bar{x}=(x_1,x_2,...,x_n)\).</p>
+
+    <p>Entonces:</p>
+
+\[\bar{x}\in B_{\frac{1}{k}}  \forall k \in \{1,2,...,\infty\}\]
+
+\[\implies |\bar{x}|&lt;\frac{1}{k}\]
+
+\[\implies \sqrt{x_1^2+x_2^2+...+x_n^2} &lt;\frac{1}{k} \forall k \in \{1,2,...,\infty\}\]
+
+    <p>Sabemos que si \(y&lt; \frac{1}{k}  \forall k\), se tiene que \(y=0\) (ya que si 
+ \(y \neq 0 \implies k&lt;1/y  \implies \mathbb{N}\) es acotado superiormente !).</p>
+
+    <p>Entonces \(|\bar{x}| = 0\). Como \(|\bar{x}|\) es una suma de cuadrados, la única forma de que esto sea cero es que cada término sea cero. 
+ \(\implies x_i=0 \forall i \implies \bar{x} = 0\).</p>
+
+    <p>Por lo tanto \(\bar{x}\in \{0\}\) y  \(\bar{x}\in\bigcap_{k=1}^\infty B_{\frac{1}{k}}(0) \subset \{0\}\)</p>
+
+    <p>Vuelta \(\supset\):</p>
+
+    <p>Sea \(\bar{x} \in \{0\} \implies \bar{x}= (0,0,...,0)\)</p>
+
+\[\implies |\bar{x}|=0\]
+
+    <p>\(\implies |\bar{x}|&lt; \frac{1}{k} \forall k \in \mathbb{N}\). 
+ Entonces \(\bar{x} \in B_{\frac{1}{k}}(0) \forall k \in \mathbb{N}\)</p>
+
+    <p>Por lo tanto \(\bar{x} \in \bigcap_{k=1}^\infty B_{\frac{1}{k}}(0)\implies \bigcap_{k=1}^\infty B_{\frac{1}{k}}(0)=\{0\}\)</p>
+  </li>
+  <li>
+    <p>Demuestra que:</p>
+
+    <p>a) La frontera de toda bola abierta es la esfera con el mismo radio y centro.</p>
+
+    <p>b) La frontera de una esfera es ella misma.</p>
+
+    <p>c) Demuestra que un punto es cerrado en \(\mathbb{R}^n\).</p>
+
+    <p>d) El conjunto \([1, \infty)\) es un subconjunto cerrado en \(\mathbb{R}\).</p>
+
+    <p>e) El conjunto dado por \(A = (0, \infty) \times (0, \infty)\) es un conjunto abierto en \(\mathbb{R}^2\).
+ Dibújalo.</p>
+  </li>
+  <li>
+    <p>Más sobre frontera:</p>
+
+    <p>a) ¿Cuál es la frontera de \(\mathbb{Q}\times\mathbb{Q}\) en \(\mathbb{R}^2\)? Sólo argumenta.</p>
+
+    <p>El conjunto \(Q=\mathbb{Q}\times\mathbb{Q}\) está formado por puntos como \((1/2,1/2), (2/3,2/3)\), es decir es un conjunto que “salpica” a todo \(\mathbb{R}^2\). Así las bolas centradas en cada punto \(q\in\mathbb{Q}\times\mathbb{Q}\) “cortan” al conjunto “Q” y su complemento, esto es verifican que \(B_{r}(q)\cap Q\ne \emptyset\) y \(B_{r}(q)\cap Q^{c}\ne \emptyset\), pero también el punto \(\lbrace 0 \rbrace\) verifica lo anterior pues por la densidad de los racionales siempre existe un numero racional \(q_0\) tal que para cada \(r&gt;0\) \(d(q_0 , 0)&lt; r\), de este modo:</p>
+
+\[Fr(\mathbb{Q}\times\mathbb{Q})=\mathbb{Q}\times\mathbb{Q} \cup \lbrace 0 \rbrace\]
+
+    <p>b) ¿Quién es el complemento de \(\mathbb{Q}\times\mathbb{Q}\) en \(\mathbb{R}^2\)? Y quién es ¿\(Fr(\mathbb{R}^2 \setminus \mathbb{Q}\times\mathbb{Q}\))? Sólo argumenta.</p>
+
+    <p>El complemento de \(\mathbb{Q}\times\mathbb{Q}\) es el plano \(\mathbb{R}^2\) menos el conjunto \(\mathbb{Q}\times\mathbb{Q}\), es decir \(\mathbb{R}^2 \setminus \mathbb{Q}\times\mathbb{Q}\). Además, en clase vimos que la frontera de un conjunto es igual a la frontera de su complemento, por tanto:</p>
+
+\[Fr(\mathbb{R}^2 \setminus \mathbb{Q}\times\mathbb{Q})=\mathbb{Q}\times\mathbb{Q} \cup \lbrace 0 \rbrace\]
+  </li>
+  <li>
+    <p>Demuestra que \(\bar{A} = A°\cup Fr(A)\).</p>
+
+    <p>Demuestre que \(\overline{A}=A^o\cup Fr(A)\).</p>
+
+    <p>\(\subseteq\). Sea \(a\in \overline{A}\implies\forall r&gt;0\)  se tiene que 
+ \(B_r(a)\cap A\neq\emptyset\)
+ Entonces tenemos dos casos:</p>
+
+    <ul>
+      <li>i)</li>
+    </ul>
+
+\[B_r(a)\subset A\text{ para algún }r&gt;0 \implies a \text{ es punto interior de }A \implies a\in A^o\]
+
+    <ul>
+      <li>ii)</li>
+    </ul>
+
+\[B_r(a)\not\subset A, \forall r&gt;0 \implies B_r(a)\cap A^c\neq\emptyset\]
+
+    <p>y como</p>
+
+\[\overline{A^c}=\{a\in R^n : B_r(a)\cap A^c\neq\emptyset \} \implies a\in\overline{A^c}\]
+
+    <p>luego</p>
+
+\[\overline{A}\subset A^o\cup Fr(A)\]
+
+    <p>\(\supseteq\) Si \(a\in A^o\cup Fr(A)\) entonces:</p>
+
+    <ul>
+      <li>j) Si \(a\in A^o\) existe  \(r&gt;0\) tal que \(\ B_r(a)\subset A\)</li>
+    </ul>
+
+\[\implies B_r(a)\cap A\neq\emptyset\implies a\in \overline{A}\]
+
+    <ul>
+      <li>jj) Si \(a\in Fr(A)\) entonces \(a\in \overline{A}\) pues por definición \(Fr(A)=\overline{A}\cap\ \overline{A^c}\)</li>
+    </ul>
+
+\[\implies \overline{A}\supset A^o\cup Fr(A)\]
+
+    <p>Y tenemos que 
+ \(\overline{A}=A^o\cup Fr(A)\)</p>
+  </li>
+  <li>
+    <p>Sea \(A=\lbrace\frac{n}{n+1} \mid n\in\mathbb{N}\rbrace\). Demuestra que \(A\) tiene sólo un punto de acumulación ¿Quién es la adherencia de \(A\)? ¿\(Fr(A)\) y \(A°\)?</p>
+
+    <p>El conjunto tiene la forma \(\lbrace \frac{1}{2}, \frac{2}{3}, \frac{3}{4}, \dots\rbrace\) y se va acercando a 1 sin tocar a 1. 
+ Para probar que 1 es el único punto de acumulación aplicamos la definición de punto de acumulación: Para toda bola abierta de radio \(\varepsilon &gt; 0\) con centro en \(p=1\) se cumple: \(\displaystyle{\left( B_{\epsilon}(p)\setminus (p) \right) \cap A \neq \varnothing}\).</p>
+
+    <p><em>Demostración</em>: Suponemos por el contrario, entonces existe \(\varepsilon &gt;0\) tal que \(\displaystyle{\left(B_{\varepsilon}(1)\setminus (1)\right)\cap A = \varnothing}\).</p>
+
+    <p>Entonces damos un radio de \(1- \varepsilon\). Por lo tanto \(\frac{n}{n+1}\leq 1- \varepsilon\) \(\forall n \in \mathbb{N}\)</p>
+
+    <p>\(\Rightarrow n \leq (n+1)(1- \varepsilon)\) \(\forall n \in \mathbb{N}\)</p>
+
+    <p>\(\Rightarrow n \leq n-n \varepsilon +1 -\varepsilon\) \(\forall n \in \mathbb{N}\)</p>
+
+\[\Rightarrow n\epsilon \leq 1- \varepsilon\]
+
+    <p>\(\Rightarrow n \leq \frac{1- \varepsilon}{\varepsilon}\) \(\forall n \in \mathbb{N}\)</p>
+
+    <p>Pero \(\mathbb{N}\) no está acotado superiormente y eso es una contradicción.</p>
+
+    <p>Para mostrar que 1 es el único punto de acumulación, intentamos ver si algún otro es de acumulación. Por ejemplo el \(\frac{2}{3}\) vemos cuál es su predecesor y su sucesor \(\frac{1}{2} &lt; \frac{2}{3} &lt; \frac{3}{4}\) y vemos que la distancia entre \(\frac{2}{3}\) a \(\frac{3}{4}\) es menor a la distancia de \(\frac{1}{2}\) a \(\frac{2}{3}\) para que \(\frac{2}{3}\) sea punto de acumulación \(\displaystyle{\left( B_{r}(\frac{2}{3}) \setminus \{ \frac{2}{3}\} \right) \cap A \neq \varnothing}\) pero si nos tomamos un radio de \(r= \frac{\frac{3}{4} - \frac{2}{3}}{2}\) \(r= \frac{1}{24}\) al tener este radio la \(\displaystyle{\left( B_{r}(\frac{2}{3}) \setminus \{ \frac{2}{3}\} \right) \cap A = \varnothing }\) por lo tanto 1 es el único punto de acumulación.</p>
+  </li>
+  <li>
+    <p>Demuestra que \(\bar{A}= A \cup A^a\).</p>
+
+    <p>Ida \(\subseteq\)  Sea \(x \in \overline{A}\) tenemos que existe una bola abierta con centro en \(x\) de radio \(r&gt;0\) tal que \(B_r(x)\cap A\neq\emptyset\), entonces tenemos dos casos:</p>
+
+    <p>i)Si \(x\in A \implies x\in A\cup A^a\)</p>
+
+    <p>ii)Si \(x\neq A \textrm{ y como }B_r(x)\cap A\neq\emptyset\)</p>
+
+\[\implies x \textrm{ es punto de acumulación }\implies x \in A^a\]
+
+\[\implies x\in A\cup A^a\]
+
+    <p>Por lo tanto</p>
+
+\[\overline{A}\subset A\cup A^a\]
+
+    <p>Vuelta \(\supseteq\) Sea \(x\in A\cup A^a\), tenemos dos casos:</p>
+
+    <p>j) Si \(x\in A\implies B_r(x)\cap A\neq \emptyset\implies x\in \overline{A}\)</p>
+
+    <p>jj Si \(x\in A^a\implies B_r(x)\cap [A\setminus\{x\}]\neq \emptyset\)</p>
+
+    <p>y como</p>
+
+\[(B_r(x)\cap [A\setminus \{x\}] )\subset (B_r(x)\cap A)\]
+
+\[\implies B_r(x)\cap A\neq \emptyset\]
+
+\[\implies x\in \overline{A}\]
+
+    <p>por lo tanto se tiene</p>
+
+\[\overline{A}\supset A\cup A^a\]
+
+\[\implies \overline{A}= A\cup A^a\]
+  </li>
+  <li>
+    <p>Demuestra que si \(f: \mathbb{R}^n \to \mathbb{R}^m\) es una función continua, entonces la imagen inversa de abiertos en \(\mathbb{R}^m\) es abierta en \(\mathbb{R}^n\). Lo mismo con cerrados.</p>
+
+    <p>Para conjuntos abiertos:</p>
+
+    <p>Sea U un abierto en \(\mathbb{R}^m\) Por demostrar: \(f^{-1}(U)\) es abierto en \(\mathbb{R}^n\)</p>
+
+    <p>sea \(\vec{x}\in f^{-1} (U)\Longrightarrow\) \(f(\vec{x})\in U\)</p>
+
+    <p>como U es abierto en \(\mathbb{R}^m \Longrightarrow\) \(\exists\epsilon&gt;0\) tal que \(\mathbb{B}_\epsilon(f(\vec{x}))\subset U\)</p>
+
+    <p>como f es continua en \(\vec{x}\Longrightarrow\) \(\exists\delta&gt;0\) tal que \(\mathbb{B}_\delta (\vec{x}) \subset D\) y \(f(\mathbb{B}_\delta(\vec{x}))\subset\mathbb{B}_\epsilon (f(\vec{x}))\).</p>
+
+    <p>aplicando la imagen inversa tenemos que: \(f^{-1}(f(\mathbb{B}_\delta (\vec{x}))) \subset f^{-1}(\mathbb{B}_\epsilon (f(\vec{x})))\)</p>
+
+    <p>\(\Longrightarrow\) \(\mathbb{B}_\delta (\vec{x})\subset f^{-1} (f(\mathbb{B}_\delta (\vec{x})))\subset f^{-1}(\mathbb{B}_\epsilon (f(\vec{x})))\subset f^{-1}(U)\)</p>
+
+    <p>Por lo tanto \(f^{-1}(U)\) es abierto en \(\mathbb{R}^n\).</p>
+
+    <p>Para conjuntos cerrados:</p>
+
+    <p>sea K un conjunto cerrado en \(\mathbb{R}^m \hspace{1cm}\) Por demostrar: \(f^{-1}(K)\) es cerrado en \(\mathbb{R}^n\)</p>
+
+    <p>como K es un conjunto cerrado en \(\mathbb{R}^m\Longrightarrow\) \(G=\{\mathbb{R}^m \backslash K\}\) es un conjunto abierto en \(\mathbb{R}^m\)</p>
+
+    <p>como f es continua \(\Longrightarrow\) por el inciso anterior sabemos que \(f^{-1}(G)\) es abierto en \(\mathbb{R}^n\)</p>
+
+    <p>notemos que \(f^{-1}(G)=f^{-1}(\mathbb{R}^m \backslash K)= D\cap(\mathbb{R}^n \backslash f^{-1}(K))=D\backslash f^{-1}(K)\)</p>
+
+    <p>Por lo tanto si \(\vec{x}\in D\Longrightarrow\) \(\vec{x}\in f^{-1}(G)\iff\) \(\vec{x}\in f^{-1}(\mathbb{R}^m \backslash K)\iff\) \(f(\vec{x})\in\{\mathbb{R}^n \backslash K\}\)</p>
+
+    <p>\(\iff\) \(f(\vec{x})\notin K \iff\) \(\vec{x}\notin f^{-1}(K)\iff\) \(\vec{x}\in D\backslash f^{-1}(K)\)</p>
+
+    <p>como \(f^{-1}(G)\) es un abierto en D \(\Longrightarrow\) \(f^{-1}(G)=V\cap D\) p.a abierto V en \(\mathbb{R}^n\)</p>
+
+\[f^{-1}(K)=D\backslash (D\backslash f^{-1}(K))=D\backslash f^{-1}(G)=D\backslash (D\cap V)= D\cap (\mathbb{R}^n \backslash V)\]
+
+    <p>como V es abierto \(\Longrightarrow\) \(\mathbb{R}^n \backslash V\) es un conjunto cerrado Si \(W=\mathbb{R}^n \backslash V\)</p>
+
+    <p>\(\Longrightarrow\) \(f^{-1}(K)=D\cap W\) es un conjunto cerrado en \(\mathbb{R}^n\) \(\blacksquare\)</p>
+  </li>
+  <li>
+    <p>Sea \(f: \mathbb{R}^n \to \mathbb{R}^m\) una función continua, demuestra que para toda \(y\in \mathbb{R}^m\), \(\lbrace x \in \mathbb{R}^m : f(x)=y  \rbrace\) es cerrado.</p>
+  </li>
+  <li>
+    <p>Sean \(f: \mathbb{R}^n \to \mathbb{R}^m\) y \(g: \mathbb{R}^n \to \mathbb{R}^m\), dos funciones continuas. Demuestra que el conjunto \(\lbrace x \in \mathbb{R}^n : f(x)=g(x) \rbrace\) es cerrado.</p>
+
+    <p>Sea</p>
+
+\[E:=\{ x\in R^n:f(x)=g(x)\}=\{ x\in R^n: h(x)=f(x)-g(x)=\vec{0}\}\]
+
+\[E=\{ x\in R^n:h(x)=\vec{0}\}\]
+
+    <p>Donde \(h(x)\) es una función continua, pues es resultado de la diferencia de dos funciones continuas.</p>
+
+    <p>Ahora sea la imagen directa de \(E\) en \(h\)</p>
+
+\[h(E)=\{y\in R^m : y=h(x) \text{ para algún }x\in E\}\]
+
+    <p>y como \(h(x)=\vec{0}\) para \(x\in E\), se tiene que:</p>
+
+\[h(E)=\{y\in R^m : y=\vec{0}\}=\{\vec{0} \in R^m\}\]
+
+    <p>es un conjunto cerrado. Luego aplicando la imagen inversa tenemos:</p>
+
+\[h^{-1}(h(E))\]
+
+    <p>que es un conjunto cerrado, pues la imagen inversa de conjuntos cerrados es cerrada; también se tiene que:</p>
+
+\[E\subset h^{-1}(h(E))\]
+
+    <p>Ahora sea</p>
+
+\[h^{-1}(h(E)):=\{x\in R^n: h(x)\in h(E)\}\]
+
+\[h^{-1}(h(E)):=\{x\in R^n: h(x)=\vec{0}\}\subset E\]
+
+\[\implies E=h^{-1}(h(E))\]
+
+    <p>por la ecuación \(E=\{ x\in R^n:h(x)=\vec{0}\}\). Luego \(E\) es cerrado.</p>
+  </li>
+  <li>
+    <p>Sea \(f:\mathbb{R}^3 \to \mathbb{R}\) la función \(\displaystyle{f(x,y,z)=z^2 + (\sqrt{x^2 +y^2}-2)^2}\). Dibuja las superficies de nivel \(-1\), \(0\) y \(1\). Incluye las trazas de dichas superficies obtenidas con planos paralelos a \(XY\), \(XZ\) y \(YZ\).</p>
+  </li>
+  <li>
+    <p>Dibuja la curva determinada por la parametrización \(\alpha(t) = (\cos{t}, \sin{t}, 1-\sin{t})\). Determina la ecuación vectorial, las ecuaciones paramétricas y la forma cartesiana del plano en que se encuentra dicha curva.</p>
+
+    <p>Sea \(x=cos(t), y=sin(t)\), entonces \(z=1-y\)</p>
+
+    <p>Entonces \(z=1-y\) es la ecuación del plano donde está la curva.</p>
+
+    <p>La ecuación parametrica del plano es \(\pi: \left\{ \begin{array}{c} x=t_1 \\ y=t_2\\z=1-t_2 \end{array}\right .\)</p>
+
+    <p>Busquemos tres puntos que pertenezcan al plano, sustituyendo valores de \(t\) en la ecuacion de la curva.</p>
+
+    <p>Si \(t=0 \implies (cos(0),sen(0),1-sin(0))=(1,0,1-0)=(1,0,1)=P\),</p>
+
+    <p>Si \(t=\frac{\pi}{2} \implies (cos(\frac{\pi}{2}), sin(\frac{\pi}{2}), 1-sin(\frac{\pi}{2}))=(0, 1, 1-1)=(0,1,0)=Q\),</p>
+
+    <p>Si \(t=\pi \implies (cos(\pi), sin(\pi), 1-sin(\pi))=(-1,0,1)=R\)</p>
+
+    <p>Entonces \(PQ=(-1,1,-1),  \ PR=(-2,0,0)\implies\)</p>
+
+\[\pi=(x,y,z)=(1,0,1)+\lambda(-1,1,-1)+\mu(-2,0,0) \implies\]
+
+\[\left\{\begin{array}{c} 
+x=1-\lambda-2\mu \\ 
+y=\lambda\\
+z=1-\lambda 
+\end{array}\right.\]
+
+    <p>Se deja la gráfica a continuación:</p>
+
+    <p><img src="/calculo-iii/img/T1/P15.png" alt="" height="100%" width="100%" /></p>
+  </li>
+  <li>
+    <p>Determina el dominio y dibuje la gráfica de la función dada por</p>
+
+\[f(x,y)=c\sqrt{1-\frac{x^2}{a^2}+\frac{y^2}{b^2}}\]
+
+    <p>Con \(a, b, c \in \mathbb{R}\).</p>
+  </li>
+  <li>
+    <p>Demuestra si existe o no el límite en el punto indicado.</p>
+
+    <p>a) \(\displaystyle{\lim_{(x,y)\to (0,0)} \frac{x^2}{\sqrt{x^2 + y^2}}}\)</p>
+
+    <p>Sea la trayectoria \(x=0\):</p>
+
+\[\begin{split}
+\lim_{(0,y)\to (0,0)} \frac{x^2}{\sqrt{x^2 + y^2}} &amp;= \lim_{(0,y)\to (0,0)} \frac{(0)^2}{\sqrt{(0)^2 + y^2}} \\
+&amp;= \lim_{y \to 0} 0 \\
+&amp;= 0
+\end{split}\]
+
+    <p>Y la trayectoria \(y=x\):</p>
+
+\[\begin{split}
+\lim_{(x,x)\to (0,0)} \frac{x^2}{\sqrt{x^2 + y^2}} &amp;= \lim_{(x,x)\to (0,0)} \frac{x^2}{\sqrt{x^2 + (x)^2}} \\
+&amp;= \lim_{(x,x)\to (0,0)} \frac{x^2}{\sqrt{2x^2}} \\
+&amp;= \lim_{x\to 0} \frac{x}{\sqrt{2}} \\
+&amp;= \lim_{x\to 0} \frac{0}{\sqrt{2}} \\
+&amp;= 0
+\end{split}\]
+
+    <p>Sugiriendo que si el límite existe éste debe valer \(0\). 
+De este modo debemos asegurar que para todo \(\varepsilon &gt; 0\) existe \(\delta &gt; 0\) tal que si 
+\(\displaystyle{0&lt;\| (x,y) - (0,0) \| &lt;\delta}\) entonces \(\displaystyle{\left|\frac{x^2}{\sqrt{x^2 + y^2}} - 0 \right|&lt; \varepsilon}\).</p>
+
+    <p>Recordando que \(\displaystyle{\| (x,y) - (0,0) \| &lt;\delta}\) es equivalente a 
+\(\displaystyle{\sqrt{x^2 +y^2} &lt;\delta}\) y 
+\(\displaystyle{\left|\frac{x^2}{\sqrt{x^2 + y^2}} - 0 \right|&lt; \varepsilon}\) 
+equivale a \(\displaystyle{\left|\frac{x^2}{\sqrt{x^2 + y^2}}\right|&lt; \varepsilon}\). 
+Observese que para toda \(x\):</p>
+
+\[\left| x\right| \leq \sqrt{x^2} \leq \sqrt{x^2 + y^2}\]
+
+    <p>Entonces:</p>
+
+\[\frac{1}{\sqrt{x^2 + y^2}} &lt; \frac{1}{\left| x\right|}\]
+
+    <p>Y:</p>
+
+\[\left|\frac{x^2}{\sqrt{x^2 + y^2}}\right| \leq \left|\frac{x^2}{x}\right| = \left| x \right| &lt; \varepsilon\]
+
+    <p>De este modo basta pedir \(\delta=\varepsilon\) para asegurar que 
+si \(\displaystyle{\sqrt{x^2 +y^2} &lt;\varepsilon}\) entonces 
+\(\displaystyle{\left|\frac{x^2}{\sqrt{x^2 + y^2}}\right|&lt; \varepsilon}\), 
+lo que concluye nuestra prueba.</p>
+
+    <p>b) \(\displaystyle{\lim_{(x,y)\to (0,0)} \frac{y^2}{\sqrt{x^2 + y^2}}}\)</p>
+
+    <p>Este ejercicio se sigue de inmediato del anterior:</p>
+
+    <p>Sea la trayectoria \(x=0\):</p>
+
+\[\begin{split}
+\lim_{(0,y)\to (0,0)} \frac{x^2}{\sqrt{x^2 + y^2}} &amp;= \lim_{(0,y)\to (0,0)} \frac{(0)^2}{\sqrt{(0)^2 + y^2}} \\
+&amp;= \lim_{y \to 0} 0 \\
+&amp;= 0
+\end{split}\]
+
+    <p>Y la trayectoria \(y=x\):</p>
+
+\[\begin{split}
+\lim_{(x,x)\to (0,0)} \frac{x^2}{\sqrt{x^2 + y^2}} &amp;= \lim_{(x,x)\to (0,0)} \frac{x^2}{\sqrt{x^2 + (x)^2}} \\
+&amp;= \lim_{(x,x)\to (0,0)} \frac{x^2}{\sqrt{2x^2}} \\
+&amp;= \lim_{x\to 0} \frac{x}{\sqrt{2}} \\
+&amp;= \lim_{x\to 0} \frac{0}{\sqrt{2}} \\
+&amp;= 0
+\end{split}\]
+
+    <p>Sugiriendo que si el límite existe éste debe valer \(0\). 
+De este modo debemos asegurar que para todo \(\varepsilon &gt; 0\) 
+existe \(\delta &gt; 0\) tal que si \(\displaystyle{0&lt;\| (x,y) - (0,0) \| &lt;\delta}\) 
+entonces \(\displaystyle{\left|\frac{x^2}{\sqrt{x^2 + y^2}} - 0 \right|&lt; \varepsilon}\).</p>
+
+    <p>Recordando que \(\displaystyle{\| (x,y) - (0,0) \| &lt;\delta}\) es 
+equivalente a \(\displaystyle{\sqrt{x^2 +y^2} &lt;\delta}\) y 
+\(\displaystyle{\left|\frac{x^2}{\sqrt{x^2 + y^2}} - 0 \right|&lt; \varepsilon}\) 
+equivale a \(\displaystyle{\left|\frac{x^2}{\sqrt{x^2 + y^2}}\right|&lt; \varepsilon}\). 
+Observese que para toda \(y\):</p>
+
+\[\left| y \right| \leq \sqrt{y^2} \leq \sqrt{x^2 + y^2}\]
+
+    <p>Entonces:</p>
+
+\[\frac{1}{\sqrt{x^2 + y^2}} &lt; \frac{1}{\left| y\right|}\]
+
+    <p>Y:</p>
+
+\[\left|\frac{y^2}{\sqrt{x^2 + y^2}}\right| \leq \left|\frac{y^2}{y}\right| = \left| y \right| &lt; \varepsilon\]
+
+    <p>De este modo basta pedir \(\delta=\varepsilon\) para asegurar que si 
+\(\displaystyle{\sqrt{x^2 +y^2} &lt;\varepsilon}\) entonces 
+\(\displaystyle{\left|\frac{x^2}{\sqrt{x^2 + y^2}}\right|&lt; \varepsilon}\), lo que concluye nuestra prueba.</p>
+  </li>
+  <li>
+    <p>Demuestra mediante la definición \((\varepsilon - \delta)\) que las siguientes funciones son continuas en \((0,0)\).</p>
+
+    <p>a) \(\begin{equation*} f(x) = \left\{\begin{array}{ll}\frac{x^2 - y^2}{\sqrt{x^2 + y^2}} &amp; \mathrm{si\ } (x,y) \ne (0,0) \\ 0 &amp; \mathrm{si\ } (x,y) = (0,0) \end{array}\right.\end{equation*}\)</p>
+
+    <p><em>Demostración:</em> Para toda \(\varepsilon&gt;0\), existe \(\delta&gt;0\) tal que si</p>
+
+\[0&lt;\|(x,y)^2-(0,0)^2\|=\sqrt{x^2+y^2}&lt;\delta\]
+
+    <p>entonces</p>
+
+\[\left|\frac{x^2-y^2}{\sqrt{x^2+y^2}}-0\right|&lt;\varepsilon\]
+
+    <p>Donde</p>
+
+\[\left|\frac{x^2-y^2}{\sqrt{x^2+y^2}}-0\right|=\left|\frac{x^2-y^2}{\sqrt{x^2+y^2}}\right|=\frac{|x^2-y^2|}{\sqrt{x^2+y^2}}= \frac{|x^2+(-y^2)|}{\sqrt{x^2+y^2}}\]
+
+\[\leq\frac{|x^2|+|-y^2|}{\sqrt{x^2+y^2}}=\frac{|x^2|+|y^2|}{\sqrt{x^2+y^2}}=\frac{x^2+y^2}{\sqrt{x^2+y^2}}\]
+
+\[=\frac{\sqrt{x^2+y^2}\sqrt{x^2+y^2}}{\sqrt{x^2+y^2}}=\sqrt{x^2+y^2}&lt;\varepsilon\]
+
+    <p>entonces si elegimos a \(\varepsilon=\delta\) tenemos que</p>
+
+\[0&lt;\sqrt{x^2+y^2}&lt;\varepsilon\implies \left|\frac{x^2-y^2}{\sqrt{x^2+y^2}}-0\right|&lt;\varepsilon\]
+
+    <p>por  lo tanto \(f\) es continua en el punto \((0,0)\)</p>
+
+    <p>b) \(\begin{equation*} f(x) = \left\{\begin{array}{ll}\frac{x^4 - y^4}{x^2 + y^2} &amp; \mathrm{si\ } (x,y) \ne (0,0) \\ 0 &amp; \mathrm{si\ } (x,y) = (0,0) \end{array}\right.\end{equation*}\)</p>
+
+    <p><em>Demostración:</em> Para toda \(\varepsilon&gt;0\), existe \(\delta&gt;0\) tal que si</p>
+
+\[0&lt;\|(x,y)^2-(0,0)^2\|=\sqrt{x^2+y^2}&lt;\delta\]
+
+    <p>entonces</p>
+
+\[\left|\frac{x^4-y^4}{x^2+y^2}-0\right|&lt;\varepsilon\]
+
+    <p>Donde:</p>
+
+\[\left|\frac{x^4-y^4}{x^2+y^2}-0\right|=\left|\frac{x^4-y^4}{x^2+y^2}\right|=\left|\frac{(x^2+y^2)(x^2-y^2)}{x^2+y^2}\right|=|x^2-y^2|\]
+
+\[=|x^2+(-y^2)|\leq|x^2|+|-y^2|=|x^2|+|y^2|=x^2+y^2&lt;\varepsilon\]
+
+    <p>Entonces si elegimos \(\delta^2=\varepsilon\), tenemos que:</p>
+
+    <p>\(0&lt;\|(x,y)^2-(0,0)^2\|=\sqrt{x^2+y^2}&lt;\sqrt{\varepsilon}\),</p>
+
+    <p>con \(\varepsilon&gt;0\) entonces:</p>
+
+\[\left|\frac{x^4-y^4}{x^2+y^2}-0\right|&lt;\varepsilon\]
+
+    <p>por lo tanto la función \(f\) es continua en \((0,0)\)</p>
+  </li>
+</ol>
+:ET
