@@ -1,4 +1,4 @@
-I"�{<ol>
+I"~<ol>
   <li>
     <p>Calcula la ecuación vectorial, las ecuaciones paramétricas y la forma cartesiana del plano \(\pi\) que pasa por los puntos \(P=(2, −1,4)\), \(Q=(1,2,3)\) y \(R=(−2,0,5)\).</p>
 
@@ -466,7 +466,17 @@ x+1&amp;y&amp;z-2 \\
     <p>\(\Longrightarrow\) \(f^{-1}(K)=D\cap W\) es un conjunto cerrado en \(\mathbb{R}^n\) \(\blacksquare\)</p>
   </li>
   <li>
-    <p>Sea \(f: \mathbb{R}^n \to \mathbb{R}^m\) una función continua, demuestra que para toda \(y\in \mathbb{R}^m\), \(\lbrace x \in \mathbb{R}^m : f(x)=y  \rbrace\) es cerrado.</p>
+    <p>Sea \(f: \mathbb{R}^n \to \mathbb{R}^m\) una función continua, demuestra que para toda \(y\in \mathbb{R}^m\), \(\lbrace x \in \mathbb{R}^n : f(x)=y  \rbrace\) es cerrado.</p>
+
+    <p>El conjunto dado \(\lbrace x \in \mathbb{R}^n : f(x)=y  \rbrace\) es exactamente la imagen inversa del rango \(A\subset\mathbb{R}^m\) de \(f: \mathbb{R}^n \to \mathbb{R}^m\) de acuerdo a la definición de imagen inversa. Es decir:</p>
+
+\[f^{-1}(A) =\lbrace x \in \mathbb{R}^n : f(x)=y  \rbrace\]
+
+    <p>Como \(\forall y \in \mathbb{R}^m\) se cumple lo anterior \(A=\mathbb{R}^m\), y entonces \(f^{-1}(A)=f^{-1}(\mathbb{R}^m)\), y dado que \(\mathbb{R}^m\) es cerrado entonces \(f^{-1}(A)=f^{-1}(\mathbb{R}^m)\) también es cerrado, de este modo:</p>
+
+\[\lbrace x \in \mathbb{R}^n : f(x)=y  \rbrace\]
+
+    <p>es cerrado.</p>
   </li>
   <li>
     <p>Sean \(f: \mathbb{R}^n \to \mathbb{R}^m\) y \(g: \mathbb{R}^n \to \mathbb{R}^m\), dos funciones continuas. Demuestra que el conjunto \(\lbrace x \in \mathbb{R}^n : f(x)=g(x) \rbrace\) es cerrado.</p>
