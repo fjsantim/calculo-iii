@@ -1,4 +1,4 @@
-I"~<ol>
+I"�<ol>
   <li>
     <p>Calcula la ecuación vectorial, las ecuaciones paramétricas y la forma cartesiana del plano \(\pi\) que pasa por los puntos \(P=(2, −1,4)\), \(Q=(1,2,3)\) y \(R=(−2,0,5)\).</p>
 
@@ -249,14 +249,76 @@ x+1&amp;y&amp;z-2 \\
 
     <p>a) La frontera de toda bola abierta es la esfera con el mismo radio y centro.</p>
 
+    <p>Sabemos que la esfera con centro en \(x\) y radio \(r\) se define como \(\mathbb{S}_r(x)=\{z \in X: d(z, x)=r \}\)</p>
+
+    <p>Sabemos que la bola abierta de de centro x y radio r es el conjunto \(\mathbb{B}_r(x)=\{y \in X: d(x, y) &lt; r \}\).</p>
+
+    <p>Ahora la frontera es el conjunto:</p>
+
+\[Fr(\mathbb{B}_r(x))= \{w \in X: w \in \overline{B}-B^{\circ} \}= \{w \in X: w \in \overline{B}\]
+
+    <p>y \(w \notin B^{\circ} \} = \{w \in X: d(x, w) \leq r \} \cap \{w \in X: d(x, w) \geq r \} =\{w \in X: d(x, w) = r \}=\mathbb{S}_r(x)\).</p>
+
+    <p>\(\therefore\) \(Fr(\mathbb{B}_r(x))=\mathbb{S}_r(x)\)</p>
+
     <p>b) La frontera de una esfera es ella misma.</p>
+
+    <p>Sabemos que la esfera se define como \(\mathbb{S}_r(x)=\{z \in X: d(z, x)=r \}\).</p>
+
+    <p>Ahora la frontera de este conjunto esta dada por</p>
+
+\[Fr(\mathbb{S}_r(x))= \{y \in X:y \in \overline{S} -S^{\circ}\}=\{y \in X: y \in \overline{S}\]
+
+    <p>y \(y \notin S^{\circ} \}\) y por la definición de esfera \((\mathbb{S}_r(x))^{\circ}=\emptyset\).</p>
+
+    <p>\(\therefore\) \(Fr(\mathbb{S}_r(x))=\{y \in X: y \in \overline{S} \}= \{y \in X: d(x,y)=r \}\)</p>
 
     <p>c) Demuestra que un punto es cerrado en \(\mathbb{R}^n\).</p>
 
+    <p>Sea \(\vec{x}\in\mathbb{R}^n\hspace{1.5cm}\)Pd. \(\rbrace \vec{x}\lbrace\)es cerrado.</p>
+
+    <p>ie. Pd. \(\{\mathbb{R}^n\backslash\vec{x}\}\) es abierto</p>
+
+    <p>ie. Pd. \(\forall\vec{y}\in\{\mathbb{R}^n\backslash\vec{x}\}\) existe \(r&gt;0\) tal que \(\mathbb{B}_r(\vec{y})\subset\{\mathbb{R}^n\backslash\vec{x}\}\)</p>
+
+    <p>Sea \(\vec{y}\in\{\mathbb{R}^n\backslash\vec{x}\}\hspace{0.8cm}\) Pd. \(\exists r&gt;0\) tal que \(\mathbb{B}_r(\vec{y})\subset\{\mathbb{R}^n\backslash\vec{x}\}\)</p>
+
+    <p>Sea \(\vec{z}\in\mathbb{B}_r(\vec{y})\hspace{1.1cm}\) Pd. \(z\in\{\mathbb{R}^n\backslash\vec{x}\}\)</p>
+
+    <p>Proponemos a \(r=\frac{\epsilon}{2}\)</p>
+
+    <p>Como \(\vec{z}\in\mathbb{B}_r(\vec{y})\Longrightarrow\) \(d(\vec{z},\vec{y})&lt;r=\frac{\epsilon}{2}\)</p>
+
+    <p>Como \(\vec{y}\in\{\mathbb{R}^n\backslash\vec{x}\}\Longrightarrow\) \(\vec{y}\in\mathbb{R}^n\) y \(\vec{y}\notin\{\vec{x}\}\Longrightarrow\) \(\vec{y}\neq\vec{x}\Longrightarro\)</p>
+
+    <p>ahora veamos: \(d(\vec{z},\vec{x})\leq\)</p>
+
+    <p>\(d(\vec{z},\vec{y})+d(\vec{y},\vec{x})&lt;\frac{\epsilon}{2}+\frac{\epsilon}{2}=\frac{2\epsilon}{2}=\epsilon\Longrightarrow d(\vec{z},\vec{x})&lt;\epsilon\) \(\vec{z}\neq\vec{x\)</p>
+
+    <p>\(\therefore\) \(\vec{z}\in\{\mathbb{R}^n\backslash\vec{x}\}\)</p>
+
+    <p>\(\therefore\) \(\mathbb{B}_r(y)\subset\{\mathbb{R}^n \backslash\vec{x}\}\)</p>
+
+    <p>\(\therefore\) \(\{\mathbb{R}^n \backslash\vec{x}\}\) es abierto</p>
+
+    <p>\(\therefore$ $\{\vec{x}\}\) es cerrado.</p>
+
     <p>d) El conjunto \([1, \infty)\) es un subconjunto cerrado en \(\mathbb{R}\).</p>
+
+    <p>Veamos el complemento del conjunto A, \(A^{c}=(-\infty,1)\) notemos que es un intervalo abierto</p>
+
+    <p>como el complemento de A es un intervalo abierto y estos son conjuntos abiertos entonces el conjunto A es cerrado</p>
+
+    <p>\(\therefore\) \([1,\infty)\) es un conjunto cerrado</p>
 
     <p>e) El conjunto dado por \(A = (0, \infty) \times (0, \infty)\) es un conjunto abierto en \(\mathbb{R}^2\).
  Dibújalo.</p>
+
+    <p>Primero notemos que \((0,\infty)\) es un conjunto abierto \(\Longrightarrow\) el producto cruz de abiertos es abierto</p>
+
+    <p>\(\therefore\) \((0,\infty)\times(0,\infty)\) es un conjunto abierto.</p>
+
+    <p><img src="/calculo-iii/img/T1/P6.jpeg" alt="" height="100%" width="100%" /></p>
   </li>
   <li>
     <p>Más sobre frontera:</p>
@@ -589,6 +651,26 @@ z=1-\lambda
 \[f(x,y)=c\sqrt{1-\frac{x^2}{a^2}+\frac{y^2}{b^2}}\]
 
     <p>Con \(a, b, c \in \mathbb{R}\).</p>
+
+    <p>Recordemos que el dominio de una función es el conjunto de todos aquellos valores para los cuales la función está bien definida, en este caso para que la raiz este bien definida se tiene que cumplir que:</p>
+
+\[1-\frac{x^2}{a^2}+\frac{y^2}{b^2}\geq 0\]
+
+    <p>Por lo tanto: \(Dom(f)=\{(x,y)\in\mathbb{R}^2\mid 1-\frac{x^2}{a^2}+\frac{y^2}{b^2}\geq 0\}\)</p>
+
+    <p>Ahora para poder graficar, tenemos que:</p>
+
+\[z=c\sqrt{1-\frac{x^2}{a^2}+\frac{y^2}{b^2}}\]
+
+\[z^2=c^2(1-\frac{x^2}{a^2}+\frac{y^2}{b^2})\]
+
+\[\frac{z^2}{c^2}=1-\frac{x^2}{a^2}+\frac{y^2}{b^2}\]
+
+\[\frac{z^2}{c^2}+\frac{x^2}{a^2}-\frac{y^2}{b^2}=1\]
+
+    <p>Se deja un imagen de la gráfica hecha en geogebra, el recurso puede visitarse en <a href="https://www.geogebra.org/classic/yxnspr6z">https://www.geogebra.org/classic/yxnspr6z</a></p>
+
+    <p><img src="/calculo-iii/img/T1/P16.jpeg" alt="" height="100%" width="100%" /></p>
   </li>
   <li>
     <p>Demuestra si existe o no el límite en el punto indicado.</p>
