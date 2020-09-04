@@ -1,0 +1,66 @@
+I"�<p>\begin{document}
+\noindent En esta clase se verá la diferencia entre las derivadas parciales y las derivadas direccionales. Recordemos la definición de derivada direccional\</p>
+
+<p>\noindent\textbf{Definición} Sea $f:\mathbb{R}^n \rightarrow \mathbb{R}(funciones escales)$ sea $\vec{u}\in\mathbb{R}^n$ , $\vec{u}$ un vector de dirección se define la derivada direccional como:
+\begin{center}
+$D_{\vec{u}}f(\vec{x_0})=\lim\limits_{h \to 0}\frac{f(\vec{x_0}+h\vec{u})-f(\vec{x_0})}{h}$, donde $\parallel\vec{u}\parallel =1$
+\end{center}</p>
+
+<p>\noindent\textbf{Nota:} Las derivadas parciales son un caso particular de las derivadas direccionales, porque aquí $\vec{u}=e_i$. Entonces $D_{\vec{u}}f(\vec{x_0})=\lim\limits_{h \to 0}\frac{\vec{x_0}+h\vec{u}-f(\vec{x_0})}{h}.$ y $\frac{\partial f}{\partial x_i}=\lim\limits \frac{f(\vec{x_0}+he_i)-f(\vec{x_0})}{h}$\</p>
+
+<p>\noindent\textbf{Ejemplo:} Consideremos la función $f(x,y)=xe^y$ obtener el gradiente\</p>
+
+<p>Primero obtengamos las parciales
+\begin{center}
+$\frac{\partial f}{\partial x}=e^y$</p>
+
+<p>$\frac{\partial f}{\partial y}=xe^y$</p>
+
+<p>$\therefore \triangledown f=(e^y,xe^y)$
+\end{center}</p>
+
+<p>\noindent ahora si queremos evaluar el gradiente en un punto del dominio, digamos $x_0=(0,0)$ queda de la siguiente manera:
+\begin{center}
+$\triangledown f_{(0,0)}=(e^0,0e^0)=(1,0)$<br />
+\end{center}
+ahora notemos que es un vector unitario, recordemos que el gradiente nos muestra la dirección en la que crece más la función. Ahora si queremos calcular la derivada direccional en este punto nos queda como:
+\notag
+\begin{align}
+D_{(1,0)}f &amp;= \lim\limits_{h \to 0}\frac{f(\vec{x}+h\vec{u})-f(\vec{x})}{h}<br />
+                  &amp;= \lim\limits_{h \to 0}\frac{f((x,y)+h(1,0))-f((x,y))}{h}<br />
+                  &amp;= \lim\limits_{h \to 0}\frac{f(x+h,y+0)-f(x,y)}{h}<br />
+                  &amp;= \lim\limits_{h \to 0}\frac{f(x+h,y)-f(x,y)}{h}<br />
+                  &amp;=\lim\limits_{h \to 0}\frac{(x+h)e^y-xe^y}{h}<br />
+                  &amp;=e^y \lim\limits_{h \to 0}\frac{x+h-x}{h}<br />
+                  &amp;=e^y \lim\limits_{h \to 0} \frac{h}{h}<br />
+                  &amp;=e^y \lim\limits_{h \to 0} 1 <br />
+                  &amp;=e^y 1<br />
+                  &amp;=e^y<br />
+                  &amp;=\frac{\partial f}{\partial y}  <br />
+\end{align}
+\begin{center}
+$\therefore D_{(1,0)}f = \frac{\partial f}{\partial y}$
+\end{center}</p>
+
+<p>ahora si queremos calcular la derivada direccional de la función en la dirección del vector $(3,1)$.\clearpage
+Primero calculemos la norma de este vector $\parallel (3,1)\parallel=\sqrt{3^2 + 1^2}=\sqrt{9+1}=\sqrt{10}$. Notemos que no tiene norma uno por lo que lo haremos unitario y por lo tanto $\vec{v}=\frac{(3,1)}{\parallel (3,1)\parallel}=(\frac{3}{\sqrt{10}},\frac{1}{\sqrt{10}}).$
+\begin{align}
+D_{\vec{v}}f &amp;= \lim\limits_{h \to 0} \frac{f(\vec{x}+h\vec{v})-f(\vec{x})}{h}<br />
+                     &amp;= \lim\limits_{h \to 0} \frac{f((x,y)+h(\frac{3}{\sqrt{10}},\frac{1}{\sqrt{10}}))-f(x,y)}{h}<br />
+                     &amp;= \lim\limits_{h \to 0} \frac{f(x+\frac{3h}{\sqrt{10}},y+\frac{h}{\sqrt{10}})-f(x,y)}{h}<br />
+                     &amp;= \lim\limits_{h \to 0} \frac{(x+\frac{3h}{\sqrt{10}})e^{y+\frac{h}{\sqrt{10}}}-xe^y}{h}<br />
+                     &amp;= \lim\limits_{h \to 0} \frac{(x+\frac{3h}{\sqrt{10}})e^{y}e^{\frac{h}{\sqrt{10}}}-xe^y}{h}<br />
+                     &amp;=e^y\lim\limits_{h \to 0} \frac{(x+\frac{3h}{\sqrt{10}})e^{\frac{h}{\sqrt{10}}}-x}{h}<br />
+                     &amp;=e^y\lim\limits_{h \to 0}\frac{xe^{\frac{h}{\sqrt{10}}}+\frac{3h}{\sqrt{10}}e^{\frac{h}{\sqrt{10}}}-x}{h}<br />
+                     &amp;=e^y\lim\limits_{h \to 0} \frac{x(e^{\frac{h}{\sqrt{10}}}-1)+\frac{3h}{\sqrt{10}}e^{\frac{h}{\sqrt{10}}}}{h} \hspace{1cm}\text{aplicando L’Hopital} <br />
+                     &amp;= e^y(\frac{x}{\sqrt{10}},3)               <br />
+\end{align}
+\begin{center}
+$\therefore D_{\vec{v}}f=e^y(\frac{x}{\sqrt{10}},3)$
+\end{center}
+veamos como se ve la gráfica de la función $f(x,y)=xe^y$:\</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![](/calculo-iii/img/c-28/1.png){:height="100%" width="100%"}
+</code></pre></div></div>
+
+:ET
